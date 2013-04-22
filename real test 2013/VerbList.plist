@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Tar</string>
+			<key>English</key>
+			<string>Come</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>English</key>
+			<string>Say</string>
+			<key>Irish</key>
+			<string>Abair</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Beir</string>
+			<key>English</key>
+			<string>Catch</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Bí</string>
+			<key>English</key>
+			<string>Be</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Clois</string>
+			<key>English</key>
+			<string>Hear</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Cluin</string>
+			<key>English</key>
+			<string>Hear</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Déan</string>
+			<key>English</key>
+			<string>Do</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Faigh</string>
+			<key>English</key>
+			<string>Get</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Feic</string>
+			<key>English</key>
+			<string>See</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Ith</string>
+			<key>English</key>
+			<string>Eat</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Tabhair</string>
+			<key>English</key>
+			<string>Give</string>
+		</dict>
+		<dict>
+			<key>Tense</key>
+			<dict>
+				<key>Aimsir Láithreach</key>
+				<array>
+					<string>Deirim</string>
+					<string>Deir tú</string>
+					<string>Deir sé/sí</string>
+					<string>Deirimid</string>
+					<string>Deir sibh</string>
+					<string>Deir siad</string>
+					<string>Deirtear</string>
+					<string>Ní deir sé</string>
+					<string>An ndeir sé?</string>
+				</array>
+				<key>Aimsir Chaite</key>
+				<array>
+					<string>Dúirt mé</string>
+					<string>Dúirt tú</string>
+					<string>Dúirt sé/sí</string>
+					<string>Dúramar</string>
+					<string>Dúirt sibh</string>
+					<string>Dúirt siad</string>
+					<string>Dúradh</string>
+					<string>Ní dúirt sé</string>
+					<string>A ndúirt sé?</string>
+				</array>
+				<key>Aimsir Ghnáthchaite</key>
+				<array>
+					<string>Deirinn</string>
+					<string>Deirteá</string>
+					<string>Deireadh sé/sí</string>
+					<string>Deirimis</string>
+					<string>Deireadh sibh</string>
+					<string>Deiridís</string>
+					<string>Deirtí</string>
+					<string>Ní deireadh sé</string>
+					<string>An ndeireadh sé?</string>
+				</array>
+				<key>Aimsir Fháistineach</key>
+				<array>
+					<string>Déarfaidh mé</string>
+					<string>Déarfaidh tú</string>
+					<string>Déarfaidh sé/sí</string>
+					<string>Déarfaimid</string>
+					<string>Déarfaidh sibh</string>
+					<string>Déarfaidh siad</string>
+					<string>Déarfar</string>
+					<string>Ní déarfaidh sé</string>
+					<string>An ndéarfaidh sé?</string>
+				</array>
+				<key>Modh Choinníollach</key>
+				<array>
+					<string>Déarfainn</string>
+					<string>Déarfá</string>
+					<string>Déarfadh sé</string>
+					<string>Déarfaimis</string>
+					<string>Déarfadh sibh</string>
+					<string>Déarfaidís</string>
+					<string>Déarfaí</string>
+					<string>Ní déarfadh sé</string>
+					<string>An ndéarfadh sé?</string>
+				</array>
+				<key>Modh Foshuiteach Láithreach</key>
+				<array>
+					<string>Go ndeire mé</string>
+					<string>Go ndeire tú</string>
+					<string>Go ndeire  sé/sí</string>
+					<string>Go ndeirimid</string>
+					<string>Go ndeire sibh</string>
+					<string>Go ndeire siad</string>
+					<string>Go ndeirtear</string>
+					<string>Nár dheire sé?</string>
+				</array>
+				<key>Modh Ordaitheach</key>
+				<array>
+					<string>Abraim</string>
+					<string>Abair</string>
+					<string>Abradh sé</string>
+					<string>Abraimis</string>
+					<string>Abraígí</string>
+					<string>Abraidís</string>
+					<string>Abairtear</string>
+					<string>Ná habair</string>
+				</array>
+				<key>Ainm Briathartha</key>
+				<array>
+					<string>Rá</string>
+				</array>
+				<key>Aidiacht Bhriathartha</key>
+				<array>
+					<string>Ráite</string>
+				</array>
+			</dict>
+			<key>Irish</key>
+			<string>Téigh</string>
+			<key>English</key>
+			<string>Go</string>
+		</dict>
+
+</array></plist>
