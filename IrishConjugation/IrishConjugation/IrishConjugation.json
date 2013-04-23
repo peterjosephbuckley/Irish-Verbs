@@ -7680,6 +7680,13 @@
       "TABLE_REF": 23
     },
     {
+      "IRISH": "tar",
+      "ENGLISH": "come",
+      "IRISH_EXAMPLE": "tagaim",
+      "ENGLISH_EXAMPLE": "i come",
+      "TABLE_REF": 24
+    },
+    {
       "IRISH": "clois",
       "ENGLISH": "hear",
       "IRISH_EXAMPLE": "cloisim",
