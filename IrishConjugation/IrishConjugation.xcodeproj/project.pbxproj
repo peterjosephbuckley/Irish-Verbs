@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF42550A17212356003092F1 /* star_w.png in Resources */ = {isa = PBXBuildFile; fileRef = EF42550917212356003092F1 /* star_w.png */; };
+		EF42550E17212799003092F1 /* star_w_del.png in Resources */ = {isa = PBXBuildFile; fileRef = EF42550D17212799003092F1 /* star_w_del.png */; };
+		EF42551317214389003092F1 /* FavoritesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF42551217214389003092F1 /* FavoritesTVC.m */; };
+		EF4CEF1B171ED4A300E4E057 /* Verb+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CEF1A171ED4A300E4E057 /* Verb+Create.m */; };
+		EF4CEF1E171EF8AA00E4E057 /* NSString+FetchByInitial.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CEF1D171EF8AA00E4E057 /* NSString+FetchByInitial.m */; };
+		EF4CEF21171F0ABB00E4E057 /* TenseDescription+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4CEF20171F0ABA00E4E057 /* TenseDescription+Create.m */; };
+		EFA3843317206E8700B9752D /* shoebox.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA3843217206E8700B9752D /* shoebox.png */; };
+		EFA3843717206F2E00B9752D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA3843617206F2E00B9752D /* star.png */; };
+		EFA38439172081B400B9752D /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA38438172081B400B9752D /* list.png */; };
+		EFA3843C1720893300B9752D /* TenseTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3843B1720893300B9752D /* TenseTable.m */; };
+		EFA3843F1720893300B9752D /* Verb.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3843E1720893300B9752D /* Verb.m */; };
+		EFA384421720893300B9752D /* TenseDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA384411720893300B9752D /* TenseDescription.m */; };
+		EFA384451720893300B9752D /* ConjugationTables.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA384441720893300B9752D /* ConjugationTables.m */; };
+		EFA462E4171F11E100F0951D /* TenseInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA462E3171F11E100F0951D /* TenseInfoTVC.m */; };
+		EFA462F8171F17BC00F0951D /* ConjugationTables+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA462F7171F17BC00F0951D /* ConjugationTables+Create.m */; };
+		EFA462FB171F1E1B00F0951D /* ConjugationTableListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA462FA171F1E1B00F0951D /* ConjugationTableListTVC.m */; };
+		EFA46301171F21A100F0951D /* TenseTable+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA46300171F21A100F0951D /* TenseTable+Create.m */; };
+		EFA4632B171F3E1600F0951D /* TenseListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA4632A171F3E1500F0951D /* TenseListTVC.m */; };
+		EFA4633E171F4C8200F0951D /* TenseTableTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA4633D171F4C8200F0951D /* TenseTableTVC.m */; };
+		EFFE43CA171EB11D004B086B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE43C9171EB11D004B086B /* UIKit.framework */; };
+		EFFE43CC171EB11D004B086B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE43CB171EB11D004B086B /* Foundation.framework */; };
+		EFFE43CE171EB11D004B086B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE43CD171EB11D004B086B /* CoreGraphics.framework */; };
+		EFFE43D0171EB11D004B086B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE43CF171EB11D004B086B /* CoreData.framework */; };
+		EFFE43D6171EB11D004B086B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFFE43D4171EB11D004B086B /* InfoPlist.strings */; };
+		EFFE43D8171EB11D004B086B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE43D7171EB11D004B086B /* main.m */; };
+		EFFE43DC171EB11E004B086B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE43DB171EB11E004B086B /* AppDelegate.m */; };
+		EFFE43DE171EB11E004B086B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFE43DD171EB11E004B086B /* Default.png */; };
+		EFFE43E0171EB11E004B086B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFE43DF171EB11E004B086B /* Default@2x.png */; };
+		EFFE43E2171EB11E004B086B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFE43E1171EB11E004B086B /* Default-568h@2x.png */; };
+		EFFE43E5171EB11E004B086B /* IrishConjugation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFFE43E3171EB11E004B086B /* IrishConjugation.xcdatamodeld */; };
+		EFFE43EC171EB1D8004B086B /* IrishConjugation.json in Resources */ = {isa = PBXBuildFile; fileRef = EFFE43EB171EB1D8004B086B /* IrishConjugation.json */; };
+		EFFE43F3171EB22C004B086B /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE43F2171EB22C004B086B /* CoreDataTableViewController.m */; };
+		EFFE43F5171EB243004B086B /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFFE43F4171EB243004B086B /* iPhone.storyboard */; };
+		EFFE43F8171EB291004B086B /* VerbListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE43F7171EB291004B086B /* VerbListTVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF42550917212356003092F1 /* star_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_w.png; sourceTree = "<group>"; };
+		EF42550D17212799003092F1 /* star_w_del.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_w_del.png; sourceTree = "<group>"; };
+		EF42551117214389003092F1 /* FavoritesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTVC.h; sourceTree = "<group>"; };
+		EF42551217214389003092F1 /* FavoritesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTVC.m; sourceTree = "<group>"; };
+		EF4CEF19171ED4A300E4E057 /* Verb+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Verb+Create.h"; sourceTree = "<group>"; };
+		EF4CEF1A171ED4A300E4E057 /* Verb+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Verb+Create.m"; sourceTree = "<group>"; };
+		EF4CEF1C171EF8AA00E4E057 /* NSString+FetchByInitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FetchByInitial.h"; sourceTree = "<group>"; };
+		EF4CEF1D171EF8AA00E4E057 /* NSString+FetchByInitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FetchByInitial.m"; sourceTree = "<group>"; };
+		EF4CEF1F171F0ABA00E4E057 /* TenseDescription+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TenseDescription+Create.h"; sourceTree = "<group>"; };
+		EF4CEF20171F0ABA00E4E057 /* TenseDescription+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TenseDescription+Create.m"; sourceTree = "<group>"; };
+		EFA3843217206E8700B9752D /* shoebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoebox.png; sourceTree = "<group>"; };
+		EFA3843617206F2E00B9752D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		EFA38438172081B400B9752D /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		EFA3843A1720893300B9752D /* TenseTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenseTable.h; sourceTree = "<group>"; };
+		EFA3843B1720893300B9752D /* TenseTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenseTable.m; sourceTree = "<group>"; };
+		EFA3843D1720893300B9752D /* Verb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Verb.h; sourceTree = "<group>"; };
+		EFA3843E1720893300B9752D /* Verb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Verb.m; sourceTree = "<group>"; };
+		EFA384401720893300B9752D /* TenseDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenseDescription.h; sourceTree = "<group>"; };
+		EFA384411720893300B9752D /* TenseDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenseDescription.m; sourceTree = "<group>"; };
+		EFA384431720893300B9752D /* ConjugationTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConjugationTables.h; sourceTree = "<group>"; };
+		EFA384441720893300B9752D /* ConjugationTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConjugationTables.m; sourceTree = "<group>"; };
+		EFA462E2171F11E100F0951D /* TenseInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenseInfoTVC.h; sourceTree = "<group>"; };
+		EFA462E3171F11E100F0951D /* TenseInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenseInfoTVC.m; sourceTree = "<group>"; };
+		EFA462F6171F17BC00F0951D /* ConjugationTables+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ConjugationTables+Create.h"; sourceTree = "<group>"; };
+		EFA462F7171F17BC00F0951D /* ConjugationTables+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ConjugationTables+Create.m"; sourceTree = "<group>"; };
+		EFA462F9171F1E1B00F0951D /* ConjugationTableListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConjugationTableListTVC.h; sourceTree = "<group>"; };
+		EFA462FA171F1E1B00F0951D /* ConjugationTableListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConjugationTableListTVC.m; sourceTree = "<group>"; };
+		EFA462FF171F21A100F0951D /* TenseTable+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TenseTable+Create.h"; sourceTree = "<group>"; };
+		EFA46300171F21A100F0951D /* TenseTable+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TenseTable+Create.m"; sourceTree = "<group>"; };
+		EFA46329171F3E1500F0951D /* TenseListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenseListTVC.h; sourceTree = "<group>"; };
+		EFA4632A171F3E1500F0951D /* TenseListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenseListTVC.m; sourceTree = "<group>"; };
+		EFA4633C171F4C8200F0951D /* TenseTableTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenseTableTVC.h; sourceTree = "<group>"; };
+		EFA4633D171F4C8200F0951D /* TenseTableTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenseTableTVC.m; sourceTree = "<group>"; };
+		EFFE43C5171EB11D004B086B /* IrishConjugation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishConjugation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFE43C9171EB11D004B086B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFFE43CB171EB11D004B086B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFFE43CD171EB11D004B086B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFFE43CF171EB11D004B086B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EFFE43D3171EB11D004B086B /* IrishConjugation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IrishConjugation-Info.plist"; sourceTree = "<group>"; };
+		EFFE43D5171EB11D004B086B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFFE43D7171EB11D004B086B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFFE43D9171EB11D004B086B /* IrishConjugation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IrishConjugation-Prefix.pch"; sourceTree = "<group>"; };
+		EFFE43DA171EB11D004B086B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFFE43DB171EB11E004B086B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFFE43DD171EB11E004B086B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EFFE43DF171EB11E004B086B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EFFE43E1171EB11E004B086B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EFFE43E4171EB11E004B086B /* IrishConjugation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IrishConjugation.xcdatamodel; sourceTree = "<group>"; };
+		EFFE43EB171EB1D8004B086B /* IrishConjugation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = IrishConjugation.json; path = IrishConjugation/IrishConjugation.json; sourceTree = "<group>"; };
+		EFFE43F1171EB22C004B086B /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		EFFE43F2171EB22C004B086B /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		EFFE43F4171EB243004B086B /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		EFFE43F6171EB291004B086B /* VerbListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerbListTVC.h; sourceTree = "<group>"; };
+		EFFE43F7171EB291004B086B /* VerbListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerbListTVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFE43C2171EB11D004B086B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFE43CA171EB11D004B086B /* UIKit.framework in Frameworks */,
+				EFFE43CC171EB11D004B086B /* Foundation.framework in Frameworks */,
+				EFFE43CE171EB11D004B086B /* CoreGraphics.framework in Frameworks */,
+				EFFE43D0171EB11D004B086B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF42550F17213333003092F1 /* UnusedMVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFA46329171F3E1500F0951D /* TenseListTVC.h */,
+				EFA4632A171F3E1500F0951D /* TenseListTVC.m */,
+				EFA462E2171F11E100F0951D /* TenseInfoTVC.h */,
+				EFA462E3171F11E100F0951D /* TenseInfoTVC.m */,
+				EFA462F9171F1E1B00F0951D /* ConjugationTableListTVC.h */,
+				EFA462FA171F1E1B00F0951D /* ConjugationTableListTVC.m */,
+			);
+			name = UnusedMVC;
+			sourceTree = "<group>";
+		};
+		EF4255101721334B003092F1 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE43F4171EB243004B086B /* iPhone.storyboard */,
+				EFFE43F6171EB291004B086B /* VerbListTVC.h */,
+				EFFE43F7171EB291004B086B /* VerbListTVC.m */,
+				EFA4633C171F4C8200F0951D /* TenseTableTVC.h */,
+				EFA4633D171F4C8200F0951D /* TenseTableTVC.m */,
+				EF42551117214389003092F1 /* FavoritesTVC.h */,
+				EF42551217214389003092F1 /* FavoritesTVC.m */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		EFA462E9171F170100F0951D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EF4CEF19171ED4A300E4E057 /* Verb+Create.h */,
+				EF4CEF1A171ED4A300E4E057 /* Verb+Create.m */,
+				EF4CEF1F171F0ABA00E4E057 /* TenseDescription+Create.h */,
+				EF4CEF20171F0ABA00E4E057 /* TenseDescription+Create.m */,
+				EFA462F6171F17BC00F0951D /* ConjugationTables+Create.h */,
+				EFA462F7171F17BC00F0951D /* ConjugationTables+Create.m */,
+				EFA462FF171F21A100F0951D /* TenseTable+Create.h */,
+				EFA46300171F21A100F0951D /* TenseTable+Create.m */,
+				EF4CEF1C171EF8AA00E4E057 /* NSString+FetchByInitial.h */,
+				EF4CEF1D171EF8AA00E4E057 /* NSString+FetchByInitial.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EFFE43BA171EB11D004B086B = {
+			isa = PBXGroup;
+			children = (
+				EFFE43EB171EB1D8004B086B /* IrishConjugation.json */,
+				EFFE43D1171EB11D004B086B /* IrishConjugation */,
+				EFFE43C8171EB11D004B086B /* Frameworks */,
+				EFFE43C6171EB11D004B086B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFE43C6171EB11D004B086B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE43C5171EB11D004B086B /* IrishConjugation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFE43C8171EB11D004B086B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE43C9171EB11D004B086B /* UIKit.framework */,
+				EFFE43CB171EB11D004B086B /* Foundation.framework */,
+				EFFE43CD171EB11D004B086B /* CoreGraphics.framework */,
+				EFFE43CF171EB11D004B086B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFFE43D1171EB11D004B086B /* IrishConjugation */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE43DA171EB11D004B086B /* AppDelegate.h */,
+				EFFE43DB171EB11E004B086B /* AppDelegate.m */,
+				EF4255101721334B003092F1 /* MVC */,
+				EFA462E9171F170100F0951D /* Categories */,
+				EFFE43F9171EB29A004B086B /* CoreData */,
+				EF42550F17213333003092F1 /* UnusedMVC */,
+				EFFE43D2171EB11D004B086B /* Supporting Files */,
+			);
+			path = IrishConjugation;
+			sourceTree = "<group>";
+		};
+		EFFE43D2171EB11D004B086B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA38438172081B400B9752D /* list.png */,
+				EFA3843617206F2E00B9752D /* star.png */,
+				EF42550917212356003092F1 /* star_w.png */,
+				EF42550D17212799003092F1 /* star_w_del.png */,
+				EFA3843217206E8700B9752D /* shoebox.png */,
+				EFFE43D3171EB11D004B086B /* IrishConjugation-Info.plist */,
+				EFFE43D4171EB11D004B086B /* InfoPlist.strings */,
+				EFFE43D7171EB11D004B086B /* main.m */,
+				EFFE43D9171EB11D004B086B /* IrishConjugation-Prefix.pch */,
+				EFFE43DD171EB11E004B086B /* Default.png */,
+				EFFE43DF171EB11E004B086B /* Default@2x.png */,
+				EFFE43E1171EB11E004B086B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFFE43F9171EB29A004B086B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE43E3171EB11E004B086B /* IrishConjugation.xcdatamodeld */,
+				EFA384431720893300B9752D /* ConjugationTables.h */,
+				EFA384441720893300B9752D /* ConjugationTables.m */,
+				EFA384401720893300B9752D /* TenseDescription.h */,
+				EFA384411720893300B9752D /* TenseDescription.m */,
+				EFA3843D1720893300B9752D /* Verb.h */,
+				EFA3843E1720893300B9752D /* Verb.m */,
+				EFA3843A1720893300B9752D /* TenseTable.h */,
+				EFA3843B1720893300B9752D /* TenseTable.m */,
+				EFFE43F1171EB22C004B086B /* CoreDataTableViewController.h */,
+				EFFE43F2171EB22C004B086B /* CoreDataTableViewController.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFE43C4171EB11D004B086B /* IrishConjugation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFE43E8171EB11E004B086B /* Build configuration list for PBXNativeTarget "IrishConjugation" */;
+			buildPhases = (
+				EFFE43C1171EB11D004B086B /* Sources */,
+				EFFE43C2171EB11D004B086B /* Frameworks */,
+				EFFE43C3171EB11D004B086B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IrishConjugation;
+			productName = IrishConjugation;
+			productReference = EFFE43C5171EB11D004B086B /* IrishConjugation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFE43BC171EB11D004B086B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = comp41550;
+			};
+			buildConfigurationList = EFFE43BF171EB11D004B086B /* Build configuration list for PBXProject "IrishConjugation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFFE43BA171EB11D004B086B;
+			productRefGroup = EFFE43C6171EB11D004B086B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFE43C4171EB11D004B086B /* IrishConjugation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFE43C3171EB11D004B086B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFE43D6171EB11D004B086B /* InfoPlist.strings in Resources */,
+				EFFE43DE171EB11E004B086B /* Default.png in Resources */,
+				EFFE43E0171EB11E004B086B /* Default@2x.png in Resources */,
+				EFFE43E2171EB11E004B086B /* Default-568h@2x.png in Resources */,
+				EFFE43EC171EB1D8004B086B /* IrishConjugation.json in Resources */,
+				EFFE43F5171EB243004B086B /* iPhone.storyboard in Resources */,
+				EFA3843317206E8700B9752D /* shoebox.png in Resources */,
+				EFA3843717206F2E00B9752D /* star.png in Resources */,
+				EFA38439172081B400B9752D /* list.png in Resources */,
+				EF42550A17212356003092F1 /* star_w.png in Resources */,
+				EF42550E17212799003092F1 /* star_w_del.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFE43C1171EB11D004B086B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFE43D8171EB11D004B086B /* main.m in Sources */,
+				EFFE43DC171EB11E004B086B /* AppDelegate.m in Sources */,
+				EFFE43E5171EB11E004B086B /* IrishConjugation.xcdatamodeld in Sources */,
+				EFFE43F3171EB22C004B086B /* CoreDataTableViewController.m in Sources */,
+				EFFE43F8171EB291004B086B /* VerbListTVC.m in Sources */,
+				EF4CEF1B171ED4A300E4E057 /* Verb+Create.m in Sources */,
+				EF4CEF1E171EF8AA00E4E057 /* NSString+FetchByInitial.m in Sources */,
+				EF4CEF21171F0ABB00E4E057 /* TenseDescription+Create.m in Sources */,
+				EFA462E4171F11E100F0951D /* TenseInfoTVC.m in Sources */,
+				EFA462F8171F17BC00F0951D /* ConjugationTables+Create.m in Sources */,
+				EFA462FB171F1E1B00F0951D /* ConjugationTableListTVC.m in Sources */,
+				EFA46301171F21A100F0951D /* TenseTable+Create.m in Sources */,
+				EFA4632B171F3E1600F0951D /* TenseListTVC.m in Sources */,
+				EFA4633E171F4C8200F0951D /* TenseTableTVC.m in Sources */,
+				EFA3843C1720893300B9752D /* TenseTable.m in Sources */,
+				EFA3843F1720893300B9752D /* Verb.m in Sources */,
+				EFA384421720893300B9752D /* TenseDescription.m in Sources */,
+				EFA384451720893300B9752D /* ConjugationTables.m in Sources */,
+				EF42551317214389003092F1 /* FavoritesTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFFE43D4171EB11D004B086B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFE43D5171EB11D004B086B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFFE43E6171EB11E004B086B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EFFE43E7171EB11E004B086B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFE43E9171EB11E004B086B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IrishConjugation/IrishConjugation-Prefix.pch";
+				INFOPLIST_FILE = "IrishConjugation/IrishConjugation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFFE43EA171EB11E004B086B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IrishConjugation/IrishConjugation-Prefix.pch";
+				INFOPLIST_FILE = "IrishConjugation/IrishConjugation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFE43BF171EB11D004B086B /* Build configuration list for PBXProject "IrishConjugation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFE43E6171EB11E004B086B /* Debug */,
+				EFFE43E7171EB11E004B086B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFE43E8171EB11E004B086B /* Build configuration list for PBXNativeTarget "IrishConjugation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFE43E9171EB11E004B086B /* Debug */,
+				EFFE43EA171EB11E004B086B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EFFE43E3171EB11E004B086B /* IrishConjugation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EFFE43E4171EB11E004B086B /* IrishConjugation.xcdatamodel */,
+			);
+			currentVersion = EFFE43E4171EB11E004B086B /* IrishConjugation.xcdatamodel */;
+			path = IrishConjugation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EFFE43BC171EB11D004B086B /* Project object */;
+}

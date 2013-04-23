@@ -1,0 +1,7862 @@
+{
+  "MODEL_VERSION": "0.82",
+  "TENSE_DESCRIPTION": [
+    {
+      "INDEX": 0,
+      "IRISH": "Aimsir Láithreach",
+      "ENGLISH": "Present Tense",
+      "ABBREVIATION": "LÁITH."
+    },
+    {
+      "INDEX": 1,
+      "IRISH": "Aimsir Chaite",
+      "ENGLISH": "Past Tense",
+      "ABBREVIATION": "CAITE"
+    },
+    {
+      "INDEX": 2,
+      "IRISH": "Aimsir Ghnáthchaite",
+      "ENGLISH": "Habitual Past",
+      "ABBREVIATION": "GH. CHAITE"
+    },
+    {
+      "INDEX": 3,
+      "IRISH": "Aimsir Fháistineach",
+      "ENGLISH": "Future Tense",
+      "ABBREVIATION": "FÁIS."
+    },
+    {
+      "INDEX": 4,
+      "IRISH": "Modh Coinníollach",
+      "ENGLISH": "Conditional Mood",
+      "ABBREVIATION": "M. COINN."
+    },
+    {
+      "INDEX": 5,
+      "IRISH": "Modh Foshuiteach láithreach",
+      "ENGLISH": "Present Subjunctive",
+      "ABBREVIATION": "M. FOSH. LÁITH."
+    },
+    {
+      "INDEX": 6,
+      "IRISH": "Modh Ordaitheach",
+      "ENGLISH": "Imperative Mood",
+      "ABBREVIATION": "M. ORD."
+    },
+    {
+      "INDEX": 7,
+      "IRISH": "Ainm Briathartha",
+      "ENGLISH": "Verbal Noun, Present Participle",
+      "ABBREVIATION": "AINM BRIATH.",
+      "TYPE": 1
+    },
+    {
+      "INDEX": 8,
+      "IRISH": "Aidiacht Bhriathartha",
+      "ENGLISH": "Verbal Adj., Past Participle",
+      "ABBREVIATION": "AIDIACHT BHRIATH.",
+      "TYPE": 2
+    }
+  ],
+  "CONJUGATION_TABLES": [
+    {
+      "LÁITH.": [
+        "I take",
+        "tógaim",
+        "tógann tú",
+        "tógann sé",
+        "tógaimid",
+        "tógann sibh",
+        "tógann siad",
+        "Sb.",
+        "somebody takes",
+        "tógtar",
+        "Diúltach",
+        "he does not take",
+        "ní thógann sé",
+        "Ceisteach",
+        "does he take?",
+        "an dtógann sé?"
+      ],
+      "CAITE": [
+        "I took",
+        "thóg mé",
+        "thóg tú",
+        "thóg sé",
+        "thógamar",
+        "thóg sibh",
+        "thóg siad",
+        "Sb.",
+        "somebody took",
+        "tógadh",
+        "Diúltach",
+        "he did not take",
+        "níor thóg sé",
+        "Ceisteach",
+        "did he take?",
+        "ar thóg se?"
+      ],
+      "GH. CHAITE": [
+        "I used to take",
+        "thógainn",
+        "thógtá",
+        "thógadh sé",
+        "thógaimis",
+        "thógadh sibh",
+        "thógaidís",
+        "Sb.",
+        "somebody used to take",
+        "thógtaí",
+        "Diúltach",
+        "he used not take",
+        "ní thógadh sé",
+        "Ceisteach",
+        "used he take?",
+        "an dtógadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall take",
+        "tógfaidh mé",
+        "tógfaidh tú",
+        "tógfaidh sé",
+        "tógfaimid",
+        "tógfaidh sibh",
+        "tógfaidh siad",
+        "Sb.",
+        "somebody will take",
+        "tógfar",
+        "Diúltach",
+        "he will not take",
+        "ní thógfaidh sé",
+        "Ceisteach",
+        "will he take?",
+        "an dtógfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would take",
+        "thógfainn",
+        "thógfá",
+        "thógfadh sé",
+        "thógfaimis",
+        "thógfadh sibh",
+        "thógfaidís",
+        "Sb.",
+        "somebody  would take",
+        "thógfaí",
+        "Diúltach",
+        "he would not take",
+        "ní thógfadh sé",
+        "Ceisteach",
+        "would he take?",
+        "an dtógfadh sé?     "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may take",
+        "go dtóga mé",
+        "go dtóga tú",
+        "go dtóga sé",
+        "go dtógaimid",
+        "go dtóga sibh",
+        "go dtóga siad",
+        "Sb.",
+        "may somebody take",
+        "go dtógtar",
+        "Diúltach",
+        "may he not take",
+        "nár thóga sé"
+      ],
+      "M. ORD.": [
+        "take",
+        "tógaim",
+        "tog",
+        "tógadh sé",
+        "tógaimis",
+        "tógaigí",
+        "tógaidís",
+        "Sb.",
+        "let somebody take",
+        "tógtar",
+        "Diúltach",
+        "do not take",
+        "ná tóg"
+      ],
+      "AINM BRIATH.": [
+        "taking",
+        "tógáil"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "taken",
+        "tógtha"
+      ],
+      "TABLE_NAME": [
+        "TÓG",
+        "Take",
+        "Tógaim",
+        "I take"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Cas",
+          "ENGLISH": "twist, turn",
+          "EXAMPLE": "Casaim"
+        },
+        {
+          "IRISH": "Cior",
+          "ENGLISH": "comb",
+          "EXAMPLE": "cioraim"
+        },
+        {
+          "IRISH": "Cnag",
+          "ENGLISH": "knock",
+          "EXAMPLE": "cnagaim"
+        },
+        {
+          "IRISH": "Croch",
+          "ENGLISH": "hang",
+          "EXAMPLE": "crochaim"
+        },
+        {
+          "IRISH": "Crom",
+          "ENGLISH": "stoop",
+          "EXAMPLE": "cromaim"
+        },
+        {
+          "IRISH": "Cum",
+          "ENGLISH": "compose",
+          "EXAMPLE": "cumaim"
+        },
+        {
+          "IRISH": "Diol",
+          "ENGLISH": "sell",
+          "EXAMPLE": "diolaim"
+        },
+        {
+          "IRISH": "Dun",
+          "ENGLISH": "close",
+          "EXAMPLE": "dunaim"
+        },
+        {
+          "IRISH": "Glan",
+          "ENGLISH": "clean",
+          "EXAMPLE": "glanaim"
+        },
+        {
+          "IRISH": "Las",
+          "ENGLISH": "light",
+          "EXAMPLE": "lasaim"
+        },
+        {
+          "IRISH": "Mol",
+          "ENGLISH": "praise",
+          "EXAMPLE": "molaim"
+        },
+        {
+          "IRISH": "Póg",
+          "ENGLISH": "kiss",
+          "EXAMPLE": "pogaim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I drink",
+        "ólaim",
+        "ólann tú",
+        "ólann sé",
+        "ólaimid",
+        "ólann sibh",
+        "ólann siad",
+        "Sb.",
+        "somebody drinks",
+        "óltar",
+        "Diúltach",
+        "he does not drink",
+        "ní ólann sé",
+        "Ceisteach",
+        "does he drink?",
+        "an ólann sé?"
+      ],
+      "CAITE": [
+        "I drank",
+        "d'ól mé",
+        "d'ól tú",
+        "d'ól sé",
+        "d'ólamar",
+        "d'ól sibh",
+        "d'ól siad",
+        "Sb.",
+        "somebody drank",
+        "óladh",
+        "Diúltach",
+        "he does not drink",
+        "níor ól sé",
+        "Ceisteach",
+        "did he drink?",
+        "ar ól sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to drink",
+        "d'ólainn",
+        "d'óltá",
+        "d'óladh sé",
+        "d'ólaimis",
+        "d'óladh sibh",
+        "d'ólaidís",
+        "Sb.",
+        "somebody used to drink",
+        "d'óltaí",
+        "Diúltach",
+        "he does not drink",
+        "ní óladh sé",
+        "Ceisteach",
+        "used he drink?",
+        "an óladh sé?"
+      ],
+      "FÁIS.": [
+        "I shall drink",
+        "ólfaidh mé",
+        "ólfaidh tú",
+        "ólfaidh sé",
+        "ólfaimid",
+        "ólfaidh sibh",
+        "ólfaidh siad",
+        "Sb.",
+        "somebody will drink",
+        "ólfar",
+        "Diúltach",
+        "he does not drink",
+        "ní ólfaidh sé",
+        "Ceisteach",
+        "will he drink?",
+        "an ólfaidh sé"
+      ],
+      "M. COINN.": [
+        "I would drink",
+        "d'ólfainn",
+        "d'ólfá",
+        "d'ólfadh sé",
+        "d'ólfaimis",
+        "d'ólfadh sibh",
+        "d'ólfaidís",
+        "Sb.",
+        "somebody would drink",
+        "d'ólfaí",
+        "Diúltach",
+        "he does not drink",
+        "ní ólfadh sé",
+        "Ceisteach",
+        "would he drink?",
+        "an ólfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may drink",
+        "go n-óla mé",
+        "go n-óla tú",
+        "go n-óla sé",
+        "go n-ólaímid",
+        "go n-óla sibh",
+        "go n-óla siad",
+        "Sb.",
+        "may somebody drink",
+        "go n-óltar",
+        "Diúltach",
+        "he does not drink",
+        "nár óla sé"
+      ],
+      "M. ORD.": [
+        "drink",
+        "ólaim",
+        "ól",
+        "óladh sé",
+        "ólaimis",
+        "ólaigí",
+        "ólaidís",
+        "Sb.",
+        "let somebody drink",
+        "óltar",
+        "Diúltach",
+        "he does not drink",
+        "ná hól"
+      ],
+      "AINM BRIATH.": [
+        "drinking",
+        "ól"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "drunk",
+        "ólta"
+      ],
+      "TABLE_NAME": [
+        "Ól",
+        "drink",
+        "Ólaim",
+        "I drink"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Athdhiol",
+          "ENGLISH": "re-sell",
+          "EXAMPLE": "athdhíolaim"
+        },
+        {
+          "IRISH": "Atóg",
+          "ENGLISH": "re-construct",
+          "EXAMPLE": "atógaim"
+        },
+        {
+          "IRISH": "Athscríobh",
+          "ENGLISH": "re-write",
+          "EXAMPLE": "athscríobhaim"
+        },
+        {
+          "IRISH": "íoc",
+          "ENGLISH": "pay",
+          "EXAMPLE": "íocaim"
+        }
+      ],
+      "NOTE": "In the 'Caite' we put a D' before a verb beginning with a vowel or F except in the Sb. form. e.g: D'ól mé,D'fhág mé but Sb. óladh fágadh"
+    },
+    {
+      "LÁITH.": [
+        "I look",
+        "féachaim",
+        "féachann tú",
+        "féachann sé",
+        "féachaimid",
+        "féachann sibh",
+        "féachann siad",
+        "Sb.",
+        "somebody looks",
+        "féachtar",
+        "Diúltach",
+        "he does not look",
+        "ní fhéachann sé",
+        "Ceisteach",
+        "does he look?",
+        "an bhféachann sé?"
+      ],
+      "CAITE": [
+        "I looked",
+        "d'fhéach mé",
+        "d'fhéach tú",
+        "d'fhéach sé",
+        "d'fhéachamar",
+        "d'fhéach sibh",
+        "d'fhéach siad",
+        "Sb.",
+        "somebody looked",
+        "féachadh",
+        "Diúltach",
+        "he did not look",
+        "níor fhéach sé",
+        "Ceisteach",
+        "did he look?",
+        "ar fhéach sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to look",
+        "d'fhéachainn",
+        "d'fhéachtá",
+        "d'fhéachadh sé",
+        "d'fhéachaimis",
+        "d'fhéachadh sibh",
+        "d'fhéachaidís",
+        "Sb.",
+        "somebody  used to look",
+        "d'fhéachtaí",
+        "Diúltach",
+        "he used not look",
+        "ní fhéachadh sé",
+        "Ceisteach",
+        "used he look?",
+        "an bhféachadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall look",
+        "féachfaidh mé",
+        "féachfaidh tú",
+        "féachfaidh sé",
+        "féachfaimid",
+        "féachfaidh sibh",
+        "féachfaidh siad",
+        "Sb.",
+        "somebody will look",
+        "féachfar",
+        "Diúltach",
+        "he will not look",
+        "ní fhéachfaidh sé",
+        "Ceisteach",
+        "will he look?",
+        "an bhféachfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would look",
+        "d'fhéachfainn",
+        "d'fhéachfá",
+        "d'fhéachfadh sé",
+        "d'fhéachfaimis",
+        "d'fhéachfadh sibh",
+        "d'fhéachfaidís",
+        "Sb.",
+        "somebody  would look",
+        "d'fhéachfaí",
+        "Diúltach",
+        "he would not look",
+        "ní fhéachfadh sé",
+        "Ceisteach",
+        "would he look?",
+        "an bhféachfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may look",
+        "go bhféacha mé",
+        "go bhféacha tú",
+        "go bhféacha sé",
+        "go bhféachaimid",
+        "go bhféacha sibh",
+        "go bhféacha siad",
+        "Sb.",
+        "may somebody look",
+        "go bhféachtar",
+        "Diúltach",
+        "may he not look",
+        "nár fhéacha sé"
+      ],
+      "M. ORD.": [
+        "look",
+        "féachaim",
+        "féach",
+        "féachadh sé",
+        "féachaimis",
+        "féachaigí",
+        "féachaidís",
+        "Sb.",
+        "let somebody look",
+        "féachtar",
+        "Diúltach",
+        "do not look",
+        "ná féach"
+      ],
+      "AINM BRIATH.": [
+        "looking",
+        "féachaint"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "looked",
+        "féachta"
+      ],
+      "TABLE_NAME": [
+        "FÉACH",
+        "look",
+        "Féachaim",
+        "I look"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Fág",
+          "ENGLISH": "leave",
+          "EXAMPLE": "fágaim"
+        },
+        {
+          "IRISH": "Fan",
+          "ENGLISH": "wait, stay",
+          "EXAMPLE": "fanaim"
+        },
+        {
+          "IRISH": "Fás",
+          "ENGLISH": "grow",
+          "EXAMPLE": "fásaim"
+        },
+        {
+          "IRISH": "Féad",
+          "ENGLISH": "can",
+          "EXAMPLE": "féadaim"
+        },
+        {
+          "IRISH": "Feac",
+          "ENGLISH": "genuflect, bend",
+          "EXAMPLE": "feacaim"
+        },
+        {
+          "IRISH": "Fiuch",
+          "ENGLISH": "boil",
+          "EXAMPLE": "fiuchaim"
+        }
+      ],
+      "NOTE": "Do not confuse this regular verb with the irregular verb 'Feic' see."
+    },
+    {
+      "LÁITH.": [
+        "I sweep",
+        "scuabaim",
+        "scuabann tú",
+        "scuabann sé",
+        "scuabaimid",
+        "scuabann sibh",
+        "scuabann siad",
+        "Sb.",
+        "somebody sweeps",
+        "scuabtar",
+        "Diúltach",
+        "he does not sweep",
+        "ní scuabann sé",
+        "Ceisteach",
+        "does he sweep?",
+        "an scuabann sé?"
+      ],
+      "CAITE": [
+        "I swept",
+        "scuab mé",
+        "scuab tú",
+        "scuab sé",
+        "scuabamar",
+        "scuab sibh",
+        "scuab siad",
+        "Sb.",
+        "somebody swept",
+        "scuabadh.",
+        "Diúltach",
+        "he did not sweep",
+        "níor scuab sé",
+        "Ceisteach",
+        "did he sweep?",
+        "ar scuab sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to sweep",
+        "scuabainn",
+        "scuabtá",
+        "scuabadh sé",
+        "scuab aimis",
+        "scuabadh sibh",
+        "scuabaidís",
+        "Sb.",
+        "somebody used to sweep",
+        "scuabtaí",
+        "Diúltach",
+        "he used not sweep",
+        "ní scuabadh sé",
+        "Ceisteach",
+        "used he sweep?",
+        "an scuabadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall sweep",
+        "scuabfaidh mé",
+        "scuabfaidh tu",
+        "scuabfaidh sé",
+        "scuabfaimid",
+        "scuabfaidh sibh",
+        "scuabfaidh siad",
+        "Sb.",
+        "somebody will sweep",
+        "scuabfar",
+        "Diúltach",
+        "he will not sweep",
+        "ní scuabfaidh sé",
+        "Ceisteach",
+        "will he sweep?",
+        "an scuabfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would sweep",
+        "scuabfainn",
+        "scuabfá",
+        "scuabfadh sé",
+        "scuabfaimis",
+        "scuabfadh sibh",
+        "scuabfaidís",
+        "Sb.",
+        "somebody would sweep",
+        "scuabfaí",
+        "Diúltach",
+        "he would not sweep",
+        "ní scuabfadh sé",
+        "Ceisteach",
+        "Would he sweep?",
+        "an scuabfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may sweep",
+        "go scuaba mé",
+        "go scuaba tú",
+        "go scuaba sé",
+        "go scuabaimid",
+        "go scuaba sibh",
+        "go scuaba siad",
+        "Sb.",
+        "may somebody sweep",
+        "go scuabtar",
+        "Diúltach",
+        "may he not sweep",
+        "nár scuaba sé"
+      ],
+      "M. ORD.": [
+        "sweep",
+        "scuabaim",
+        "scuab",
+        "scuabadh se",
+        "scuabáimis",
+        "scuabaigí",
+        "scuabaidís",
+        "Sb.",
+        "let somebody sweep",
+        "scuabtar",
+        "Diúltach",
+        "do not sweep",
+        "ná scuab"
+      ],
+      "AINM BRIATH.": [
+        "sweeping",
+        "scuabadh"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "swept",
+        "scuabtha"
+      ],
+      "TABLE_NAME": [
+        "SCUAB",
+        "sweep",
+        "Scuabaim",
+        "I sweep"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Sciob",
+          "ENGLISH": "snatch",
+          "EXAMPLE": "sciobaim"
+        },
+        {
+          "IRISH": "Scréach",
+          "ENGLISH": "screech",
+          "EXAMPLE": "scréachaim"
+        },
+        {
+          "IRISH": "Scread",
+          "ENGLISH": "scream",
+          "EXAMPLE": "screadaim"
+        },
+        {
+          "IRISH": "Scriobh",
+          "ENGLISH": "write",
+          "EXAMPLE": "scriobhaim"
+        },
+        {
+          "IRISH": "Spreag",
+          "ENGLISH": "urge, incite",
+          "EXAMPLE": "spreagaim"
+        },
+        {
+          "IRISH": "Stad",
+          "ENGLISH": "stop",
+          "EXAMPLE": "stadaim"
+        }
+      ],
+      "NOTE": "The letter 'S' is not aspirated (ft) when it is followed by: C, F, M, P, T, V. E.G: Scuab sé;Stad sé;but Sheas sé."
+    },
+    {
+      "LÁITH.": [
+        "I walk",
+        "siúlaim",
+        "siúlann tú",
+        "siúlann sé",
+        "siúlaimid",
+        "siúlann sibh",
+        "siúlann siad",
+        "Sb.",
+        "somebody walks",
+        "siúltar",
+        "Diúltach",
+        "he does not walk",
+        "ní shiúlann sé",
+        "Ceisteach",
+        "does he walk?",
+        "an siúlann sé?"
+      ],
+      "CAITE": [
+        "I walked",
+        "shiúil mé",
+        "shiúil tu",
+        "shiúil sé",
+        "shiúlamar",
+        "shiúil sibh",
+        "shiúil siad",
+        "Sb.",
+        "somebody walked",
+        "siúladh",
+        "Diúltach",
+        "he did not walk",
+        "níor shiúil sé",
+        "Ceisteach",
+        "did he walk?",
+        "ar shiúil sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to walk",
+        "shiulainn",
+        "shiúltá",
+        "shiúladh sé",
+        "shiúlaimis",
+        "shiúladh sibh",
+        "shiúlaidís",
+        "Sb.",
+        "somebody used to walk",
+        "shiúltaí",
+        "Diúltach",
+        "he used not walk",
+        "ní shiúladh sé",
+        "Ceisteach",
+        "used he walk?",
+        "an siúladh sé?"
+      ],
+      "FÁIS.": [
+        "I shall walk",
+        "siúlfaidh mé",
+        "siúlfaidh tú",
+        "siúlfaidh sé",
+        "siúlfaimid",
+        "siúlfaidh sibh",
+        "siúlfaidh siad",
+        "Sb.",
+        "somebody will walk",
+        "siúlfar",
+        "Diúltach",
+        "he will not walk",
+        "ní shiúlfaidh sé",
+        "Ceisteach",
+        "will he walk?",
+        "an siúlfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would walk",
+        "shiúlfainn",
+        "shiúlfá",
+        "shiúlfadh sé",
+        "shiúlfaimis",
+        "shiúlfadh sibh",
+        "shiúlfaidís",
+        "Sb.",
+        "somebody would walk",
+        "shiúlfaí",
+        "Diúltach",
+        "he would not walk",
+        "ní shiúlfadh sé",
+        "Ceisteach",
+        "Would he walk?",
+        "an siúlfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may walk",
+        "go siúla mé",
+        "go siúla tú",
+        "go siúla sé",
+        "go siúlaimid",
+        "go siúla sibh",
+        "go siúla siad",
+        "Sb.",
+        "may somebody walk",
+        "go siultar",
+        "Diúltach",
+        "may he not walk",
+        "nár shiúla sé"
+      ],
+      "M. ORD.": [
+        "walk",
+        "siúlaim",
+        "siúil",
+        "siúladh sé",
+        "siúlaimis",
+        "siúlaigí",
+        "siúlaidís",
+        "sb.",
+        "let somebody walk",
+        "siúltar",
+        "Diúltach",
+        "do not walk",
+        "ná siúil"
+      ],
+      "AINM BRIATH.": [
+        "walking",
+        "siúl"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "walked",
+        "siúlta"
+      ],
+      "TABLE_NAME": [
+        "SIÚIL",
+        "walk",
+        "Siulaim",
+        "I walk."
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I break",
+        "brisim",
+        "briseann tú",
+        "briseann sé",
+        "brisimid",
+        "briseann sibh",
+        "briseann siad",
+        "Sb.",
+        "somebody breaks",
+        "bristear",
+        "Diúltach",
+        "he does not break",
+        "ní bhriseann sé",
+        "Ceisteach",
+        "does he break?",
+        "an mbriseann sé?"
+      ],
+      "CAITE": [
+        "I broke",
+        "bhris mé",
+        "bhris tú",
+        "bhris sé",
+        "bhriseamar",
+        "bhris sibh",
+        "bhris siad",
+        "Sb.",
+        "somebody broke",
+        "briseadh",
+        "Dúiltach",
+        "he did not break",
+        "níor bhris sé",
+        "Ceisteach",
+        "did he break?",
+        "ar bhris sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to break",
+        "bhrisinn",
+        "bhristeá",
+        "bhriseadh sé",
+        "bhrisimis",
+        "bhriseadh sibh",
+        "bhrisidís",
+        "Sb.",
+        "somebody used to break",
+        "bhristí",
+        "Diúltach",
+        "he used not break",
+        "ní bhriseadh sé",
+        "Ceisteach",
+        "used he break?",
+        "an mbriseadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall break",
+        "brisfidh mé",
+        "brisfídh tú",
+        "brisfidh sé",
+        "brisfimid",
+        "brisfidh sibh",
+        "brisfidh siad",
+        "Sb.",
+        "somebody will break",
+        "brisfear",
+        "Dúiltach",
+        "he will not break",
+        "ní bhrisfidh sé",
+        "Ceisteach",
+        "will he break?",
+        "an mbrisfidh sé?"
+      ],
+      "M. COINN.": [
+        "I would break",
+        "bhrisfinn",
+        "bhrisfeá",
+        "bhrisfeadh sé",
+        "bhrisfimis",
+        "bhrisfeadh sibh",
+        "bhrisfidís",
+        "Sb.",
+        "somebodywould break",
+        "bhrisfí",
+        "Dúiltach",
+        "he would not break",
+        "ní bhrisfeadh sé",
+        "Ceisteach",
+        "would he break?",
+        "an mbrisfeadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may break",
+        "go mbrise mé",
+        "go mbrise tu",
+        "go mbrise sé",
+        "go mbrisimid",
+        "go mbrise sibh",
+        "go mbrise siad",
+        "Sb.",
+        "may somebody break",
+        "go mbristear",
+        "Dúiltach",
+        "may he not break",
+        "nár bhrise sé"
+      ],
+      "M. ORD.": [
+        "break",
+        "brisim",
+        "bris",
+        "briseadh sé",
+        "brisimis",
+        "brisigí",
+        "brisidís",
+        "Sb.",
+        "let somebody break",
+        "bristear",
+        "Dúiltach",
+        "do not break",
+        "ná bris"
+      ],
+      "AINM BRIATH.": [
+        "briseadh",
+        "breaking"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "briste",
+        "broken"
+      ],
+      "TABLE_NAME": [
+        "BRIS",
+        "break",
+        "Brisim",
+        "I break"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Bual",
+          "ENGLISH": "beat, strike",
+          "EXAMPLE": "buailim"
+        },
+        {
+          "IRISH": "Caill",
+          "ENGLISH": "lose",
+          "EXAMPLE": "caillim"
+        },
+        {
+          "IRISH": "Caith",
+          "ENGLISH": "throw",
+          "EXAMPLE": "caithim"
+        },
+        {
+          "IRISH": "Creid",
+          "ENGLISH": "believe",
+          "EXAMPLE": "creidim"
+        },
+        {
+          "IRISH": "Cuir",
+          "ENGLISH": "put, send",
+          "EXAMPLE": "cuirim"
+        },
+        {
+          "IRISH": "Goid",
+          "ENGLISH": "steal",
+          "EXAMPLE": "goidim"
+        },
+        {
+          "IRISH": "Múin",
+          "ENGLISH": "teach",
+          "EXAMPLE": "múinim"
+        },
+        {
+          "IRISH": "Rith",
+          "ENGLISH": "run",
+          "EXAMPLE": "rithim"
+        },
+        {
+          "IRISH": "Scaip",
+          "ENGLISH": "scatter",
+          "EXAMPLE": "scaipim"
+        },
+        {
+          "IRISH": "Tit",
+          "ENGLISH": "fall",
+          "EXAMPLE": "titim"
+        },
+        {
+          "IRISH": "Troid",
+          "ENGLISH": "fight",
+          "EXAMPLE": "troidim"
+        },
+        {
+          "IRISH": "Tuig",
+          "ENGLISH": "understand",
+          "EXAMPLE": "tuigim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I burn",
+        "dóim",
+        "dónn tú",
+        "dónn sé",
+        "dóimid",
+        "dónn sibh",
+        "dónn siad",
+        "Sb.",
+        "somebody burns",
+        "dóitear",
+        "Diúltach",
+        "he does not burn",
+        "ní dhónn sé",
+        "Ceisteach",
+        "does he burn?",
+        "an ndónn sé?"
+      ],
+      "CAITE": [
+        "I burned",
+        "dhóigh mé",
+        "dhóigh tú",
+        "dhóigh sé",
+        "dhómar",
+        "dhóigh sibh",
+        "dhóigh siad",
+        "Sb.",
+        "somebody burned",
+        "dódh",
+        "Diúltach",
+        "he did not burn",
+        "níor dhóigh sé",
+        "Ceisteach",
+        "did he burn?",
+        "ar dhóigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to burn",
+        "dhóinn",
+        "dhóiteá",
+        "dhódh sé",
+        "dhóimis",
+        "dhódh sibh",
+        "dhóidís",
+        "Sb.",
+        "somebody used to burn",
+        "dhóití",
+        "Diúltach",
+        "he used not burn",
+        "ní dhódh sé",
+        "Ceisteach",
+        "used he burn?",
+        "an ndódh sé?"
+      ],
+      "FÁIS.": [
+        "I shall burn",
+        "dófaidh mé",
+        "dófaidh tú",
+        "dófaidh sé",
+        "dófaimid",
+        "dófaidh sibh",
+        "dófaidh siad",
+        "Sb.",
+        "somebody will burn",
+        "dófar",
+        "Diúltach",
+        "he will not burn",
+        "ní dhófaidh sé",
+        "Ceisteach",
+        "will he burn?",
+        "an ndófaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would burn",
+        "dhófainn",
+        "dhófá",
+        "dhófadh sé",
+        "dhófaimis",
+        "dhófadh sibh",
+        "dhófaidís",
+        "Sb.",
+        "somebody would burn",
+        "dhófaí",
+        "Diúltach",
+        "he would not burn",
+        "ní dhófadh sé",
+        "Ceisteach",
+        "would he burn?",
+        "an ndófadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may burn",
+        "go ndó mé",
+        "go ndó tú",
+        "go ndó sé",
+        "go ndóimid",
+        "go ndó sibh",
+        "go ndó siad",
+        "Sb.",
+        "may somebody burn",
+        "go ndóitear",
+        "Diúltach",
+        "may he not burn",
+        "nár dhó sé"
+      ],
+      "M. ORD.": [
+        "burn",
+        "dóim",
+        "dóigh",
+        "dódh sé",
+        "dóimis",
+        "dóigí",
+        "dóidís",
+        "Sb.",
+        "let somebody burn",
+        "dóitear",
+        "Diúltach",
+        "do not burn",
+        "ná dóigh"
+      ],
+      "AINM BRIATH.": [
+        "burning",
+        "dó"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "burnt",
+        "dóite"
+      ],
+      "TABLE_NAME": [
+        "DÓIGH",
+        "burn",
+        "Dóim",
+        "I burn"
+      ],
+      "SIMILAR": [
+        {
+          "IRISH": "Beoigh",
+          "ENGLISH": "liven, animate",
+          "EXAMPLE": "beoim"
+        },
+        {
+          "IRISH": "Breoigh",
+          "ENGLISH": "sicken",
+          "EXAMPLE": "breoim"
+        },
+        {
+          "IRISH": "Clóigh",
+          "ENGLISH": "print",
+          "EXAMPLE": "clóim"
+        },
+        {
+          "IRISH": "Dreoigh",
+          "ENGLISH": "wither, rot",
+          "EXAMPLE": "dreoim"
+        },
+        {
+          "IRISH": "Feoigh",
+          "ENGLISH": "wither, decay",
+          "EXAMPLE": "feoim"
+        },
+        {
+          "IRISH": "Reoigh",
+          "ENGLISH": "freeze",
+          "EXAMPLE": "reoim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I annoy",
+        "cráim",
+        "cránn tú",
+        "cránn sé",
+        "cráimid",
+        "cránn sibh",
+        "cránn siad",
+        "Sb.",
+        "somebody annoys",
+        "cráitear",
+        "Diúltach",
+        "he does not annoy",
+        "ní chránn sé",
+        "Ceisteach",
+        "does he annoy?",
+        "an gcránn sé?"
+      ],
+      "CAITE": [
+        "I annoyed",
+        "chráigh mé",
+        "chráigh tú",
+        "chráigh sé",
+        "chrámar",
+        "chráigh sibh",
+        "chráigh siad",
+        "Sb.",
+        "somebody annoyed",
+        "crádh",
+        "Diúltach",
+        "he did not annoy",
+        "níor chráigh sé",
+        "Ceisteach",
+        "did he annoy?",
+        "ar chráigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to annoy",
+        "chráinn",
+        "chráiteá",
+        "chrádh sé",
+        "chráimis",
+        "chrádh sibh",
+        "chráidís",
+        "Sb.",
+        "somebody used to annoy",
+        "chráití",
+        "Diúltach",
+        "he used not annoy",
+        "ní chrádh sé",
+        "Ceisteach",
+        "used he annoy?",
+        "an gcrádh sé?"
+      ],
+      "FÁIS.": [
+        "I shall annoy",
+        "cráfaidh mé",
+        "cráfaidh tú",
+        "cráfaidh sé",
+        "cráfaimid",
+        "cráfaidh sibh",
+        "cráfaidh siad",
+        "Sb.",
+        "somebody will annoy",
+        "cráfar",
+        "Diúltach",
+        "he will not annoy",
+        "ní chráfaidh sé",
+        "Ceisteach",
+        "will he annoy?",
+        "an gcráfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would annoy",
+        "chráfainn",
+        "chráfá",
+        "chráfadh sé",
+        "chráfaimis",
+        "chráfadh sibh",
+        "chráfaidís",
+        "Sb.",
+        "somebody would annoy",
+        "chráfaí",
+        "Diúltach",
+        "he would not annoy",
+        "ní chráfadh sé",
+        "Ceisteach",
+        "Would he annoy?",
+        "an gcráfadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may annoy",
+        "go gcrá mé",
+        "go gcrá tú'",
+        "go gcrá sé",
+        "go gcráimid",
+        "go gcrá sibh",
+        "go gcrá siad",
+        "Sb.",
+        "may somebody annoy",
+        "go gcráitear",
+        "Diúltach",
+        "may he not annoy",
+        "nár chrá sé"
+      ],
+      "M. ORD.": [
+        "annoy",
+        "cráim",
+        "cráigh",
+        "crádh sé",
+        "cráimis",
+        "cráigí",
+        "cráidís",
+        "Sb.",
+        "let somebody annoy",
+        "cráitear",
+        "Diúltach",
+        "do not annoy",
+        "ná cráigh"
+      ],
+      "AINM BRIATH.": [
+        "annoying",
+        "crá"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "annoyed",
+        "cráite"
+      ],
+      "TABLE_NAME": [
+        "CRÁIGH",
+        "torment",
+        "Cráim",
+        "I annoy"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Báigh",
+          "ENGLISH": "drown",
+          "EXAMPLE": "báim"
+        },
+        {
+          "IRISH": "Cneáigh",
+          "ENGLISH": "wound",
+          "EXAMPLE": "cneáim"
+        },
+        {
+          "IRISH": "Sáigh",
+          "ENGLISH": "stab, thrust",
+          "EXAMPLE": "sáim"
+        },
+        {
+          "IRISH": "Leáigh",
+          "ENGLISH": "melt",
+          "EXAMPLE": "leáim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I milk",
+        "crúim",
+        "crúnn tú",
+        "crúnn sé",
+        "crúimid",
+        "crúnn sibh",
+        "crúnn siad",
+        "Sb.",
+        "somebody milks",
+        "crúitear",
+        "Diúltach",
+        "he does not milk",
+        "ní chrúnn sé",
+        "Ceisteach",
+        "does he milk?",
+        "an gcrúnn sé"
+      ],
+      "CAITE": [
+        "I milked",
+        "chrúigh mé",
+        "chrúigh tú",
+        "chrúigh sé",
+        "chrúmar",
+        "chrúigh sibh",
+        "chrúigh siad",
+        "Sb.",
+        "somebody milked",
+        "crúdh",
+        "Diúltach",
+        "he did not milk",
+        "níor chrúigh sé",
+        "Ceisteach",
+        "did he milk?",
+        "ar chrúigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to milk",
+        "chrúinn",
+        "chrúiteá",
+        "chrúdh sé",
+        "chrúimis",
+        "chrúdh sibh",
+        "chrúidís",
+        "Sb.",
+        "somebody used to milk",
+        "chrúití",
+        "Diúltach",
+        "he used not milk",
+        "ní chrúdh sé",
+        "Ceisteach",
+        "used he milk?",
+        "an gcrúdh sé?"
+      ],
+      "FÁIS.": [
+        "I shall milk",
+        "crúfaidh mé",
+        "crúfaidh tú",
+        "crúfaidh sé",
+        "crúfaimid",
+        "crúfaidh sibh",
+        "crúfaidh siad",
+        "Sb.",
+        "somebody will milk",
+        "crúfar",
+        "Diúltach",
+        "he will not milk",
+        "ní chrúfaidh sé",
+        "Ceisteach",
+        "will he milk?",
+        "an gcrúfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would milk",
+        "chrúfainn",
+        "chrúfá",
+        "chrúfadh sé",
+        "chrúfaimis",
+        "chrúfadh sibh",
+        "chrúfaidís",
+        "Sb.",
+        "somebody would milk",
+        "chrúfaí",
+        "Diúltach",
+        "he would not milk",
+        "ní chrúfadh sé",
+        "Ceisteach",
+        "would he milk?",
+        "an gcrúfadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may milk",
+        "go gcrú mé",
+        "go gcrú tú",
+        "go gcrú sé",
+        "go gcrúimid",
+        "go gcrú sibh",
+        "go gcrú siad",
+        "Sb.",
+        "maysomebodymilk",
+        "go gcrúitear",
+        "Diúltach",
+        "may he not milk",
+        "nár chrú sé"
+      ],
+      "M. ORD.": [
+        "milk",
+        "cruim",
+        "crúigh",
+        "crúdh sé",
+        "crúimis",
+        "crúigí",
+        "crúidís",
+        "Sb.",
+        "let somebody milk",
+        "crúitear",
+        "Diúltach",
+        "do not milk",
+        "ná crúigh"
+      ],
+      "AINM BRIATH.": [
+        "milking",
+        "crú"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "milked",
+        "crúite"
+      ],
+      "TABLE_NAME": [
+        "CRÚIGH",
+        "milk",
+        "Crúim",
+        "I milk"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Brúigh",
+          "ENGLISH": "bruise, press",
+          "EXAMPLE": "brúim"
+        },
+        {
+          "IRISH": "Liúigh",
+          "ENGLISH": "shout",
+          "EXAMPLE": "liúim"
+        },
+        {
+          "IRISH": "Súigh",
+          "ENGLISH": "sucksúim",
+          "EXAMPLE": "súim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I win",
+        "buaim",
+        "buann tu",
+        "buann sé",
+        "buaimid",
+        "buann sibh",
+        "buann siad",
+        "Sb.",
+        "somebody wins",
+        "buaitear",
+        "Diúltach",
+        "he does not win",
+        "ní bhuann sé",
+        "Ceisteach",
+        "does he win?",
+        "an mbuann sé?"
+      ],
+      "CAITE": [
+        "I won",
+        "bhuaigh mé",
+        "bhuaigh tú",
+        "bhuaigh sé",
+        "bhuamar",
+        "bhuaigh sibh",
+        "bhuaigh siad",
+        "Sb.",
+        "somebody won",
+        "buadh",
+        "Diúltach",
+        "he did not win",
+        "níor bhuaigh sé",
+        "Ceisteach",
+        "did he win?",
+        "ar bhuaigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to win",
+        "bhuainn",
+        "bhuaiteá",
+        "bhuadh sé",
+        "bhuaimis",
+        "bhuadh sibh",
+        "bhuaidís",
+        "Sb.",
+        "somebody used to win",
+        "bhuaití",
+        "Diúltach",
+        "he used not win",
+        "ní bhuadh sé",
+        "Ceisteach",
+        "used he win?",
+        "an mbuadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall win",
+        "buafaidh mé",
+        "buafaidh tú",
+        "buafaidh sé",
+        "buafaimid",
+        "buafaidh sibh",
+        "buafaidh siad",
+        "Sb.",
+        "somebody will win",
+        "buafar",
+        "Diúltach",
+        "he will not win",
+        "ní bhuafaidh sé",
+        "Ceisteach",
+        "will he win?",
+        "an mbuafaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would win",
+        "bhuafainn",
+        "bhuafá",
+        "bhuafadh sé",
+        "bhuafaimis",
+        "bhuafadh sibh",
+        "bhuafaidís",
+        "Sb.",
+        "somebody would win",
+        "bhuafaí",
+        "Diúltach",
+        "he would not win",
+        "ní bhuafadh sé",
+        "Ceisteach",
+        "Would he win?",
+        "an mbuafadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may win",
+        "go mbua mé",
+        "go mbua tú",
+        "go mbua sé",
+        "go mbuaimid",
+        "go mbua sibh",
+        "go mbua siad",
+        "Sb.",
+        "may somebody win",
+        "go mbuaitear",
+        "Diúltach",
+        "may he not win",
+        "nár bhua sé"
+      ],
+      "M. ORD.": [
+        "win",
+        "buaim",
+        "buaigh",
+        "buadh sé",
+        "buaimis",
+        "buaigí",
+        "buaidís",
+        "Sb.",
+        "let somebody win",
+        "buaitear",
+        "Diúltach",
+        "do not win",
+        "ná buaigh"
+      ],
+      "AINM BRIATH.": [
+        "winning",
+        "buachan"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "won",
+        "buaite"
+      ],
+      "TABLE_NAME": [
+        "BUAIGH",
+        "win, gain",
+        "Buaim",
+        "I win"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Cruaigh",
+          "ENGLISH": "harden",
+          "EXAMPLE": "cruaim"
+        },
+        {
+          "IRISH": "Fuaigh",
+          "ENGLISH": "hsew,stitch",
+          "EXAMPLE": "fuaim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I read",
+        "Léim",
+        "léann tú",
+        "léann sé",
+        "léimid",
+        "léann sibh",
+        "léann siad",
+        "Sb.",
+        "somebody reads",
+        "léitear",
+        "Diúltach",
+        "he does not read",
+        "ní léann sé?",
+        "Ceisteach",
+        "does he read?",
+        "an léann sé?"
+      ],
+      "CAITE": [
+        "I read",
+        "léigh mé",
+        "léigh tú",
+        "léigh sé",
+        "léamar",
+        "léigh sibh",
+        "léigh siad",
+        "Sb.",
+        "somebody read",
+        "léadh",
+        "Diúltach",
+        "he did not read",
+        "níor léigh sé",
+        "Ceisteach",
+        "did he read?",
+        "ar léigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to read",
+        "léinn",
+        "léiteá",
+        "léadh sé",
+        "léimis",
+        "léadh sibh",
+        "léidís",
+        "Sb.",
+        "somebody used to read",
+        "léití",
+        "Diúltach",
+        "he used not read",
+        "ní léadh sé",
+        "Ceisteach",
+        "used he read?",
+        "an léadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall read",
+        "léifidh mé",
+        "léifidh tú",
+        "léifidh sé",
+        "léifimid",
+        "léifidh sibh",
+        "léifidh siad",
+        "Sb.",
+        "somebody will read",
+        "léifear",
+        "Diúltach",
+        "he will not read",
+        "ní léifidh sé",
+        "Ceisteach",
+        "will he read?",
+        "an léifidh sé"
+      ],
+      "M. COINN.": [
+        "I would read",
+        "léifinn",
+        "léifeá",
+        "léifeadh sé",
+        "léifimis",
+        "léifeadh sibh",
+        "léifidís",
+        "Sb.",
+        "somebody would read",
+        "léifí",
+        "Diúltach",
+        "he would not read",
+        "ní léifeadh sé?",
+        "Ceisteach",
+        "would he read?",
+        "an léifeadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may read",
+        "go lé mé",
+        "go lé tú",
+        "go lé sé",
+        "go léimid",
+        "go lé sibh",
+        "go lé siad",
+        "Sb.",
+        "may somebody read",
+        "go léitear",
+        "Diúltach",
+        "may he not read",
+        "nár lé sé"
+      ],
+      "M. ORD.": [
+        "read",
+        "léim",
+        "léigh",
+        "léadh sé",
+        "léimis",
+        "léigí",
+        "léidís",
+        "Sb.",
+        "let somebody read",
+        "léitear",
+        "Diúltach",
+        "do not read",
+        "ná léigh"
+      ],
+      "AINM BRIATH.": [
+        "reading",
+        "léamh"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "read",
+        "léite"
+      ],
+      "TABLE_NAME": [
+        "LÉIGH",
+        "read",
+        "Léim",
+        "I read"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Éigh",
+          "ENGLISH": "cry,aloud",
+          "EXAMPLE": "beseechéim"
+        },
+        {
+          "IRISH": "Pléigh",
+          "ENGLISH": "plead,dispute",
+          "EXAMPLE": "pléim"
+        },
+        {
+          "IRISH": "Spréigh",
+          "ENGLISH": "spray,scatter",
+          "EXAMPLE": "spréim"
+        },
+        {
+          "IRISH": "Téigh",
+          "ENGLISH": "warm",
+          "EXAMPLE": "téim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I wash",
+        "ním",
+        "níonn tú",
+        "níonn sé",
+        "nímíd",
+        "níonn sibh",
+        "níonn siad",
+        "Sb.",
+        "somebody washes",
+        "nitear",
+        "Diúltach",
+        "ní níonn sé",
+        "he does not wash",
+        "Ceisteach",
+        "an níonn sé?",
+        "does he wash?"
+      ],
+      "CAITE": [
+        "I washed",
+        "nigh mé",
+        "nigh tú",
+        "nigh sé",
+        "níomar",
+        "nigh sibh",
+        "nigh siad",
+        "Sb.",
+        "somebody washed",
+        "níodh",
+        "Diúltach",
+        "níor nigh sé",
+        "he did not wash",
+        "Ceisteach",
+        "ar nigh sé?",
+        "did he wash?"
+      ],
+      "GH. CHAITE": [
+        "I used to wash",
+        "nínn",
+        "niteá",
+        "níodh sé",
+        "nímis",
+        "níodh sibh",
+        "nídís",
+        "Sb.",
+        "somebodyused to wash",
+        "nítí",
+        "Diúltach",
+        "ní níodh sé",
+        "he used not wash",
+        "Ceisteach",
+        "an níodh sé?",
+        "used he wash?"
+      ],
+      "FÁIS.": [
+        "I shall wash",
+        "nfidh mé",
+        "nífidh tú",
+        "nífidh sé",
+        "nífimid",
+        "nífidh sibh",
+        "nífidh siad",
+        "Sb.",
+        "somebody will wash",
+        "nífear",
+        "Diúltach",
+        "ní nífidh sé",
+        "he will not wash",
+        "Ceisteach",
+        "an nífidh sé?",
+        "will he wash?"
+      ],
+      "M. COINN.": [
+        "I would wash",
+        "nífinn",
+        "nífeá",
+        "nífeadh sé",
+        "nífímis",
+        "nífeadh sibh",
+        "nífídís",
+        "Sb.",
+        "somebody would wash",
+        "nífí",
+        "Diúltach",
+        "ní nífeadh sé",
+        "he would not wash",
+        "Ceisteach",
+        "an nífeadh sé?",
+        "would he wash?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may wash",
+        "go ní mé",
+        "go ní tú",
+        "go ní sé",
+        "go nímid",
+        "go ní sibh",
+        "go ní siad",
+        "Sb.",
+        "may somebody wash",
+        "go nitear",
+        "Diúltach",
+        "nár ní sé",
+        "may he not wash"
+      ],
+      "M. ORD.": [
+        "wash",
+        "ním",
+        "nigh",
+        "níodh sé",
+        "nímis",
+        "nígi",
+        "nídís",
+        "Sb.",
+        "let somebody wash",
+        "nitear",
+        "Diúltach",
+        "ná nigh",
+        "do not wash"
+      ],
+      "AINM BRIATH.": [
+        "washing",
+        "ní"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "washed",
+        "nite"
+      ],
+      "TABLE_NAME": [
+        "NIGH",
+        "wash",
+        "Ním",
+        "I wash"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Bligh",
+          "ENGLISH": "milk",
+          "EXAMPLE": "blÍm"
+        },
+        {
+          "IRISH": "Cloigh",
+          "ENGLISH": "overcome",
+          "EXAMPLE": "cloim"
+        },
+        {
+          "IRISH": "Figh",
+          "ENGLISH": "weave",
+          "EXAMPLE": "fim"
+        },
+        {
+          "IRISH": "Guigh",
+          "ENGLISH": "pray",
+          "EXAMPLE": "guim"
+        },
+        {
+          "IRISH": "Ligh",
+          "ENGLISH": "lick",
+          "EXAMPLE": "lim"
+        },
+        {
+          "IRISH": "Luigh",
+          "ENGLISH": "lie-down",
+          "EXAMPLE": "luim"
+        },
+        {
+          "IRISH": "Maigh",
+          "ENGLISH": "boast",
+          "EXAMPLE": "maim"
+        },
+        {
+          "IRISH": "Snoigh",
+          "ENGLISH": "carve",
+          "EXAMPLE": "snoim"
+        },
+        {
+          "IRISH": "Suigh",
+          "ENGLISH": "sit",
+          "EXAMPLE": "suim"
+        },
+        {
+          "IRISH": "Snigh",
+          "ENGLISH": "flows",
+          "EXAMPLE": "ním"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I save",
+        "sábhálaim",
+        "sábhálann tú",
+        "sábhálann sé",
+        "sábhálaimid",
+        "sábhálann sibh",
+        "sábhálann siad",
+        "Sb.",
+        "somebody saves",
+        "sábháiltear",
+        "Diúltach",
+        "he does not save",
+        "ní shábhálann sé",
+        "Ceisteach",
+        "does he save?",
+        "an sábhálann sé?"
+      ],
+      "CAITE": [
+        "I saved",
+        "shábháil mé",
+        "shábháil tú",
+        "shábháil sé",
+        "shábhálamar",
+        "shábháil sibh",
+        "shábháil siad",
+        "Sb.",
+        "somebody saved",
+        "sábháladh",
+        "Diúltach",
+        "he did not save",
+        "níor shábháil sé",
+        "Ceisteach",
+        "did he save?",
+        "ar shábháa sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to save",
+        "shábhálainn",
+        "shábháilteá",
+        "shábháladh sé",
+        "shábháJaimis",
+        "shábháladh sibh",
+        "shábhálaidís",
+        "Sb.",
+        "somebodyused to save",
+        "shábháiltí",
+        "Diúltach",
+        "he used not save",
+        "ní shábháladh sé",
+        "Ceisteach",
+        "used he save?",
+        "an sábháladh sé?"
+      ],
+      "FÁIS.": [
+        "I shall save",
+        "sábhálfaidh mé",
+        "sábhálfaidh tú",
+        "sábhálfaidh sé",
+        "sábhálfaimid",
+        "sábhálfaidh sibh",
+        "sábhálfaidh siad",
+        "Sb.",
+        "somebody will save",
+        "sábhálfar",
+        "Diúltach",
+        "he will not save",
+        "ní shábhálfaidh sé",
+        "Ceisteach",
+        "will he save?",
+        "an sábhálfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would save",
+        "shábhálfainn",
+        "shábhálfá",
+        "shábhálfadh sé",
+        "shábhálfaimis",
+        "shábhálfadh sibh",
+        "shábhálfaidís",
+        "Sb.",
+        "somebodywould save",
+        "shábhálfaí",
+        "Diúltach",
+        "he would not save",
+        "ní shábhálfadh sé",
+        "Ceisteach",
+        "would he save?",
+        "an sábhálfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may save",
+        "go sábhála mé",
+        "go sábhála tú",
+        "go sábhála sé",
+        "go sábhálaimid",
+        "go sábhála sibh",
+        "go sábhála siad",
+        "Sb.",
+        "maysomebodysave",
+        "go sábháiltear",
+        "Diúltach",
+        "may he not save",
+        "nár shábhála sé"
+      ],
+      "M. ORD.": [
+        "save",
+        "sábhálaim",
+        "sábháil",
+        "sábháladh sé",
+        "sábhálaimis",
+        "sábhálaigí",
+        "sábhálaidís",
+        "Sb.",
+        "let somebody save",
+        "sábháiltear",
+        "Diúltach",
+        "do not save",
+        "ná sábháil"
+      ],
+      "AINM BRIATH.": [
+        "saving",
+        "sábháil"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "saved",
+        "sábháilte"
+      ],
+      "TABLE_NAME": [
+        "Sábháil",
+        "save",
+        "Sábháilim",
+        "I save"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Bácáil",
+          "ENGLISH": "bake",
+          "EXAMPLE": "bácálaim"
+        },
+        {
+          "IRISH": "Cniotáil",
+          "ENGLISH": "knit",
+          "EXAMPLE": "cniotálaim"
+        },
+        {
+          "IRISH": "Marcáil",
+          "ENGLISH": "mark",
+          "EXAMPLE": "marcáilim"
+        },
+        {
+          "IRISH": "Sóinseáil",
+          "ENGLISH": "change,money",
+          "EXAMPLE": "sóinseálaim"
+        },
+        {
+          "IRISH": "Spáráil",
+          "ENGLISH": "spares, saves",
+          "EXAMPLE": "párálaim"
+        },
+        {
+          "IRISH": "Robáil",
+          "ENGLISH": "rob",
+          "EXAMPLE": "robálaim"
+        },
+        {
+          "IRISH": "Tairneáil",
+          "ENGLISH": "nail",
+          "EXAMPLE": "tairneálaim"
+        },
+        {
+          "IRISH": "Vótáil",
+          "ENGLISH": "vote",
+          "EXAMPLE": "vótálaim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I show",
+        "taispeánaim",
+        "taispeánann tú",
+        "taispeánann sé",
+        "taispeánaimid",
+        "taispeánann sibh",
+        "taispeánann siad",
+        "Sb.",
+        "somebody shows",
+        "taispeántar",
+        "Diúltach",
+        "he does not show",
+        "ní thaispeánann sé",
+        "Ceisteach",
+        "does he show?",
+        "an dtaispeánann sé?"
+      ],
+      "CAITE": [
+        "I showed",
+        "thaispeáin mé",
+        "thaispeáin tú",
+        "thaispeáin sé",
+        "thaispeánamar",
+        "thaispeáin sibh",
+        "thaispeáin siad",
+        "Sb.",
+        "somebody showed",
+        "taispeánadh",
+        "Diúltach",
+        "he did not show",
+        "níor thaispeáin sé",
+        "Ceisteach",
+        "did he show?",
+        "ar thaispeáin sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to show",
+        "thaispeánainn",
+        "thaispeántá",
+        "thaispeánadh sé",
+        "thaíspeánaimis",
+        "thaispeánadh sibh",
+        "thaispeánaidís",
+        "Sb.",
+        "somebodyused to show",
+        "thaispeántaí",
+        "Diúltach",
+        "he used not show",
+        "ní thaispeánadh sé",
+        "Ceisteach",
+        "used he show?",
+        "an dtaispeánadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall show",
+        "taispeánfaidh mé",
+        "taíspeánfaidh tú",
+        "taispeánfaidh sé",
+        "taispeánfaimid",
+        "taispeánfaidh sibh",
+        "taispeánfaidh siad",
+        "Sb.",
+        "somebody will show",
+        "taispeánfar",
+        "Diúltach",
+        "he will not show",
+        "ní thaispeánfaidh sé",
+        "Ceisteach",
+        "will he show?",
+        "an dtaispeánfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would show",
+        "thaispeánfainn",
+        "thaispeánfá",
+        "thaispeánfadh sé",
+        "thaispeánfaimis",
+        "thaispeánfadh sibh",
+        "thaispeánfaidís",
+        "Sb.",
+        "somebodywould show",
+        "thaispeánfaí",
+        "Diúltach",
+        "he would not show",
+        "ní thaispeánfadh sé",
+        "Ceisteach",
+        "would he show?",
+        "an dtaispeánfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may show",
+        "go dtaispeána mé",
+        "go dtaíspeána tú",
+        "go dtaispeána sé",
+        "go dtaispeánaimid",
+        "go dtaispeána sibh",
+        "go dtaispeána siad",
+        "Sb.",
+        "may somebody show",
+        "go dtaispeántar",
+        "Diúltach",
+        "may he not show",
+        "nár thaispeána sé"
+      ],
+      "M. ORD.": [
+        "show",
+        "taispeánaim",
+        "taispeáin",
+        "taispeánadh sé",
+        "taispeánaimis",
+        "taispeánaigí",
+        "taispeánaidís",
+        "Sb.",
+        "let somebody show",
+        "taispeántar",
+        "Diúltach",
+        "do not show",
+        "ná taispeáin"
+      ],
+      "AINM BRIATH.": [
+        "showing",
+        "taispeáint"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "shown",
+        "taispeánta"
+      ],
+      "TABLE_NAME": [
+        "TAISPEÁIN",
+        "show",
+        "Taispeánaim",
+        "I show"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "adhlaic",
+          "ENGLISH": "bury",
+          "EXAMPLE": "adhlaicaim"
+        },
+        {
+          "IRISH": "Tionóil",
+          "ENGLISH": "assemble",
+          "EXAMPLE": "tionólaim"
+        },
+        {
+          "IRISH": "Tíolaic",
+          "ENGLISH": "present",
+          "EXAMPLE": "tíolacaim"
+        },
+        {
+          "IRISH": "Ceiliúir",
+          "ENGLISH": "celebrate",
+          "EXAMPLE": "ceiliúraim"
+        },
+        {
+          "IRISH": "Tionlaic",
+          "ENGLISH": "accompany",
+          "EXAMPLE": "tionlacaim"
+        },
+        {
+          "IRISH": "Gearáin",
+          "ENGLISH": "complain",
+          "EXAMPLE": "gearánaim"
+        },
+        {
+          "IRISH": "Coisric",
+          "ENGLISH": "consecrate",
+          "EXAMPLE": "coisricim"
+        },
+        {
+          "IRISH": "Tiomáin",
+          "ENGLISH": "drive",
+          "EXAMPLE": "tiomáinim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I bless",
+        "beannaim",
+        "beannaionn tú",
+        "beannaíonn sé",
+        "beannaímid",
+        "beannaionnsibh",
+        "beannaionn siad",
+        "Sb.",
+        "somebody blesses",
+        "beannaitear",
+        "Diúltach",
+        "he does not bless",
+        "ní bheannaíonn sé",
+        "Ceisteach",
+        "does he bless?",
+        "an mbeannaíonn sé?"
+      ],
+      "CAITE": [
+        "I blessed",
+        "bheannaigh mé",
+        "bheannaigh tti",
+        "bheannaigh sé",
+        "bheannaíomar",
+        "bheannaigh sibh",
+        "bheannaigh siad",
+        "Sb.",
+        "somebody blessed",
+        "beannaiodh",
+        "Diúltach",
+        "he did not bless",
+        "níor bheannaigh sé",
+        "Ceisteach",
+        "did he bless?",
+        "ar bheannaigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to bless",
+        "bheannainn",
+        "bheannaíteá",
+        "bheannaíodh sé",
+        "bheannaímis",
+        "bheannaíodh sibh",
+        "bheannaídís",
+        "Sb.",
+        "somebodyused to bless",
+        "bheannaítí",
+        "Diúltach",
+        "he used not bless",
+        "ni bheannaíodh sé",
+        "Ceisteach",
+        "used he bless?",
+        "an mbeannaíodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall bless",
+        "beannóidh mé",
+        "beannóidh tú",
+        "beannóidh sé",
+        "beannóimid",
+        "beannóidh sibh",
+        "beannóidh siad",
+        "Sb.",
+        "somebody will bless",
+        "beannófar",
+        "Diúltach",
+        "he will not bless",
+        "ní bheannóidh sé",
+        "Ceisteach",
+        "will he bless?",
+        "an mbeannóidh sé?"
+      ],
+      "M. COINN.": [
+        "I would bless",
+        "bheannóinn",
+        "bheannófá",
+        "bheannódh sé",
+        "bheannóimis",
+        "bheannódh sibh",
+        "bheannóidís",
+        "Sb.",
+        "somebodywould bless",
+        "bheannófaí",
+        "Diúltach",
+        "he would not bless",
+        "ní bheannódh sé",
+        "Ceisteach",
+        "would he bless?",
+        "an mbeannódh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may bless",
+        "go mbeannaí mé",
+        "go mbeannaí tú",
+        "go mbeannai sé",
+        "go mbeannaímid",
+        "go mbeannaí sibh",
+        "go mbeannaí siad",
+        "Sb.",
+        "maysomebodybless",
+        "go mbeannaitear",
+        "Diúltach",
+        "may he not bless",
+        "nár bheannaí sé"
+      ],
+      "M. ORD.": [
+        "bless",
+        "beannaím",
+        "beannaigh",
+        "beannaiodh sé",
+        "beannaímis",
+        "beannaígí",
+        "beannaídís",
+        "Sb.",
+        "let somebody bless",
+        "beannaitear",
+        "Diúltach",
+        "do not bless",
+        "ná beannaigh"
+      ],
+      "AINM BRIATH.": [
+        "blessing",
+        "beannú"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "blessed",
+        "beannaithe"
+      ],
+      "TABLE_NAME": [
+        "BEANNAIGH",
+        "bless, salute",
+        "Beannaím",
+        "I blesss"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Brostaigh",
+          "ENGLISH": "hurry",
+          "EXAMPLE": "brostaím"
+        },
+        {
+          "IRISH": "Bunaigh",
+          "ENGLISH": "found",
+          "EXAMPLE": "bunaím"
+        },
+        {
+          "IRISH": "Cabhraigh",
+          "ENGLISH": "help",
+          "EXAMPLE": "cabhraím"
+        },
+        {
+          "IRISH": "Ceannaigh",
+          "ENGLISH": "buy",
+          "EXAMPLE": "ceannaím"
+        },
+        {
+          "IRISH": "Gortaigh",
+          "ENGLISH": "hurt",
+          "EXAMPLE": "gortaím"
+        },
+        {
+          "IRISH": "Méadaigh",
+          "ENGLISH": "increase",
+          "EXAMPLE": "méadaím"
+        },
+        {
+          "IRISH": "Neartaigh",
+          "ENGLISH": "strengthen",
+          "EXAMPLE": "neartaím"
+        },
+        {
+          "IRISH": "Socraigh",
+          "ENGLISH": "settle",
+          "EXAMPLE": "socraím"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I order",
+        "ordaim",
+        "ordaíonn tú",
+        "ordaíonn sé",
+        "ordaímid",
+        "ordaíonn sibh",
+        "ordaíonn siad",
+        "Sb.",
+        "somebody orders",
+        "ordaítear",
+        "Diúltach",
+        "he does not order",
+        "ní ordaíonn sé",
+        "Ceisteach",
+        "does he order?",
+        "an ordaíonn sé?"
+      ],
+      "CAITE": [
+        "I ordered",
+        "d'ordaigh mé",
+        "d'ordaigh tú",
+        "d'ordaigh sé",
+        "d'ordaíomar",
+        "d'ordaigh sibh",
+        "d'ordaigh siad",
+        "Sb.",
+        "somebody ordered",
+        "ordaíodh",
+        "Diúltach",
+        "he did not order",
+        "níor ordaigh sé",
+        "Ceisteach",
+        "did he order?",
+        "ar ordaigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to order",
+        "d'ordainn",
+        "d'ordaíteá",
+        "d'ordaiodh sé",
+        "d'ordaímis",
+        "d'ordaiodh sibh",
+        "d'ordaídís",
+        "Sb.",
+        "somebodyused to order",
+        "d'ordaiti",
+        "Diúltach",
+        "he, used not order",
+        "ni ordaiodh sé",
+        "Ceisteach",
+        "used he order?",
+        "an ordaiodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall order",
+        "ordóidh mé",
+        "ordóidh tú",
+        "ordóidh sé",
+        "ordóimid",
+        "ordóidh sibh",
+        "ordóidh siad",
+        "Sb.",
+        "somebody will order",
+        "ordófar",
+        "Diúltach",
+        "he will not order",
+        "ní ordóidh sé",
+        "Ceisteach",
+        "will he order?",
+        "an ordóidh sé?"
+      ],
+      "M. COINN.": [
+        "I would order",
+        "d'ordóinn",
+        "d'ordófá",
+        "d'ordódh sé",
+        "d'ordóimis",
+        "d'ordódh sibh",
+        "d'ordóidís",
+        "Sb.",
+        "somebodywould order",
+        "d'ordófaí",
+        "Diúltach",
+        "he would not order",
+        "ní ordódh sé",
+        "Ceisteach",
+        "would he order?",
+        "an ordódh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may order",
+        "go n-ordaí mé",
+        "go n-ordaí tú",
+        "go n-ordaí sé",
+        "go n-ordaimid",
+        "go n-ordaí sibh",
+        "go n-ordaí siad",
+        "Sb.",
+        "maysomebodyorder",
+        "go n-ordaitear",
+        "Diultaeh",
+        "may he not order",
+        "nár ordaí sé"
+      ],
+      "M. ORD.": [
+        "order",
+        "ordaim",
+        "ordaigh",
+        "ordaiodh sé",
+        "ordaímis",
+        "ordaígí",
+        "ordaídís",
+        "Sb.",
+        "let somebody order",
+        "ordaítear",
+        "Diúltach",
+        "do not order",
+        "ná hordaigh"
+      ],
+      "AINM BRIATH.": [
+        "ordering",
+        "ordú"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "ordered",
+        "ordaithe"
+      ],
+      "TABLE_NAME": [
+        "ORDAIGH",
+        "order",
+        "Orcaím",
+        "I order"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Admhaigh",
+          "ENGLISH": "admit",
+          "EXAMPLE": "admhaím"
+        },
+        {
+          "IRISH": "Aontaigh",
+          "ENGLISH": "agree",
+          "EXAMPLE": "aontaím"
+        },
+        {
+          "IRISH": "Ardaigh",
+          "ENGLISH": "raise",
+          "EXAMPLE": "ardaím"
+        },
+        {
+          "IRISH": "Éalaigh",
+          "ENGLISH": "escape",
+          "EXAMPLE": "éalaím"
+        },
+        {
+          "IRISH": "Iompaigh",
+          "ENGLISH": "turn",
+          "EXAMPLE": "iompaim"
+        },
+        {
+          "IRISH": "Ionsaigh",
+          "ENGLISH": "attack",
+          "EXAMPLE": "ionsaim"
+        },
+        {
+          "IRISH": "Ullmhaigh",
+          "ENGLISH": "prepare",
+          "EXAMPLE": "ullmhaim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I gather",
+        "bailim",
+        "bailíonn tú",
+        "bailíonn sé",
+        "bailímid",
+        "bailionn sibh",
+        "bailionn siad",
+        "Sb.",
+        "somebody gathers",
+        "bailítear",
+        "Diúltach",
+        "he does not gather",
+        "ní bhailíonn sé",
+        "Ceisteach",
+        "does he gather?",
+        "an mbaílíonn sé?"
+      ],
+      "CAITE": [
+        "I gathered",
+        "bhailigh mé",
+        "bhailigh tú",
+        "bhailigh sé",
+        "bhailíomar",
+        "bhailigh sibh",
+        "bhailigh siad",
+        "Sb.",
+        "somebody gathered",
+        "bailiodh",
+        "Diúltach",
+        "he did not gather",
+        "níor bhailigh sé",
+        "Ceisteach",
+        "did he gather?",
+        "ar bhailigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to gather",
+        "bhailinn",
+        "bhailíteá",
+        "bhailíodh sé",
+        "bhailímis",
+        "bhailíodh sibh",
+        "bhailídís",
+        "Sb.",
+        "somebodyused to gather",
+        "bhailítí",
+        "Diúltach",
+        "he used not gather",
+        "ní bhailiodh. sé",
+        "Ceisteach",
+        "used he gather?",
+        "an mbailíodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall gather",
+        "baileoidh mé",
+        "baileoidh tú",
+        "baileoidh sé",
+        "baileoimid",
+        "baileoidh sibh",
+        "baileoidh siad",
+        "Sb.",
+        "somebody will gather",
+        "baileofar",
+        "Diúltach",
+        "he will not gather",
+        "ní bhaileoidh sé",
+        "Ceisteach",
+        "will he gather?",
+        "an mbaileoidh sé?"
+      ],
+      "M. COINN.": [
+        "I would gather",
+        "bhaileoinn",
+        "bhaileofá",
+        "bhaileodh sé",
+        "bhaileoimis",
+        "bhaileodh sibh",
+        "bhaileoidis",
+        "Sb.",
+        "somebodywould gather",
+        "bhaileofai",
+        "Diúltach",
+        "he would not gather",
+        "ní bhaileodh sé",
+        "Ceisteach",
+        "would he gather?",
+        "an mbaileodh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may gather",
+        "go mbailí mé",
+        "go mbailí tu",
+        "go mbailí sé",
+        "go mbailimid",
+        "go mbaili sibh",
+        "go mbailí siad",
+        "Sb.",
+        "maysomebodygather",
+        "go mbailitear",
+        "Diúltach",
+        "may he not gather",
+        "nár bhailí sé"
+      ],
+      "M. ORD.": [
+        "gather",
+        "bailim",
+        "bailigh",
+        "bailiodh sé",
+        "bailimis",
+        "bailfgi",
+        "bailidis",
+        "Sb.",
+        "let somebody gather",
+        "bailitear",
+        "Diúltach",
+        "do not gather",
+        "ná bailigh"
+      ],
+      "AINM BRIATH.": [
+        "gathering",
+        "baílíú"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "gathered",
+        "bailithe"
+      ],
+      "TABLE_NAME": [
+        "BAILIGH",
+        "gather",
+        "Bailím",
+        "I gather"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Ceistigh",
+          "ENGLISH": "question",
+          "EXAMPLE": "ceistím"
+        },
+        {
+          "IRISH": "Cuidigh",
+          "ENGLISH": "help",
+          "EXAMPLE": "puidím"
+        },
+        {
+          "IRISH": "Deisigh",
+          "ENGLISH": "fix",
+          "EXAMPLE": "deisím"
+        },
+        {
+          "IRISH": "Duisigh",
+          "ENGLISH": "awake",
+          "EXAMPLE": "dúisím"
+        },
+        {
+          "IRISH": "Eirigh",
+          "ENGLISH": "rise",
+          "EXAMPLE": "éirím"
+        },
+        {
+          "IRISH": "Maisigh",
+          "ENGLISH": "decorate",
+          "EXAMPLE": "maisim"
+        },
+        {
+          "IRISH": "Mtnigh",
+          "ENGLISH": "explain",
+          "EXAMPLE": "míním"
+        },
+        {
+          "IRISH": "Réitigh",
+          "ENGLISH": "settle, solve",
+          "EXAMPLE": "réitím"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I change",
+        "aistrim",
+        "aistríonn tú",
+        "aistríonn sé",
+        "aistrímid",
+        "aistríonn sibh",
+        "aistn'onn siad",
+        "Sb.",
+        "aístrítear",
+        "somebody changes",
+        "Diúltach",
+        "ní aistríonn sé",
+        "he does not change",
+        "Ceisteach",
+        "does he change?",
+        "an aistríonn sé?"
+      ],
+      "CAITE": [
+        "I changed",
+        "d'aistrigh mé",
+        "d'aistrigh tit",
+        "d'aistrigh sé",
+        "d'aistríomar",
+        "d'aistrigh sibh",
+        "d'aistrigh siad",
+        "Sb.",
+        "somebody changed",
+        "aistríodh",
+        "Diúltach",
+        "he did not change",
+        "níor aistrigh sé",
+        "Ceisteach",
+        "did he change?",
+        "ar aistrigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to change",
+        "d'aistn'nn",
+        "d'aistríteá",
+        "d'aistríodh sé",
+        "d'aistrímis",
+        "d'aistríodh sibh",
+        "d'aistrídís",
+        "Sb.",
+        "somebodyused to change",
+        "d'aistrítí",
+        "Diúltach",
+        "he used not change",
+        "ní aistriodh sé",
+        "Ceisteach",
+        "used he change?",
+        "an aistriodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall change",
+        "aistreoidh mé",
+        "aistreoidh tú",
+        "aistreoidh sé",
+        "aistreoimid",
+        "aistreoidh sibh",
+        "aistreoidh siad",
+        "Sb.",
+        "somebody will change",
+        "aistreofar",
+        "Diúltach",
+        "he will not change",
+        "ni aistreoidh sé",
+        "Ceisteach",
+        "will he change?",
+        "an aistreoidh sé?"
+      ],
+      "M. COINN.": [
+        "I would change",
+        "d'aistreoinn",
+        "d'aistreofá",
+        "d'aistreodh sé",
+        "d'aistreoimis",
+        "d'aistreodh sibh",
+        "d'aistreoidís",
+        "Sb.",
+        "somebodywould change",
+        "d'aistreofaí",
+        "Diúltach",
+        "he would not change",
+        "ní aistreodh sé",
+        "Ceisteach",
+        "would he change?",
+        "an aistreodh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may change",
+        "go n-aistrí mé",
+        "go n-aistrí tu",
+        "go n-aistrí sé",
+        "go n-aistrímid",
+        "go n-aistrí sibh",
+        "go n-aistrí siad",
+        "Sb.",
+        "maysomebodychange",
+        "go n-aistritear",
+        "Diúltach",
+        "may he not change",
+        "nár aistrí sé"
+      ],
+      "M. ORD.": [
+        "change",
+        "aistrím",
+        "aistrigh",
+        "aistríodh sé",
+        "aistrímis",
+        "aistrígí",
+        "aistrídís",
+        "Sb.",
+        "let somebody change",
+        "aistrítear",
+        "Diúltach",
+        "do not change",
+        "ná haistrigh"
+      ],
+      "AINM BRIATH.": [
+        "changing",
+        "aistriú"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "changed",
+        "aistrithe"
+      ],
+      "TABLE_NAME": [
+        "AISTRIGH",
+        "change, translate",
+        "Aistrím",
+        "I change"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Aimsigh",
+          "ENGLISH": "hit,aim",
+          "EXAMPLE": "aimsim"
+        },
+        {
+          "IRISH": "Aiséirigh",
+          "ENGLISH": "ris,again",
+          "EXAMPLE": "aiséirím"
+        },
+        {
+          "IRISH": "Ainmnigh",
+          "ENGLISH": "name",
+          "EXAMPLE": "ainmnim"
+        },
+        {
+          "IRISH": "Eirigh",
+          "ENGLISH": "rise",
+          "EXAMPLE": "éirím"
+        },
+        {
+          "IRISH": "Imigh",
+          "ENGLISH": "go",
+          "EXAMPLE": "imím"
+        },
+        {
+          "IRISH": "Impigh",
+          "ENGLISH": "beg,implore",
+          "EXAMPLE": "impím"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I tie",
+        "ceanglaim",
+        "ceanglaíonn tú",
+        "ceanglaíonn sé",
+        "ceanglaimid",
+        "ceanglaionn sibh",
+        "ceanglaionn siad",
+        "Sb.",
+        "somebody ties",
+        "ceanglaitear",
+        "Diúltach",
+        "he does not tie",
+        "ní cheanglaíonn sé",
+        "Ceisteach",
+        "does he tie?",
+        "an gceanglaíonn sé?"
+      ],
+      "CAITE": [
+        "I tied",
+        "cheangail mé",
+        "cheangail tú",
+        "cheangail sé",
+        "cheanglaiomar",
+        "cheangail sibh",
+        "cheangail siad",
+        "Sb.",
+        "somebody tied",
+        "ceanglaiodh",
+        "Diúltach",
+        "he did not tie",
+        "níor cheangail sé",
+        "Ceisteach",
+        "did he tie?",
+        "ar cheangail sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to tie",
+        "cheanglainn",
+        "cheanglaíteá",
+        "cheanglaíodh sé",
+        "cheanglaimis",
+        "cheanglaiodh sibh",
+        "cheanglaídís",
+        "Sb.",
+        "somebodyused to tie",
+        "cheanglaiti",
+        "Diúltach",
+        "he used not tie",
+        "ní cheanglaíodh sé",
+        "Ceisteach",
+        "used he tie?",
+        "an gceanglaíodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall tie",
+        "ceanglóidh mé",
+        "ceanglóidh tú",
+        "ceanglóidh sé",
+        "ceanglóimid",
+        "ceanglóidh sibh",
+        "ceanglóidh siad",
+        "Sb.",
+        "somebody will tie",
+        "ceanglófar",
+        "Diúltach",
+        "he will not tie",
+        "ní cheanglóidh sé",
+        "Ceisteach",
+        "will he tie?",
+        "an gceanglóidh sé?"
+      ],
+      "M. COINN.": [
+        "I would tie",
+        "cheanglóinn",
+        "cheanglófá",
+        "cheanglódh sé",
+        "cheanglóimis",
+        "cheanglódh sibh",
+        "cheanglóidís",
+        "Sb.",
+        "somebodywould tie",
+        "cheanglófaí",
+        "Diúltach",
+        "he would not tie",
+        "ní cheanglódh sé",
+        "Ceisteach",
+        "would he tie?",
+        "an gceanglódh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may tie",
+        "go gceanglaí mé",
+        "go gceanglaí tú",
+        "go gceanglaí sé",
+        "go gceanglaimid",
+        "go gceanglai sibh",
+        "go gceanglai siad",
+        "Sb.",
+        "maysomebodytie",
+        "go gceanglaitear",
+        "Diúltach",
+        "may he not tie",
+        "nár cheanglaí sé"
+      ],
+      "M. ORD.": [
+        "tie",
+        "ceanglaim",
+        "ceangail",
+        "ceanglaiodh sé",
+        "ceanglaírnis",
+        "ceanglaígí",
+        "ceanglaídís",
+        "Sb.",
+        "let somebody tie",
+        "ceanglaitear",
+        "Diúltach",
+        "do not tie",
+        "ná ceangail"
+      ],
+      "AINM BRIATH.": [
+        "tying",
+        "ceangal"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "tied",
+        "ceangailte"
+      ],
+      "TABLE_NAME": [
+        "CEANGAIL",
+        "tie, bind",
+        "Ceanglaím",
+        "I tie"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Eitil",
+          "ENGLISH": "fly",
+          "EXAMPLE": "eitlím"
+        },
+        {
+          "IRISH": "Codail",
+          "ENGLISH": "sleep",
+          "EXAMPLE": "codlaim"
+        },
+        {
+          "IRISH": "Cuimil",
+          "ENGLISH": "rub",
+          "EXAMPLE": "cuimlim"
+        },
+        {
+          "IRISH": "Muscail",
+          "ENGLISH": "awake",
+          "EXAMPLE": "músclaím"
+        },
+        {
+          "IRISH": "Oscail",
+          "ENGLISH": "open",
+          "EXAMPLE": "osclaím"
+        },
+        {
+          "IRISH": "Tochail",
+          "ENGLISH": "dig",
+          "EXAMPLE": "tochlaím"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I threaten",
+        "bagraim",
+        "bagraíonn tú",
+        "bagraíonn sé",
+        "bagraímid",
+        "bagraíonn sibh",
+        "bagraíonn siad",
+        "Sb.",
+        "somebodythreatens",
+        "bagraítear",
+        "Diúltach",
+        "he does not threaten",
+        "ní bhagraíonn sé",
+        "Ceisteach",
+        "does he threaten?",
+        "an mbagraíonn sé?"
+      ],
+      "CAITE": [
+        "I threatened",
+        "bhagair mé",
+        "bhagair tú",
+        "bhagair sé",
+        "bhagraiomar",
+        "bhagair sibh",
+        "bhagair siad",
+        "Sb.",
+        "somebodythreatened",
+        "bagraiodh",
+        "Diúltach",
+        "he did not threaten",
+        "níor bhagair sé",
+        "Ceisteach",
+        "did he threaten?",
+        "ar bhagair sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to threaten",
+        "bhagrainn",
+        "bhagraíteá",
+        "bhagraíodh sé",
+        "bhagraímis",
+        "bhagraíodh sibh",
+        "bhagraídís",
+        "Sb.",
+        "somebodyused to threaten",
+        "bhagraítí",
+        "Diúltach",
+        "he used not threaten",
+        "ní bhagraíodh sé",
+        "Ceisteach",
+        "used he threaten?",
+        "an mbagraíodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall threaten",
+        "bagróidh mé",
+        "bagróidh tú",
+        "bagróidh sé",
+        "bagróimid",
+        "bagróidh sibh",
+        "bagróidh siad",
+        "Sb.",
+        "somebodywill threaten",
+        "bagrófar",
+        "Diúltach",
+        "he will not threaten",
+        "ní bhagróidh sé",
+        "Ceisteach",
+        "will he threaten?",
+        "an mbagróidh sé?"
+      ],
+      "M. COINN.": [
+        "I would threaten",
+        "bhagróinn",
+        "bhagrófá",
+        "bhagródh sé",
+        "bhagróimis",
+        "bhagródh sibh",
+        "bhagróidís",
+        "Sb.",
+        "somebodywould threaten",
+        "bhagrófaí",
+        "Diúltach",
+        "he would not threaten",
+        "ní bhagródh sé",
+        "Ceisteach",
+        "would he threaten?",
+        "an mbagródh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may threaten",
+        "go mbagrai mé",
+        "go mbagraí tú",
+        "go mbagraí sé",
+        "go mbagraimid",
+        "go mbagrai sibh",
+        "go mbagrai siad",
+        "Sb.",
+        "maysomebodythreaten",
+        "go mbagraitear",
+        "Diúltach",
+        "may he not threaten",
+        "nár bhagraí sé"
+      ],
+      "M. ORD.": [
+        "threaten",
+        "bagraim",
+        "bagair",
+        "bagraiodh sé",
+        "bagraimis",
+        "bagraigi",
+        "bagraidis",
+        "Sb.",
+        "let somebody threaten",
+        "bagraitear",
+        "Diúltach",
+        "do not threaten",
+        "ná bagair"
+      ],
+      "AINM BRIATH.": [
+        "threatening",
+        "bagairt"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "threatened",
+        "bagartha"
+      ],
+      "TABLE_NAME": [
+        "BAGAIR",
+        "threaten",
+        "Bagraím",
+        "I threaten"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Agair",
+          "ENLGISH": "avenge",
+          "EXAMPLE": "agraÍm"
+        },
+        {
+          "IRISH": "Freagair",
+          "ENLGISH": "answer",
+          "EXAMPLE": "freagraim"
+        },
+        {
+          "IRISH": "Fógair",
+          "ENLGISH": "announce",
+          "EXAMPLE": "fógraím"
+        },
+        {
+          "IRISH": "Imir",
+          "ENLGISH": "play",
+          "EXAMPLE": "imrim"
+        },
+        {
+          "IRISH": "Iompair",
+          "ENLGISH": "carry",
+          "EXAMPLE": "iompraim"
+        },
+        {
+          "IRISH": "íobair",
+          "ENLGISH": "sacrifice",
+          "EXAMPLE": "íobraím"
+        },
+        {
+          "IRISH": "Labhair",
+          "ENLGISH": "speak",
+          "EXAMPLE": "labhraim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I tell",
+        "insim",
+        "insíonn tú",
+        "insíonn sé",
+        "insimid",
+        "insionn sibh",
+        "insionn siad",
+        "Sb.",
+        "somebody tells",
+        "insítear",
+        "Diúltach",
+        "he does not tell",
+        "ní insíonn sé",
+        "Ceisteach",
+        "does he tell?",
+        "an insionn sé?"
+      ],
+      "CAITE": [
+        "I told",
+        "d'inis mé",
+        "d'inis tú",
+        "d'inis sé",
+        "d'insíomar",
+        "d'inis sibh",
+        "d'inis siad",
+        "Sb.",
+        "somebody told",
+        "insíodh",
+        "Diúltach",
+        "he did not tell",
+        "níor inis sé",
+        "Ceisteach",
+        "did he tell?",
+        "ar inis sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to tell",
+        "d'insinn",
+        "d'insíteá",
+        "d'insíodh sé",
+        "d'insímis",
+        "d'insíodh sibh",
+        "d'insídís",
+        "Sb.",
+        "somebody used to tell",
+        "d'insítí",
+        "Diúltach",
+        "he used not tell",
+        "ní insíodh sé",
+        "Ceisteach",
+        "used he tell?",
+        "an insiodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall tell",
+        "inseoidh mé",
+        "inseoidh tú",
+        "inseoidh sé",
+        "inseoimid",
+        "inseoidh sibh",
+        "inseoidh siad",
+        "Sb.",
+        "somebody will tell",
+        "inseofar",
+        "Diúltach",
+        "he will not tell",
+        "ni inseoidh sé",
+        "Ceisteach",
+        "will he tell?",
+        "an inseoidh sé?"
+      ],
+      "M. COINN.": [
+        "I would tell",
+        "d'inseoinn",
+        "d'inseofá",
+        "d'inseodh sé",
+        "d'inseoimis",
+        "d'inseodh sibh",
+        "d'inseoidis",
+        "Sb.",
+        "somebody would tell",
+        "d'inseofaí",
+        "Diúltach",
+        "he.would not tell",
+        "ní inseodh sé",
+        "Ceisteach",
+        "would he tell?",
+        "an inseodh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may tell",
+        "go n-insí mé",
+        "go n-insí tú",
+        "go n-insí sé",
+        "go n-insimid",
+        "go n-insí sibh",
+        "go n-insí siad",
+        "Sb.",
+        "may somebody tell",
+        "go n-insítear",
+        "Diúltach",
+        "may he not tell",
+        "nár insí sé"
+      ],
+      "M. ORD.": [
+        "tell",
+        "insím",
+        "inis",
+        "insiodh sé",
+        "insimis",
+        "insígí",
+        "insídís",
+        "Sb.",
+        "let somebody tell",
+        "insítear",
+        "Diúltach",
+        "do not tell",
+        "ná hinis"
+      ],
+      "AINM BRIATH.": [
+        "telling",
+        "insint"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "told",
+        "inste"
+      ],
+      "TABLE_NAME": [
+        "INIS",
+        "tell",
+        "Insím",
+        "I tell"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Aithris",
+          "ENGLISH": "recite,imitate",
+          "EXAMPLE": "aithrisim"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I defend",
+        "cosnaim",
+        "cosnaíonn tú",
+        "cosnaíonn sé",
+        "cosnaímid",
+        "cosnaíonn sibh",
+        "cosnaíonn siad",
+        "Sb.",
+        "somebody defends",
+        "cosnaítear",
+        "Diúltach",
+        "he does not defend",
+        "ní chosnaíonn sé",
+        "Ceisteach",
+        "does he defend?",
+        "an gcosnaíonn sé?"
+      ],
+      "CAITE": [
+        "I defended",
+        "chosain mé",
+        "chosain tú",
+        "chosain sé",
+        "chosnaiomar",
+        "chosain sibh",
+        "chosain siad",
+        "Sb.",
+        "somebody defended",
+        "cosnaíodh",
+        "Diúltach",
+        "he did not defend",
+        "níor chosain sé",
+        "Ceisteach",
+        "did he defend?",
+        "ar chosain sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to defend",
+        "chosnainn",
+        "chosnaíteá",
+        "chosnaíodh sé",
+        "chosnaímis",
+        "chosnaíodh sibh",
+        "chosnaídís",
+        "Sb.",
+        "somebody used to defend",
+        "chosnaítí",
+        "Diúltach",
+        "he used not defend",
+        "ní chosnaíodh sé",
+        "Ceisteach",
+        "used he defend?",
+        "an gcosnaíodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall defend",
+        "cosnóidh mé",
+        "cosnóidh tú",
+        "cosnóidh sé",
+        "cosnóimid",
+        "cosnóidh sibh",
+        "cosnóidh siad",
+        "Sb.",
+        "somebody will defend",
+        "cosnófar",
+        "Diúltach",
+        "he will not defend",
+        "ní chosnóidh sé",
+        "Ceisteach",
+        "will he defend?",
+        "an gcosnóidh sé?"
+      ],
+      "M. COINN.": [
+        "I would defend",
+        "chosnóinn",
+        "chosnófá",
+        "chosnódh sé",
+        "chosnóimis",
+        "chosnódh sibh",
+        "chosnóidís",
+        "Sb.",
+        "somebody would defend",
+        "chosnófaí",
+        "Diúltach",
+        "he would not defend",
+        "ní chosnódh sé",
+        "Ceisteach",
+        "would he defend?",
+        "an gcosnódh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may defend",
+        "go gcosnaí mé",
+        "go gcosnaí tú",
+        "go gcosnaí sé",
+        "go gcosnaímid",
+        "go gcosnaí sibh",
+        "go gcosnaí siad",
+        "Sb.",
+        "may somebody defend",
+        "go gcosnaítear",
+        "Diúltach",
+        "may he not defend",
+        "nár chosnaí sé"
+      ],
+      "M. ORD.": [
+        "defend",
+        "cosnaim",
+        "cosain",
+        "cosnaiodh sé",
+        "cosnaímis",
+        "cosnaígí",
+        "cosnaídís",
+        "Sb.",
+        "let somebody defend",
+        "cosnaítear",
+        "Diúltach",
+        "do not defend",
+        "ná cosain"
+      ],
+      "AINM BRIATH.": [
+        "defending",
+        "cosaint"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "defended",
+        "cosanta"
+      ],
+      "TABLE_NAME": [
+        "COSAIN",
+        "defend, cost",
+        "Cosnaím",
+        "I defend"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Aithin",
+          "ENGLISH": "recognise",
+          "EXAMPLE": "aithním"
+        },
+        {
+          "IRISH": "Cogain",
+          "ENGLISH": "chew",
+          "EXAMPLE": "cognaím"
+        },
+        {
+          "IRISH": "Tionscain",
+          "ENGLISH": "institute",
+          "EXAMPLE": "tionscnaím"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I banish",
+        "dibn'm",
+        "díbríonn tú",
+        "díbríonn sé",
+        "díbrímid",
+        "díbríonn sibh",
+        "díbríonn siad",
+        "Sb.",
+        "somebody banishes",
+        "díbrítear",
+        "Diúltach",
+        "he does not banish",
+        "ní dhíbríonn sé",
+        "Ceisteach",
+        "does he banish?",
+        "an ndíbríonn sé?"
+      ],
+      "CAITE": [
+        "I banished",
+        "dhíbir mé",
+        "dhibir tú",
+        "dhíbir sé",
+        "dhíbríomar",
+        "dhibir sibh",
+        "dhíbir siad",
+        "Sb.",
+        "somebody banished",
+        "díbríodh",
+        "Diúltach",
+        "he did not banish",
+        "níor dhibir sé",
+        "Ceisteach",
+        "did he banish?",
+        "ar dhibir sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to banish",
+        "dhibrihn",
+        "dhíbríteá",
+        "dhíbríodh sé",
+        "dhíbrímis",
+        "dhíbríodh sibh",
+        "dhíbrídís",
+        "Sb.",
+        "somebodyused to banish",
+        "dhíbrítí",
+        "Diúltach",
+        "he used not banish",
+        "ní dhíbríodh sé",
+        "Ceisteach",
+        "used he banish?",
+        "an ndíbríodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall banish",
+        "díbreoidh mé",
+        "díbreoidh tú",
+        "díbreoidh sé",
+        "díbreoimíd",
+        "díbreoidh sibh",
+        "díbreoidh siad",
+        "Sb.",
+        "somebody will banish",
+        "díbreofar",
+        "Diúltach",
+        "he will not banish",
+        "ní dhíbreoidh sé",
+        "Ceisteach",
+        "will he banish?",
+        "an ndíbreoidh sé?"
+      ],
+      "M. COINN.": [
+        "I would banish",
+        "dbibreoinn",
+        "dhibreofá",
+        "dhíbreodh sé",
+        "dhibreoimis",
+        "dhibreodh sibh",
+        "dhíbreoidís",
+        "Sb.",
+        "somebody would banish",
+        "dhíbreofaí",
+        "Diúltach",
+        "he would not banish",
+        "ni dhibreodh sé",
+        "Ceisteach",
+        "would he banish?",
+        "an ndíbreodh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may banish",
+        "go ndíbrí mé",
+        "go ndíbrí tú",
+        "go ndíbrí sé",
+        "Go ndíbrímid",
+        "go ndíbrí sibh",
+        "go ndíbrí siad",
+        "Sb.",
+        "may somebody banish",
+        "go ndíbrítear",
+        "Diúltach",
+        "may he not banish",
+        "nár dhíbrí sé"
+      ],
+      "M. ORD.": [
+        "banish",
+        "dibrím",
+        "dibir",
+        "díbríodh  sé",
+        "díbrímis",
+        "díbrígí",
+        "díbrídís",
+        "Sb.",
+        "let somebody banish",
+        "díbrítear",
+        "Diúltach",
+        "do not banish",
+        "ná díbir"
+      ],
+      "AINM BRIATH.": [
+        "banishing",
+        "dibirt"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "banished",
+        "díbeartha"
+      ],
+      "TABLE_NAME": [
+        "DÍBIR",
+        "banish, exile",
+        "Díbrím",
+        "I banish"
+      ],
+      "SIMILAR_TO": [
+        {
+          "IRISH": "Foghlaim",
+          "ENGLISH": "learn",
+          "EXAMPLE": "foghlaimím"
+        },
+        {
+          "IRISH": "Tuirling",
+          "ENGLISH": "descend,alight",
+          "EXAMPLE": "tuirlingím"
+        },
+        {
+          "IRISH": "Fulaing",
+          "ENGLISH": "suffer",
+          "EXAMPLE": "fulaingím"
+        },
+        {
+          "IRISH": "Taistil",
+          "ENGLISH": "trave",
+          "EXAMPLE": "ltaistealaím"
+        },
+        {
+          "IRISH": "Tarraing",
+          "ENGLISH": "pull,draw",
+          "EXAMPLE": "tarraingím"
+        },
+        {
+          "IRISH": "Freastai",
+          "ENGLISH": "lattend,wait-on",
+          "EXAMPLE": "freastalaím"
+        }
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I come",
+        "tagaim",
+        "tagann tú",
+        "tagann sé",
+        "tagaimid",
+        "tagann sibh",
+        "tagann siad",
+        "Sb.",
+        "somebody comes",
+        "tagtar",
+        "Diúltach",
+        "he does not come",
+        "ní thagann sé",
+        "Ceisteach",
+        "does he come?",
+        "an dtagann sé?"
+      ],
+      "CAITE": [
+        "I came",
+        "tháinig mé",
+        "tháinig tú",
+        "tháinig sé",
+        "thángamar",
+        "tháinig sibh",
+        "tháinig siad",
+        "Sb.",
+        "somebody came",
+        "thángthas",
+        "Diúltach",
+        "he did not come",
+        "níor tháinig sé",
+        "Ceisteach",
+        "did he come?",
+        "ar tháinig sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to come",
+        "thagainn",
+        "thagtá",
+        "thagadh sé",
+        "thagaimis",
+        "thagadh sibh",
+        "thagaidis",
+        "Sb.",
+        "somebody used to come",
+        "thagtaí",
+        "Diúltach",
+        "he used not come",
+        "ni thagadh sé",
+        "Ceisteach",
+        "used he come?",
+        "an dtagadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall come",
+        "tiocfaidh mé",
+        "tiocfaidh tú",
+        "tiocfaidh sé",
+        "tiocfaimid",
+        "tiocfaidh sibh",
+        "tiocfaidh siad",
+        "Sb.",
+        "somebody will come",
+        "tiocfar",
+        "Diúltach",
+        "he will not come",
+        "ni thiocfaidh sé",
+        "Ceisteach",
+        "will he come?",
+        "an dtiocfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would come",
+        "thiocfainn",
+        "thiocfá",
+        "thiocfadh sé",
+        "thiocfaimis",
+        "thiocfadh sibh",
+        "thiocfaidfs",
+        "Sb.",
+        "somebody would come",
+        "thiocfaí",
+        "Diúltach",
+        "he would not come",
+        "ní thiocfadh sé",
+        "Ceisteach",
+        "would he come?",
+        "an dtiocfadh sé?"
+      ],
+      "M. ORD.": [
+        "come",
+        "tagaim",
+        "tar",
+        "tagadh sé",
+        "tagaimis",
+        "tagaigí",
+        "tagaídís",
+        "Sb.",
+        "let somebody come",
+        "tagtar",
+        "Diúltach",
+        "do not come",
+        "ná tar"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may come",
+        "go dtaga mé",
+        "go dtaga tú",
+        "go dtaga sé",
+        "go dtagaimid",
+        "go dtaga sibh",
+        "go dtaga siad",
+        "Sb.",
+        "mays omebody come",
+        "go dtagtar",
+        "Diúltach",
+        "may he not come",
+        "nár thaga sé"
+      ],
+      "AINM BRIATH.": [
+        "coming",
+        "teacht"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "come",
+        "tagtha"
+      ],
+      "TABLE_NAME": [
+        "TAR",
+        "come",
+        "Tagaim",
+        "I come"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I hear",
+        "cloisim",
+        "cloiseann tu",
+        "cloiseann sé",
+        "cloisimid",
+        "cloiseann sibh",
+        "cloiseann siad",
+        "Sb.",
+        "somebody hears",
+        "cloistear",
+        "Diúltach",
+        "he does not hear",
+        "ní chloiseann sé",
+        "Ceisteach",
+        "does he hear?",
+        "an gcloiseann sé?"
+      ],
+      "CAITE": [
+        "I heard",
+        "chuala mé",
+        "chuala tú",
+        "chuala sé",
+        "chualamar",
+        "chuala sibh",
+        "chuala siad",
+        "Sb.",
+        "somebody heard",
+        "chualathas",
+        "Diúltach",
+        "he did not hear",
+        "níor chuala sé",
+        "Ceisteach",
+        "did he hear?",
+        "ar chuala sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to heat",
+        "chloisinn",
+        "chloisteá",
+        "chloiseadh sé",
+        "chloisimis",
+        "chloiseadh sibh",
+        "chloisidís",
+        "Sb.",
+        "somebodyused to hear",
+        "chloistí",
+        "Diúltach",
+        "he used not hear",
+        "ni chloiseadh sé",
+        "Ceisteach",
+        "used he hear?",
+        "an gcloiseadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall hear",
+        "cloisfidh mé",
+        "cloisfidh tú",
+        "cloisfidh sé",
+        "cloisfimid",
+        "cloisfidh sibh",
+        "cloisfidh siad",
+        "Sb.",
+        "somebody will hear",
+        "cloisfear",
+        "Diúltach",
+        "he will not hear",
+        "ni chloisfidh sé",
+        "Ceisteach",
+        "will he hear?",
+        "an gcloisfidh sé?"
+      ],
+      "M. COINN.": [
+        "I would hear",
+        "chloisfinn",
+        "chloisfeá",
+        "chloisfeadh sé",
+        "chloisfimis",
+        "chloisfeadh sibh",
+        "chloisfidís",
+        "Sb.",
+        "somebody would hear",
+        "chloisfí",
+        "Diúltach",
+        "he would not hear",
+        "ni chloisfeadh sé",
+        "Ceisteach",
+        "would he hear?",
+        "an gcloisfeadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may hear",
+        "go gcloise mé",
+        "go gcloise tú",
+        "go gcloise sé",
+        "go gcloisimid",
+        "go gcloise sibh",
+        "go gcloise siad",
+        "Sb.",
+        "may somebody hear",
+        "go gcloistear",
+        "Diúltach",
+        "may he not hear",
+        "nár chloise sé"
+      ],
+      "M. ORD.": [
+        "hear",
+        "cloisim",
+        "—",
+        "cloiseadh sé",
+        "cloisimis",
+        "—",
+        "cloisidís",
+        "Sb.",
+        "let somebody hear",
+        "cloistear",
+        "Diúltach",
+        "let me not hear",
+        "ná cloisim"
+      ],
+      "AINM BRIATH.": [
+        "hearing",
+        "cloisteáil"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "heard",
+        "cloiste"
+      ],
+      "TABLE_NAME": [
+        "CLOIS",
+        "hear",
+        "Cloisim",
+        "I hear"
+      ],
+      "NOTE": "In the M. ORD. Imperative we can use Éist and Éistigí listen for the 2nd. person sing,and plural of the verb 'Clois' or 'Cluin'."
+    },
+    {
+      "LÁITH.": [
+        "I hear",
+        "cluinim",
+        "cluineann tu",
+        "cluineann se",
+        "cluinimid",
+        "cluineann sibh",
+        "cluineann siad",
+        "Sb.",
+        "somebody hears",
+        "cluintear",
+        "Diúltach",
+        "he does not hear",
+        "ní chluineann sé",
+        "Ceisteach",
+        "does he hear?",
+        "an gcluineann sé?"
+      ],
+      "CAITE": [
+        "I heard",
+        "chuala mé",
+        "chuala tú",
+        "chuala sé",
+        "chualamar",
+        "chuala sibh",
+        "chuala siad",
+        "Sb.",
+        "somebody heard",
+        "chualathas",
+        "Diúltach",
+        "he did not hear",
+        "níor chuala sé",
+        "Ceisteach",
+        "did he hear?",
+        "ar chuala sé?."
+      ],
+      "GH. CHAITE": [
+        "I used to hear",
+        "chluininn",
+        "chluinteá",
+        "chuineadh sé",
+        "chluinimis",
+        "chluineadh sibh",
+        "chluinidís",
+        "Sb.",
+        "somebodyused to hear",
+        "chluinti",
+        "Diúltach",
+        "he used not hear",
+        "ní chluineadh sé",
+        "Ceisteach",
+        "used he hear?",
+        "an gcluineadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall hear",
+        "cluinfidh mé",
+        "cluinfidh tú",
+        "cluinfidh se",
+        "cluinfimid",
+        "cluinfidh sibh",
+        "cluinfidh siad",
+        "Sb.",
+        "somebody will hear",
+        "cluinfear",
+        "Diúltach",
+        "he will not hear",
+        "ní chluinfidh sé",
+        "Ceisteach",
+        "will he hear?",
+        "an gcluinfidh sé?"
+      ],
+      "M. COINN.": [
+        "I would hear",
+        "chluinfinn",
+        "chluinfeá",
+        "chluinfeadh se",
+        "chluinfimis",
+        "chluinfeadh sibh",
+        "chluinfidís",
+        "Sb.",
+        "somebody would hear",
+        "chluinfí",
+        "Diúltach",
+        "he would not hear",
+        "ní chluinfeadh sé",
+        "Ceisteach",
+        "would he hear?",
+        "an gcluinfeadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may hear",
+        "go gcluine mé",
+        "go gcluine tú",
+        "go gcluine sé",
+        "go gcluinimid",
+        "go gcluine sibh",
+        "go gcluine siad",
+        "Sb.",
+        "may somebody hear",
+        "go gcluintear",
+        "Diúltach",
+        "may he not hear",
+        "nár chluine sé"
+      ],
+      "M. ORD.": [
+        "hear",
+        "cluinim",
+        "-",
+        "cluineadh sé",
+        "cluinimis",
+        "-",
+        "cluinidís",
+        "Sb.",
+        "let somebody hear",
+        "cluintear",
+        "Diúltach",
+        "let me not hear",
+        "ná cluinim"
+      ],
+      "AINM BRIATH.": [
+        "hearing",
+        "cluinstin"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "heard",
+        "cluinte"
+      ],
+      "TABLE_NAME": [
+        "CLUIN",
+        "hear",
+        "Cluinim",
+        "I hear"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I see",
+        "feicim",
+        "feiceann tú",
+        "feiceann se",
+        "feicimid",
+        "feiceann sibh",
+        "feiceann siad",
+        "Sb.",
+        "somebody sees",
+        "feictear",
+        "Diúltach",
+        "he does not see",
+        "ní fheiceann sé",
+        "Ceisteach",
+        "does he see?",
+        "an bhfeiceann sé?"
+      ],
+      "CAITE": [
+        "I saw",
+        "chonaic mé",
+        "chonaic tú",
+        "chonaic sé",
+        "chonaiceamar",
+        "chonaic sibh",
+        "chonaic siad",
+        "Sb.",
+        "somebody saw",
+        "chonacthas",
+        "Diúltach",
+        "he did not see",
+        "ní fhaca sé",
+        "Ceisteach",
+        "did he see?",
+        "an bhfaca sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to see",
+        "d'fheicinn",
+        "d'fheicteá",
+        "d'fheiceadh sé",
+        "d'fheicimis",
+        "d'fheiceadh sibh",
+        "d'fheicidís",
+        "Sb.",
+        "somebody used to see",
+        "d'fheictí",
+        "Diúltach",
+        "he used not see",
+        "ní fheiceadh sé",
+        "Ceisteach",
+        "used he see?",
+        "an bhfeiceadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall see",
+        "feicfidh mé",
+        "feicfidh tú",
+        "feicfidh sé",
+        "feicfimid",
+        "feicfidh sibh",
+        "feicfidh siad",
+        "Sb.",
+        "somebody will see",
+        "feicfear",
+        "Diúltach",
+        "he will not see",
+        "ni fheicfidh sé",
+        "Ceisteach",
+        "will he see?",
+        "an bhfeicfidh se?"
+      ],
+      "M. COINN.": [
+        "I would see",
+        "d'fheicfinn",
+        "d'fheicfeá",
+        "d'fheicfeadh sé",
+        "d'fheicfimis",
+        "d'fheicfeadh sibh",
+        "d'fheicfidís",
+        "Sb.",
+        "somebodywould see",
+        "d'fheicfí",
+        "Diúltach",
+        "he would not see",
+        "ní fheicfeadh sé",
+        "Ceisteach",
+        "would he see?",
+        "an bhfeicfeadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may see",
+        "go bhfeíce mé",
+        "go bhfeíce tú",
+        "go bhfeice sé",
+        "go bhfeicimid",
+        "go bhfeice sibh",
+        "go bhfeice siad",
+        "Sb.",
+        "may somebody see",
+        "go bhfeictear",
+        "Diúltach",
+        "may he not see",
+        "nár fheice sé"
+      ],
+      "M. ORD.": [
+        "see",
+        "feicim",
+        "feic",
+        "feiceadh sé",
+        "feicimis",
+        "feicigí",
+        "feicidís",
+        "Sb.",
+        "let somebody see",
+        "feictear",
+        "Diúltach",
+        "do not see",
+        "ná feic"
+      ],
+      "AINM BRIATH.": [
+        "seeing",
+        "feiceáfl"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "seen",
+        "feicthe"
+      ],
+      "TABLE_NAME": [
+        "FEIC",
+        "see",
+        "Feicim",
+        "I see"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I go",
+        "téim",
+        "téann tú",
+        "téann sé",
+        "téimid",
+        "téann sibh",
+        "téann siad",
+        "Sb.",
+        "somebody goes",
+        "téitear",
+        "Diúltach",
+        "he does not go",
+        "ní théann sé",
+        "Ceisteach",
+        "does he go?",
+        "an dtéann sé?"
+      ],
+      "CAITE": [
+        "I went",
+        "chuaigh mé",
+        "chuaigh tú",
+        "chuaigh sé",
+        "chuamar",
+        "chuaigh sibh",
+        "chuaigh siad",
+        "Sb.",
+        "somebody went",
+        "chuathas",
+        "Diúltach",
+        "he did not go",
+        "ní dheachaigh sé",
+        "Ceisteach",
+        "did he go?",
+        "an ndeachaigh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to go",
+        "théinn",
+        "théiteá",
+        "théadh sé",
+        "théimis",
+        "théadh sibh",
+        "théidís",
+        "Sb.",
+        "somebody used to go",
+        "théití",
+        "Diúltach",
+        "he used not go",
+        "ní théadh sé",
+        "Ceisteach",
+        "used he go?",
+        "an dtéadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall go",
+        "rachaidh mé",
+        "rachaidh tú",
+        "rachaidh sé",
+        "rachaimid",
+        "rachaidh sibh",
+        "rachaidh siad",
+        "Sb.",
+        "somebody will go",
+        "rachfar",
+        "Diúltach",
+        "he will not go",
+        "ni rachaidh sé",
+        "Ceisteach",
+        "will he go?",
+        "an rachaidh sé?"
+      ],
+      "M. COINN.": [
+        "",
+        "rachainn",
+        "rachfá",
+        "rachadh sé",
+        "rachaimis",
+        "rachadh sibh",
+        "rachaidis",
+        "Sb.",
+        "somebody would go",
+        "rachfaí",
+        "Diúltach",
+        "he would not go",
+        "ní rachadh sé",
+        "Ceisteach",
+        "would he go?",
+        "an rachadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may go",
+        "go dté mé",
+        "go dté tú",
+        "go dté sé",
+        "go dtéimid",
+        "go dté sibh",
+        "go dté siad",
+        "Sb.",
+        "may somebody go",
+        "go dtéitear",
+        "Diúltach",
+        "may he not go",
+        "nár thé sé"
+      ],
+      "M. ORD.": [
+        "go",
+        "téim",
+        "téigh",
+        "téadh sé",
+        "téimis",
+        "téigí",
+        "téidís",
+        "Sb.",
+        "let somebody go",
+        "téitear",
+        "Diúltach",
+        "do not go",
+        "ná téigh"
+      ],
+      "AINM BRIATH.": [
+        "going",
+        "dul"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "gone",
+        "dulta"
+      ],
+      "TABLE_NAME": [
+        "TÉIGH",
+        "go",
+        "Téim",
+        "I go"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I say",
+        "deirim",
+        "deir tú",
+        "deir sé",
+        "deirimid",
+        "deir sibh",
+        "deir siad",
+        "Sb.",
+        "somebody says",
+        "deirtear",
+        "Diúltach",
+        "he does not say",
+        "ní deir sé",
+        "Ceisteach",
+        "does he say?",
+        "an ndeir sé?"
+      ],
+      "CAITE": [
+        "I said",
+        "dúirt mé",
+        "dúirt tú",
+        "dúirt sé",
+        "dúramar",
+        "dúirt sibh",
+        "dúirt siad",
+        "Sb.",
+        "somebody said",
+        "dúradh",
+        "Diúltach",
+        "he did not say",
+        "ní dúirt sé",
+        "Ceisteach",
+        "did he say?",
+        "an ndúirt sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to say",
+        "deirinn",
+        "deirteá",
+        "deireadh sé",
+        "deirimis",
+        "deireadh sibh",
+        "deiridís",
+        "Sb.",
+        "somebody used to say",
+        "deirtí",
+        "Diúltach",
+        "he used not say",
+        "ní deireadh sé",
+        "Ceisteach",
+        "used he say?",
+        "an ndeireadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall say",
+        "déarfaidh mé",
+        "déarfaidh tú",
+        "déarfaidh sé",
+        "déarfaimid",
+        "déarfaidh sibh",
+        "déarfaidh siad",
+        "Sb.",
+        "somebody will say",
+        "déarfar",
+        "Diúltach",
+        "he will not say",
+        "ní déarfaidh sé",
+        "Ceisteach",
+        "will he say?",
+        "an ndéarfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would say",
+        "déarfainn",
+        "déarfá",
+        "déarfadh sé",
+        "déarfaimis",
+        "déarfadh sibh",
+        "déarfaidís",
+        "Sb.",
+        "somebody would say",
+        "déarfaí",
+        "Diúltach",
+        "he would not say",
+        "ní déarfadh sé",
+        "Ceisteach",
+        "would he say?",
+        "an ndéarfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may say",
+        "go ndeire mé",
+        "go ndeire tu",
+        "go ndeire sé",
+        "go ndeirimid",
+        "go ndeire sibh",
+        "go ndeire siad",
+        "Sb.",
+        "may somebody say",
+        "go ndeirtear",
+        "Diúltach",
+        "may he not say",
+        "nár dheire sé"
+      ],
+      "M. ORD.": [
+        "say",
+        "abraim",
+        "abair",
+        "abradh sé",
+        "abraimis",
+        "abraigi",
+        "abraidis",
+        "Sb.",
+        "let somebody say",
+        "abairtear",
+        "Diúltach",
+        "do not say",
+        "ná habair"
+      ],
+      "AINM BRIATH.": [
+        "saying",
+        "rá"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "said",
+        "ráite"
+      ],
+      "TABLE_NAME": [
+        "ABAIR",
+        "say",
+        "Deirim",
+        "I say"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I give",
+        "tugaim",
+        "tugann tú",
+        "tugann sé",
+        "tugaimid",
+        "tugann sibh",
+        "tugann siad",
+        "Sb.",
+        "somebody gives",
+        "tugtar",
+        "Diúltach",
+        "he does not give",
+        "ní thugann sé",
+        "Ceisteach",
+        "does he give?",
+        "an dtugann sé?"
+      ],
+      "CAITE": [
+        "I gave",
+        "thug mé",
+        "thug tu",
+        "thug sé",
+        "thugamar",
+        "thug sibh",
+        "thug siad",
+        "Sb.",
+        "somebody gave",
+        "tugadh",
+        "Diúltach",
+        "he did not give",
+        "níor thug sé",
+        "Ceisteach",
+        "did he give?",
+        "ar thug sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to give",
+        "thugainn",
+        "thugtá",
+        "thugadh sé",
+        "thugaimis",
+        "thugadh sibh",
+        "thugaidís",
+        "Sb.",
+        "somebody used to give",
+        "thugtaí",
+        "Diúltach",
+        "he used not give",
+        "ní thúgadh sé",
+        "Ceisteach",
+        "used he give?",
+        "an dtugadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall give",
+        "tabharfaidh mé",
+        "tabharfaidh tú",
+        "tabharfaidh sé",
+        "tabharfaimid",
+        "tabharfaidh sibh",
+        "tabharfaidh siad",
+        "Sb.",
+        "somebody will give",
+        "tabharfar",
+        "Diúltach",
+        "he will not give",
+        "ní thabharfaidh sé",
+        "Ceisteach",
+        "will he give?",
+        "an dtabharfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would give",
+        "thabharfainn",
+        "thabharfá",
+        "thabharfadh sé",
+        "thabharfaimis",
+        "thabharfadh sibh",
+        "thabharfaidís",
+        "Sb.",
+        "somebody would give",
+        "thabharfai",
+        "Diúltach",
+        "he would not give",
+        "ní thabharfadh sé",
+        "Ceisteach",
+        "would he give?",
+        "an dtabharfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may give",
+        "go dtuga mé",
+        "go dtuga tú",
+        "go dtuga sé",
+        "go dtugaimid",
+        "go dtuga sibh",
+        "go dtuga siad",
+        "Sb.",
+        "may somebody give",
+        "go dtugtar",
+        "Diúltach",
+        "may he not give",
+        "nár thuga sé"
+      ],
+      "M. ORD.": [
+        "give",
+        "tugaim",
+        "tabhair",
+        "tugadh sé",
+        "tugaimis",
+        "tugaigí",
+        "tugaidís",
+        "Sb.",
+        "let somebody give",
+        "tugtar",
+        "Diúltach",
+        "do not give",
+        "ná tabhair"
+      ],
+      "AINM BRIATH.": [
+        "giving",
+        "tabhairt"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "given",
+        "tugtha"
+      ],
+      "TABLE_NAME": [
+        "TABHAIR",
+        "give",
+        "Tugaim",
+        "I give"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I eat",
+        "ithim",
+        "itheann tu",
+        "itheann sé",
+        "ithimid",
+        "itheann sibh",
+        "itheann siad",
+        "Sb.",
+        "somebody eats",
+        "itear",
+        "Diúltach",
+        "he does not eat",
+        "ní itheann se",
+        "Ceisteach",
+        "does he eat?",
+        "an itheann sé?"
+      ],
+      "CAITE": [
+        "I ate",
+        "d'ith mé",
+        "d'ith tú",
+        "d'ith sé",
+        "d'itheamar",
+        "d'ith sibh",
+        "d'ith siad",
+        "Sb.",
+        "somebody ate",
+        "itheadh",
+        "Diúltach",
+        "he did not eat",
+        "níor ith sé",
+        "Ceisteach",
+        "did he eat?",
+        "ar ith sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to eat",
+        "d'ithinn",
+        "d'iteá",
+        "d'itheadh sé",
+        "d'ithimis",
+        "d'itheadh sibh",
+        "d'ithidís",
+        "Sb.",
+        "somebody used to eat",
+        "d'ití",
+        "Diúltach",
+        "he used not eat",
+        "ní itheadh sé",
+        "Ceisteach",
+        "used he eat?",
+        "an itheadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall eat",
+        "íosfaidh mé",
+        "íosfaidh tu",
+        "íosfaidh sé",
+        "íosfaimid",
+        "íosfaidh sibh",
+        "íosfaidh siad",
+        "Sb.",
+        "somebody will eat",
+        "íosfar",
+        "Diúltach",
+        "he will not eat",
+        "ní íosfaidh sé",
+        "Ceisteach",
+        "will he eat?",
+        "an íosfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would eat",
+        "d'íosfainn",
+        "d'íosfá",
+        "d'íosfadh sé",
+        "d'íosfaimis",
+        "d'íosfadh sibh",
+        "d'íosfaidís",
+        "Sb.",
+        "somebody would eat",
+        "d'íosfaí",
+        "Diúltach",
+        "he would not eat",
+        "ní íosfadh sé",
+        "Ceisteach",
+        "would he eat?",
+        "an íosfadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may eat",
+        "go n-ithe mé",
+        "go n-ithe tu",
+        "go n-ithe sé",
+        "go n-ithirnid",
+        "go n-ithe sibh",
+        "go n-ithe siad",
+        "Sb.",
+        "may somebody eat",
+        "go n-itear",
+        "Diúltach",
+        "may he not eat",
+        "nár ithe sé"
+      ],
+      "M. ORD.": [
+        "eat",
+        "ithim",
+        "ith",
+        "itheadh sé",
+        "ithimis",
+        "ithigi",
+        "ithidís",
+        "Sb.",
+        "let somebody eat",
+        "itear",
+        "Diúltach",
+        "do not eat",
+        "ná hith"
+      ],
+      "AINM BRIATH.": [
+        "eating",
+        "ithe"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "eaten",
+        "ite"
+      ],
+      "TABLE_NAME": [
+        "ITH",
+        "eat",
+        "Ithim",
+        "I eat"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I do",
+        "déanaim",
+        "déanann tú",
+        "déanann sé",
+        "déanaimid",
+        "déanann sibh",
+        "déanann siad",
+        "Sb.",
+        "somebody does",
+        "déantar",
+        "Diúltach",
+        "he does not do",
+        "ní dhéanann sé",
+        "Ceisteach",
+        "does he do?",
+        "an ndéanann sé?"
+      ],
+      "CAITE": [
+        "I did",
+        "rinne mé",
+        "rinne tú",
+        "rinne sé",
+        "rinneamar",
+        "rinne sibh",
+        "rinne siad",
+        "Sb.",
+        "somebody did",
+        "rinneadh",
+        "Diúltach",
+        "he did not do",
+        "ní dhearna sé",
+        "Ceisteach",
+        "did he do?",
+        "an ndearna sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to do",
+        "dhéanainn",
+        "dhéantá",
+        "dhéanadh sé",
+        "dhéanaimis",
+        "dhéanadh sibh",
+        "dhéanaidís",
+        "Sb.",
+        "somebody used to do",
+        "dhéantaí",
+        "Diúltach",
+        "he used not do",
+        "ní dhéanadh sé",
+        "Ceisteach",
+        "used he do?",
+        "an ndéanadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall do",
+        "déanfaidh mé",
+        "déanfaidh tú",
+        "déanfaidh sé",
+        "déanfaimid",
+        "déanfaidh sibh",
+        "déanfaidh siad",
+        "Sb.",
+        "somebody will do",
+        "déanfar",
+        "Diúltach",
+        "he will not do",
+        "ní dhéanfaidh sé",
+        "Ceisteach",
+        "will he do?",
+        "an ndéanfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would do",
+        "dhéanfainn",
+        "dhéanfá",
+        "dhéanfadh sé",
+        "dhéanfaimis",
+        "dhéanfadh sibh",
+        "dhéanfaidís",
+        "Sb.",
+        "somebody would do",
+        "dhéanfaí",
+        "Diúltach",
+        "he would not do",
+        "ní dhéanfadh sé",
+        "Ceisteach",
+        "would he do?",
+        "an ndéanfadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may do",
+        "go ndéana mé",
+        "go ndéana tú",
+        "go ndéana sé",
+        "go ndéanaimid",
+        "go ndéana sibh",
+        "go ndéana siad",
+        "Sb.",
+        "may somebody do",
+        "go ndéantar",
+        "Diúltach",
+        "may he not do",
+        "nár dhéana sé"
+      ],
+      "M. ORD.": [
+        "do",
+        "déanaim",
+        "déan",
+        "déanadh sé",
+        "déanaimis",
+        "déanaigí",
+        "déanaidís",
+        "Sb.",
+        "let somebody do",
+        "déantar",
+        "Diúltach",
+        "do not do",
+        "ná déan"
+      ],
+      "AINM BRIATH.": [
+        "doing",
+        "déanamh"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "done",
+        "déanta"
+      ],
+      "TABLE_NAME": [
+        "DÉAN",
+        "do, make",
+        "Déanaim",
+        "I do"
+      ],
+      "NOTE": "In the 'Caite' 'I did', one may use Dhein mé and Níor dhein mé srl. instead of 'Rinne mé' and 'Ní dhearna mé srl.'"
+    },
+    {
+      "LÁITH.": [
+        "I get",
+        "faighim",
+        "faigheann tú",
+        "faigheann sé",
+        "faighimid",
+        "faigheann sibh",
+        "faigheann siad",
+        "Sb.",
+        "somebody gets",
+        "faightear",
+        "Diúltach",
+        "he does not get",
+        "ní fhaigheann sé",
+        "Ceisteach",
+        "does he get?",
+        "an bhfaigheann sé?"
+      ],
+      "CAITE": [
+        "I got",
+        "fuair. mé",
+        "fuair tú",
+        "fuair sé",
+        "fuaireamar",
+        "fuair sibh",
+        "fuair siad",
+        "Sb.",
+        "somebody got",
+        "fuarthas",
+        "Diúltach",
+        "he did not get",
+        "ní bhfuair sé",
+        "Ceisteach",
+        "did he get?",
+        "an bhfuair sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to get",
+        "d'fhaighinn",
+        "d'fhaighteá",
+        "d'fhaigheadh sé",
+        "d'fhaighimis",
+        "d'fhaigheadh sibh",
+        "d'fhaighidís",
+        "Sb.",
+        "somebody used to get",
+        "d'fhaightí",
+        "Diúltach",
+        "he used not get",
+        "ní fhaigheadh sé",
+        "Ceisteach",
+        "used he get?",
+        "an bhfaigheadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall get",
+        "gheobhaidh mé",
+        "gheobhaidh tú",
+        "gheobhaidh sé",
+        "gheobhaimid",
+        "gheobhaidh sibh",
+        "gheobhaidh siad",
+        "Sb.",
+        "somebody will get",
+        "gheofar",
+        "Diúltach",
+        "he will not get",
+        "ní bhfaighidh sé",
+        "Ceisteach",
+        "will he get?",
+        "an bhfaighidh sé?"
+      ],
+      "M. COINN.": [
+        "I would get",
+        "gheobhainn",
+        "gheofá",
+        "gheobhadh sé",
+        "gheobhaimis",
+        "gheobhadh sibh",
+        "gheobhaidís",
+        "Sb.",
+        "somebody would get",
+        "gheofaí",
+        "Diúltach",
+        "he would not get",
+        "ní bhfaigheadh sé",
+        "Ceisteach",
+        "would he get?",
+        "an bhfaigheadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may get",
+        "go bhfaighe mé",
+        "go bhfaighe tú",
+        "go bhfaighe sé",
+        "go bhfaighimid",
+        "go bhfaighe sibh",
+        "go bhfaighe siad",
+        "Sb.",
+        "may somebody get",
+        "go bhfaightear",
+        "Diúltach",
+        "may he not get",
+        "nár fhaighe sé"
+      ],
+      "M. ORD.": [
+        "get",
+        "faighim",
+        "faigh",
+        "faigheadh sé",
+        "faighimis",
+        "faighigí",
+        "faighidís",
+        "Sb.",
+        "let somebody get",
+        "faightear",
+        "Diúltach",
+        "do not get",
+        "ná faigh"
+      ],
+      "AINM BRIATH.": [
+        "getting",
+        "fail"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "got",
+        "faighte"
+      ],
+      "TABLE_NAME": [
+        "FAIGH",
+        "get",
+        "Faighim",
+        "I get"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I catch",
+        "beirim",
+        "beireann tú",
+        "beireann sé",
+        "beirimid",
+        "beireann sibh",
+        "beireann siad",
+        "Sb.",
+        "somebody catches",
+        "beirtear",
+        "Diúltach",
+        "he does not catch",
+        "ní bheireann sé",
+        "Ceisteach",
+        "does he catch?",
+        "an mbeireann sé?"
+      ],
+      "CAITE": [
+        "I caught",
+        "rug mé",
+        "rug tú",
+        "rug sé",
+        "rugamar",
+        "rug sibh",
+        "rug siad",
+        "Sb.",
+        "somebody caught",
+        "rugadh",
+        "Diúltach",
+        "he did not catch",
+        "níor rug sé",
+        "Ceisteach",
+        "did he catch?",
+        "ar rug sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to catch",
+        "bheirinn",
+        "bheirteá",
+        "bheireadh sé",
+        "bheirimís",
+        "bheireadh sibh",
+        "bheiridís",
+        "Sb.",
+        "somebody used to catch",
+        "bheirtí",
+        "Diúltach",
+        "he used not catch",
+        "ní bheireadh sé",
+        "Ceisteach",
+        "used he catch?",
+        "an mbeireadh sé?"
+      ],
+      "FÁIS.": [
+        "I shall catch",
+        "béarfaidh mé",
+        "béarfaidh tu",
+        "béarfaidh sé",
+        "béarfaimid",
+        "béarfaidh sibh",
+        "béarfaidh siad",
+        "Sb.",
+        "somebody will catch",
+        "béarfar",
+        "Diúltach",
+        "he will not catch",
+        "ní bhéarfaidh sé",
+        "Ceisteach",
+        "will he catch?",
+        "an mbéarfaidh sé?"
+      ],
+      "M. COINN.": [
+        "I would catch",
+        "bhéarfainn",
+        "bhéarfá",
+        "bhéarfadh sé",
+        "bhéarfaimis",
+        "bhéarfadh sibh",
+        "bhéarfaidís",
+        "Sb.",
+        "somebody would catch",
+        "bhéarfaí",
+        "Diúltach",
+        "he would not catch",
+        "ní bhéarfadh sé",
+        "Ceisteach",
+        "would he catch?",
+        "an mbéarfadh sé? "
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may catch",
+        "go mbeire mé",
+        "go mbeire tú",
+        "go mbeire sé",
+        "go mbeirimid",
+        "go mbeire sibh",
+        "go mbeire siad",
+        "Sb.",
+        "may somebody catch",
+        "go mbeirtear",
+        "Diúltach",
+        "may he not catch",
+        "nár bheire sé"
+      ],
+      "M. ORD.": [
+        "catch",
+        "beirim",
+        "beir",
+        "beireadh sé",
+        "beirimis",
+        "beirigí",
+        "beiridís",
+        "Sb.",
+        "let somebody catch",
+        "beirtear",
+        "Diúltach",
+        "do not catch",
+        "ná beir"
+      ],
+      "AINM BRIATH.": [
+        "catching",
+        "breith"
+      ],
+      "AIDIACHT BHRIATH.": [
+        "caught",
+        "beirthe"
+      ],
+      "TABLE_NAME": [
+        "BEIR",
+        "catch",
+        "Beirim",
+        "I catch"
+      ]
+    },
+    {
+      "LÁITH.": [
+        "I am",
+        "táim (tá mé)",
+        "tá tú",
+        "tá sé",
+        "táimid",
+        "tá sibh",
+        "tá siad",
+        "Sb.",
+        "somebody is",
+        "táthar",
+        "Diúltach",
+        "he is not",
+        "níl sé",
+        "Ceisteach",
+        "is he?",
+        "an bhfuil sé?"
+      ],
+      "GH. LÁITH.": [
+        "I am",
+        "bím",
+        "bíonn tú",
+        "bíonn sé",
+        "bímid",
+        "bíonn sibh",
+        "bíonn siad",
+        "Sb.",
+        "somebody is",
+        "bítear",
+        "Diúltach",
+        "he is not",
+        "ní bhíonn sé",
+        "Ceisteach",
+        "is he?",
+        "an mbíonn sé?"
+      ],
+      "CAITE": [
+        "I was",
+        "bhí mé",
+        "bhí tu",
+        "bhí sé",
+        "bhíomar",
+        "bhí sibh",
+        "bhí siad",
+        "Sb.",
+        "somebody was",
+        "bhíothas",
+        "Diúltach",
+        "he was not",
+        "ní raibh sé",
+        "Ceisteach",
+        "was he?",
+        "an raibh sé?"
+      ],
+      "GH. CHAITE": [
+        "I used to be",
+        "bhínn",
+        "bhíteá",
+        "bhíodh sé",
+        "bhímis",
+        "bhíodh sibh",
+        "bhídís",
+        "Sb.",
+        "somebody used to be",
+        "bhítí",
+        "Diúltach",
+        "he used not be",
+        "ní bhíodh sé",
+        "Ceisteach",
+        "used he be?",
+        "an mbíodh sé?"
+      ],
+      "FÁIS.": [
+        "I shall be",
+        "beidh mé",
+        "beidh tú",
+        "beidh sé",
+        "beimid",
+        "beidh sibh",
+        "beidh siad",
+        "Sb.",
+        "somebody will be",
+        "beifear",
+        "Diúltach",
+        "he will not be",
+        "ní bheidh sé",
+        "Ceisteach",
+        "will he be?",
+        "an mbeidh sé?"
+      ],
+      "M. COINN.": [
+        "I would be",
+        "bheinn",
+        "bheifeá",
+        "bheadh sé",
+        "bheimis",
+        "bheadh sibh",
+        "bheidís",
+        "Sb.",
+        "somebody would be",
+        "bheifí",
+        "Diúltach",
+        "he would not be",
+        "ní bheadh sé",
+        "Ceisteach",
+        "would he be?",
+        "an mbeadh sé?"
+      ],
+      "M. FOSH. LÁITH.": [
+        "that I may be",
+        "go raibh mé",
+        "go raibh tú",
+        "go raibh sé",
+        "go rabhaimid",
+        "go raibh sibh",
+        "go raibh siad",
+        "Sb.",
+        "may somebody be",
+        "go rabhthar",
+        "Diúltach",
+        "may he not be",
+        "ná raibh sé"
+      ],
+      "M. ORD.": [
+        "be",
+        "bím",
+        "bí",
+        "bíodh sé",
+        "bímis",
+        "bígí",
+        "bídís",
+        "Sb.",
+        "let somebody be",
+        "bítear",
+        "Diúltach",
+        "do not be",
+        "ná bí"
+      ],
+      "AINM BRIATH.": [
+        "to be",
+        "bheith"
+      ],
+      "TABLE_NAME": [
+        "BÍ",
+        "be",
+        "Táim",
+        "I am"
+      ]
+    }
+  ],
+  "VERB_LIST": [
+    {
+      "IRISH": "adhlaic",
+      "ENGLISH": "bury",
+      "IRISH_EXAMPLE": "adhlacaim",
+      "ENGLISH_EXAMPLE": "I bury",
+      "TABLE_REF": 13
+    },
+    {
+      "IRISH": "admhaigh",
+      "ENGLISH": "confess",
+      "IRISH_EXAMPLE": "admhaím",
+      "ENGLISH_EXAMPLE": "I confess",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "admhaigh",
+      "ENGLISH": "admit",
+      "IRISH_EXAMPLE": "admhaim",
+      "ENGLISH_EXAMPLE": "I admit",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "agraigh",
+      "ENGLISH": "avenge",
+      "IRISH_EXAMPLE": "agraím",
+      "ENGLISH_EXAMPLE": "I avenge",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "aimsigh",
+      "ENGLISH": "hit",
+      "IRISH_EXAMPLE": "aimsím",
+      "ENGLISH_EXAMPLE": "I hit",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "aimsigh",
+      "ENGLISH": "aim",
+      "IRISH_EXAMPLE": "aimsím",
+      "ENGLISH_EXAMPLE": "I aim",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "ainmnigh",
+      "ENGLISH": "name",
+      "IRISH_EXAMPLE": "ainmním",
+      "ENGLISH_EXAMPLE": "I name",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "aistrigh",
+      "ENGLISH": "change",
+      "IRISH_EXAMPLE": "aistrím",
+      "ENGLISH_EXAMPLE": "I change",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "aistrigh",
+      "ENGLISH": "translate",
+      "IRISH_EXAMPLE": "aistrím",
+      "ENGLISH_EXAMPLE": "I translate",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "aiséirigh",
+      "ENGLISH": "rise again",
+      "IRISH_EXAMPLE": "aiséirím",
+      "ENGLISH_EXAMPLE": "I rise again",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "aithnigh",
+      "ENGLISH": "recognise",
+      "IRISH_EXAMPLE": "aithním",
+      "ENGLISH_EXAMPLE": "I recognise",
+      "TABLE_REF": 21
+    },
+    {
+      "IRISH": "aithrisigh",
+      "ENGLISH": "imitate",
+      "IRISH_EXAMPLE": "aithrisim",
+      "ENGLISH_EXAMPLE": "I imitate",
+      "TABLE_REF": 20
+    },
+    {
+      "IRISH": "aithrisigh",
+      "ENGLISH": "recite",
+      "IRISH_EXAMPLE": "aithrisim",
+      "ENGLISH_EXAMPLE": "I recite",
+      "TABLE_REF": 20
+    },
+    {
+      "IRISH": "aontaigh",
+      "ENGLISH": "assent",
+      "IRISH_EXAMPLE": "aontaím",
+      "ENGLISH_EXAMPLE": "I assent",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "aontaigh",
+      "ENGLISH": "agree",
+      "IRISH_EXAMPLE": "aontaím",
+      "ENGLISH_EXAMPLE": "I agree",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "ardaigh",
+      "ENGLISH": "raise",
+      "IRISH_EXAMPLE": "ardaím",
+      "ENGLISH_EXAMPLE": "I raise",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "athbheoigh",
+      "ENGLISH": "revive",
+      "IRISH_EXAMPLE": "athbheoim",
+      "ENGLISH_EXAMPLE": "I revive",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "athbhuail",
+      "ENGLISH": "beat again",
+      "IRISH_EXAMPLE": "athbhuailim",
+      "ENGLISH_EXAMPLE": "I beat again",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "athcheistigh",
+      "ENGLISH": "re-examine",
+      "IRISH_EXAMPLE": "athcheistím",
+      "ENGLISH_EXAMPLE": "I re-examine",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "athdhíol",
+      "ENGLISH": "re-sell",
+      "IRISH_EXAMPLE": "athdhíolaim",
+      "ENGLISH_EXAMPLE": "I re-sell",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "athraigh",
+      "ENGLISH": "change",
+      "IRISH_EXAMPLE": "athraím",
+      "ENGLISH_EXAMPLE": "I change",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "athscríobh",
+      "ENGLISH": "re-write",
+      "IRISH_EXAMPLE": "athscriobhaim",
+      "ENGLISH_EXAMPLE": "I re-write",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "atóg",
+      "ENGLISH": "reconstruct",
+      "IRISH_EXAMPLE": "atógaim",
+      "ENGLISH_EXAMPLE": "I reconstruct",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "bacáil",
+      "ENGLISH": "bake",
+      "IRISH_EXAMPLE": "bacálaim",
+      "ENGLISH_EXAMPLE": "I bake",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "bagraigh",
+      "ENGLISH": "threaten",
+      "IRISH_EXAMPLE": "bagraím",
+      "ENGLISH_EXAMPLE": "I threaten",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "bailigh",
+      "ENGLISH": "gather",
+      "IRISH_EXAMPLE": "bailím",
+      "ENGLISH_EXAMPLE": "I gather",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "bain",
+      "ENGLISH": "takeoff",
+      "IRISH_EXAMPLE": "bainim",
+      "ENGLISH_EXAMPLE": "I takeoff",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "bain",
+      "ENGLISH": "cut",
+      "IRISH_EXAMPLE": "bainim",
+      "ENGLISH_EXAMPLE": "I cut",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "baistigh",
+      "ENGLISH": "baptise",
+      "IRISH_EXAMPLE": "baistím",
+      "ENGLISH_EXAMPLE": "I baptise",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "beannaigh",
+      "ENGLISH": "bless",
+      "IRISH_EXAMPLE": "beannaim",
+      "ENGLISH_EXAMPLE": "I bless",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "bearr",
+      "ENGLISH": "clip",
+      "IRISH_EXAMPLE": "bearraim",
+      "ENGLISH_EXAMPLE": "I clip",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "bearr",
+      "ENGLISH": "shave",
+      "IRISH_EXAMPLE": "bearraim",
+      "ENGLISH_EXAMPLE": "I shave",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "beartaigh",
+      "ENGLISH": "plan",
+      "IRISH_EXAMPLE": "beartaim",
+      "ENGLISH_EXAMPLE": "I plan",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "beartaigh",
+      "ENGLISH": "propose",
+      "IRISH_EXAMPLE": "beartaim",
+      "ENGLISH_EXAMPLE": "I propose",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "beathaigh",
+      "ENGLISH": "feed",
+      "IRISH_EXAMPLE": "beathaim",
+      "ENGLISH_EXAMPLE": "I feed",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "beir",
+      "ENGLISH": "catch",
+      "IRISH_EXAMPLE": "beirim",
+      "ENGLISH_EXAMPLE": "I catch",
+      "TABLE_REF": 33
+    },
+    {
+      "IRISH": "beoigh",
+      "ENGLISH": "liven",
+      "IRISH_EXAMPLE": "beoim",
+      "ENGLISH_EXAMPLE": "I liven",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "blais",
+      "ENGLISH": "taste",
+      "IRISH_EXAMPLE": "blaisim",
+      "ENGLISH_EXAMPLE": "I taste",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "bligh",
+      "ENGLISH": "milk",
+      "IRISH_EXAMPLE": "blím",
+      "ENGLISH_EXAMPLE": "I milk",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "bog",
+      "ENGLISH": "soften",
+      "IRISH_EXAMPLE": "bogaim",
+      "ENGLISH_EXAMPLE": "I soften",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "bog",
+      "ENGLISH": "loosen",
+      "IRISH_EXAMPLE": "bogaim",
+      "ENGLISH_EXAMPLE": "I loosen",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "breathnaigh",
+      "ENGLISH": "observe",
+      "IRISH_EXAMPLE": "breathnaím",
+      "ENGLISH_EXAMPLE": "I observe",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "bris",
+      "ENGLISH": "break",
+      "IRISH_EXAMPLE": "brisim",
+      "ENGLISH_EXAMPLE": "I break",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "bronn",
+      "ENGLISH": "bestow",
+      "IRISH_EXAMPLE": "bronnaim",
+      "ENGLISH_EXAMPLE": "I bestow",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "bronn",
+      "ENGLISH": "give",
+      "IRISH_EXAMPLE": "bronnaim",
+      "ENGLISH_EXAMPLE": "I give",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "brostaigh",
+      "ENGLISH": "hurry",
+      "IRISH_EXAMPLE": "brostaím",
+      "ENGLISH_EXAMPLE": "I hurry",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "brú",
+      "ENGLISH": "press",
+      "IRISH_EXAMPLE": "brúim",
+      "ENGLISH_EXAMPLE": "I press",
+      "TABLE_REF": 8
+    },
+    {
+      "IRISH": "buail",
+      "ENGLISH": "strike",
+      "IRISH_EXAMPLE": "buailim",
+      "ENGLISH_EXAMPLE": "I strike",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "buail",
+      "ENGLISH": "beat",
+      "IRISH_EXAMPLE": "buailim",
+      "ENGLISH_EXAMPLE": "I beat",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "buaigh",
+      "ENGLISH": "win",
+      "IRISH_EXAMPLE": "buaim",
+      "ENGLISH_EXAMPLE": "I win",
+      "TABLE_REF": 9
+    },
+    {
+      "IRISH": "bunaigh",
+      "ENGLISH": "establish",
+      "IRISH_EXAMPLE": "bunaím",
+      "ENGLISH_EXAMPLE": "I establish",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "bunaigh",
+      "ENGLISH": "found",
+      "IRISH_EXAMPLE": "bunaím",
+      "ENGLISH_EXAMPLE": "I found",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "béic",
+      "ENGLISH": "scream",
+      "IRISH_EXAMPLE": "béicim",
+      "ENGLISH_EXAMPLE": "I scream",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "cabhair",
+      "ENGLISH": "help",
+      "IRISH_EXAMPLE": "cabhraím",
+      "ENGLISH_EXAMPLE": "I help",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "caill",
+      "ENGLISH": "lose",
+      "IRISH_EXAMPLE": "caillim",
+      "ENGLISH_EXAMPLE": "I lose",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "caith",
+      "ENGLISH": "spend",
+      "IRISH_EXAMPLE": "caithim",
+      "ENGLISH_EXAMPLE": "I spend",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "caith",
+      "ENGLISH": "throw",
+      "IRISH_EXAMPLE": "caithim",
+      "ENGLISH_EXAMPLE": "I throw",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "can",
+      "ENGLISH": "sing",
+      "IRISH_EXAMPLE": "canaim",
+      "ENGLISH_EXAMPLE": "I sing",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "caoinigh",
+      "ENGLISH": "weep",
+      "IRISH_EXAMPLE": "caoiním",
+      "ENGLISH_EXAMPLE": "I weep",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "cas",
+      "ENGLISH": "turn",
+      "IRISH_EXAMPLE": "casaim",
+      "ENGLISH_EXAMPLE": "I turn",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cas",
+      "ENGLISH": "twist",
+      "IRISH_EXAMPLE": "casaim",
+      "ENGLISH_EXAMPLE": "I twist",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "ceadaigh",
+      "ENGLISH": "allow",
+      "IRISH_EXAMPLE": "ceadaím",
+      "ENGLISH_EXAMPLE": "I allow",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "ceadaigh",
+      "ENGLISH": "permit",
+      "IRISH_EXAMPLE": "ceadaím",
+      "ENGLISH_EXAMPLE": "I permit",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "ceangail",
+      "ENGLISH": "fasten",
+      "IRISH_EXAMPLE": "ceanglaím",
+      "ENGLISH_EXAMPLE": "I fasten",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "ceangail",
+      "ENGLISH": "tie",
+      "IRISH_EXAMPLE": "ceanglaím",
+      "ENGLISH_EXAMPLE": "I tie",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "ceannaigh",
+      "ENGLISH": "buy",
+      "IRISH_EXAMPLE": "ceannaím",
+      "ENGLISH_EXAMPLE": "I buy",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "ceap",
+      "ENGLISH": "think",
+      "IRISH_EXAMPLE": "ceapaim",
+      "ENGLISH_EXAMPLE": "I think",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "ceap",
+      "ENGLISH": "compose",
+      "IRISH_EXAMPLE": "ceapaim",
+      "ENGLISH_EXAMPLE": "I compose",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "ceartaigh",
+      "ENGLISH": "correct",
+      "IRISH_EXAMPLE": "ceartaím",
+      "ENGLISH_EXAMPLE": "I correct",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "ceiligh",
+      "ENGLISH": "conceal",
+      "IRISH_EXAMPLE": "ceilím",
+      "ENGLISH_EXAMPLE": "I conceal",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "ceiliúraigh",
+      "ENGLISH": "celebrate",
+      "IRISH_EXAMPLE": "ceiliúraim",
+      "ENGLISH_EXAMPLE": "I celebrate",
+      "TABLE_REF": 13
+    },
+    {
+      "IRISH": "ceistigh",
+      "ENGLISH": "question",
+      "IRISH_EXAMPLE": "ceistím",
+      "ENGLISH_EXAMPLE": "I question",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "ciallaigh",
+      "ENGLISH": "mean",
+      "IRISH_EXAMPLE": "ciallaím",
+      "ENGLISH_EXAMPLE": "I mean",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "ciontaigh",
+      "ENGLISH": "convict",
+      "IRISH_EXAMPLE": "ciontaím",
+      "ENGLISH_EXAMPLE": "I convict",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cior",
+      "ENGLISH": "comb",
+      "IRISH_EXAMPLE": "cioraim",
+      "ENGLISH_EXAMPLE": "I comb",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cleachtaigh",
+      "ENGLISH": "practise",
+      "IRISH_EXAMPLE": "cleachtaím",
+      "ENGLISH_EXAMPLE": "I practise",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "clisigh",
+      "ENGLISH": "fail",
+      "IRISH_EXAMPLE": "clisim",
+      "ENGLISH_EXAMPLE": "I fail",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "cloigh",
+      "ENGLISH": "overcome",
+      "IRISH_EXAMPLE": "cloim",
+      "ENGLISH_EXAMPLE": "I overcome",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "clois",
+      "ENGLISH": "hear",
+      "IRISH_EXAMPLE": "cloisim",
+      "ENGLISH_EXAMPLE": "I hear",
+      "TABLE_REF": 24
+    },
+    {
+      "IRISH": "cluin",
+      "ENGLISH": "hear",
+      "IRISH_EXAMPLE": "cluinim",
+      "ENGLISH_EXAMPLE": "I hear",
+      "TABLE_REF": 25
+    },
+    {
+      "IRISH": "clóbhuail",
+      "ENGLISH": "print",
+      "IRISH_EXAMPLE": "clóbhuailim",
+      "ENGLISH_EXAMPLE": "I print",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "clóscríobh",
+      "ENGLISH": "typewrite",
+      "IRISH_EXAMPLE": "clóscríobhaim",
+      "ENGLISH_EXAMPLE": "I typewrite",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "clúdaigh",
+      "ENGLISH": "cover",
+      "IRISH_EXAMPLE": "clúdaím",
+      "ENGLISH_EXAMPLE": "I cover",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cnag",
+      "ENGLISH": "strike",
+      "IRISH_EXAMPLE": "cnagaim",
+      "ENGLISH_EXAMPLE": "I strike",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cnag",
+      "ENGLISH": "knock",
+      "IRISH_EXAMPLE": "cnagaim",
+      "ENGLISH_EXAMPLE": "I knock",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cniotál",
+      "ENGLISH": "knit",
+      "IRISH_EXAMPLE": "cniotálaim",
+      "ENGLISH_EXAMPLE": "I knit",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "cnuas",
+      "ENGLISH": "gather",
+      "IRISH_EXAMPLE": "cnuasaim",
+      "ENGLISH_EXAMPLE": "I gather",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "codal",
+      "ENGLISH": "sleep",
+      "IRISH_EXAMPLE": "codlaím",
+      "ENGLISH_EXAMPLE": "I sleep",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "coimeád",
+      "ENGLISH": "keep",
+      "IRISH_EXAMPLE": "coimeádaim",
+      "ENGLISH_EXAMPLE": "I keep",
+      "TABLE_REF": 13
+    },
+    {
+      "IRISH": "coisricigh",
+      "ENGLISH": "bless",
+      "IRISH_EXAMPLE": "coisricim",
+      "ENGLISH_EXAMPLE": "I bless",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "comhairligh",
+      "ENGLISH": "advise",
+      "IRISH_EXAMPLE": "comhairlím",
+      "ENGLISH_EXAMPLE": "I advise",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "comhlion",
+      "ENGLISH": "fulfill",
+      "IRISH_EXAMPLE": "comhlionaim",
+      "ENGLISH_EXAMPLE": "I fulfill",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "corraigh",
+      "ENGLISH": "stir",
+      "IRISH_EXAMPLE": "corraím",
+      "ENGLISH_EXAMPLE": "I stir",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "corraigh",
+      "ENGLISH": "move",
+      "IRISH_EXAMPLE": "corraím",
+      "ENGLISH_EXAMPLE": "I move",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cosnaigh",
+      "ENGLISH": "defend",
+      "IRISH_EXAMPLE": "cosnaím",
+      "ENGLISH_EXAMPLE": "I defend",
+      "TABLE_REF": 21
+    },
+    {
+      "IRISH": "cosnaigh",
+      "ENGLISH": "cost",
+      "IRISH_EXAMPLE": "cosnaím",
+      "ENGLISH_EXAMPLE": "I cost",
+      "TABLE_REF": 21
+    },
+    {
+      "IRISH": "cothaigh",
+      "ENGLISH": "maintain",
+      "IRISH_EXAMPLE": "cothaím",
+      "ENGLISH_EXAMPLE": "I maintain",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cothaigh",
+      "ENGLISH": "feed",
+      "IRISH_EXAMPLE": "cothaím",
+      "ENGLISH_EXAMPLE": "I feed",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "creid",
+      "ENGLISH": "believe",
+      "IRISH_EXAMPLE": "creidim",
+      "ENGLISH_EXAMPLE": "I believe",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "crithigh",
+      "ENGLISH": "tremble",
+      "IRISH_EXAMPLE": "crithim",
+      "ENGLISH_EXAMPLE": "I tremble",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "croch",
+      "ENGLISH": "hang",
+      "IRISH_EXAMPLE": "crochaim",
+      "ENGLISH_EXAMPLE": "I hang",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "croithigh",
+      "ENGLISH": "shake",
+      "IRISH_EXAMPLE": "croithim",
+      "ENGLISH_EXAMPLE": "I shake",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "crom",
+      "ENGLISH": "stoop",
+      "IRISH_EXAMPLE": "cromaim",
+      "ENGLISH_EXAMPLE": "I stoop",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "crom",
+      "ENGLISH": "begin",
+      "IRISH_EXAMPLE": "cromaim",
+      "ENGLISH_EXAMPLE": "I begin",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cruaigh",
+      "ENGLISH": "harden",
+      "IRISH_EXAMPLE": "cruaim",
+      "ENGLISH_EXAMPLE": "I harden",
+      "TABLE_REF": 9
+    },
+    {
+      "IRISH": "cruinnigh",
+      "ENGLISH": "gather",
+      "IRISH_EXAMPLE": "cruinnim",
+      "ENGLISH_EXAMPLE": "I gather",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "cruinnigh",
+      "ENGLISH": "collect",
+      "IRISH_EXAMPLE": "cruinnim",
+      "ENGLISH_EXAMPLE": "I collect",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "cruthaigh",
+      "ENGLISH": "prove",
+      "IRISH_EXAMPLE": "cruthaím",
+      "ENGLISH_EXAMPLE": "I prove",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cruthaigh",
+      "ENGLISH": "form",
+      "IRISH_EXAMPLE": "cruthaím",
+      "ENGLISH_EXAMPLE": "I form",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cráigh",
+      "ENGLISH": "annoy",
+      "IRISH_EXAMPLE": "cráim",
+      "ENGLISH_EXAMPLE": "I annoy",
+      "TABLE_REF": 7
+    },
+    {
+      "IRISH": "cráigh",
+      "ENGLISH": "torment",
+      "IRISH_EXAMPLE": "cráim",
+      "ENGLISH_EXAMPLE": "I torment",
+      "TABLE_REF": 7
+    },
+    {
+      "IRISH": "críochnaigh",
+      "ENGLISH": "finnish",
+      "IRISH_EXAMPLE": "críochhaím",
+      "ENGLISH_EXAMPLE": "I finnish",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "crúigh",
+      "ENGLISH": "milk",
+      "IRISH_EXAMPLE": "crúim",
+      "ENGLISH_EXAMPLE": "I milk",
+      "TABLE_REF": 8
+    },
+    {
+      "IRISH": "cuidigh",
+      "ENGLISH": "help",
+      "IRISH_EXAMPLE": "cuidim",
+      "ENGLISH_EXAMPLE": "I help",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "cuimhhnigh",
+      "ENGLISH": "remember",
+      "IRISH_EXAMPLE": "cuimhním",
+      "ENGLISH_EXAMPLE": "I remember",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "cuimligh",
+      "ENGLISH": "rub",
+      "IRISH_EXAMPLE": "cuimlím",
+      "ENGLISH_EXAMPLE": "I rub",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "cuir",
+      "ENGLISH": "send",
+      "IRISH_EXAMPLE": "cuirim",
+      "ENGLISH_EXAMPLE": "I send",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "cuir",
+      "ENGLISH": "put",
+      "IRISH_EXAMPLE": "cuirim",
+      "ENGLISH_EXAMPLE": "I put",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "cum",
+      "ENGLISH": "compose",
+      "IRISH_EXAMPLE": "cumaim",
+      "ENGLISH_EXAMPLE": "I compose",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cum",
+      "ENGLISH": "shape",
+      "IRISH_EXAMPLE": "cumaim",
+      "ENGLISH_EXAMPLE": "I shape",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "cumhdaigh",
+      "ENGLISH": "protect",
+      "IRISH_EXAMPLE": "cumhdaim",
+      "ENGLISH_EXAMPLE": "I protect",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cáinigh",
+      "ENGLISH": "abuse",
+      "IRISH_EXAMPLE": "cáinim",
+      "ENGLISH_EXAMPLE": "I abuse",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "cóirigh",
+      "ENGLISH": "dress",
+      "IRISH_EXAMPLE": "cóirím",
+      "ENGLISH_EXAMPLE": "I dress",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "cóirigh",
+      "ENGLISH": "arrange",
+      "IRISH_EXAMPLE": "cóirím",
+      "ENGLISH_EXAMPLE": "I arrange",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "cónaigh",
+      "ENGLISH": "live",
+      "IRISH_EXAMPLE": "cónaím",
+      "ENGLISH_EXAMPLE": "I live",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "cúitigh",
+      "ENGLISH": "compensate",
+      "IRISH_EXAMPLE": "cúitím",
+      "ENGLISH_EXAMPLE": "I compensate",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "dealaigh",
+      "ENGLISH": "subtract",
+      "IRISH_EXAMPLE": "dealaím",
+      "ENGLISH_EXAMPLE": "I subtract",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "dearbh",
+      "ENGLISH": "declare",
+      "IRISH_EXAMPLE": "dearbhaím",
+      "ENGLISH_EXAMPLE": "I declare",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "dearbh",
+      "ENGLISH": "swear",
+      "IRISH_EXAMPLE": "dearbhaím",
+      "ENGLISH_EXAMPLE": "I swear",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "deimhnigh",
+      "ENGLISH": "affirm",
+      "IRISH_EXAMPLE": "deimhním",
+      "ENGLISH_EXAMPLE": "I affirm",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "Abair",
+      "ENGLISH": "say",
+      "IRISH_EXAMPLE": "deirim",
+      "ENGLISH_EXAMPLE": "I say",
+      "TABLE_REF": 28
+    },
+    {
+      "IRISH": "deisigh",
+      "ENGLISH": "fix",
+      "IRISH_EXAMPLE": "deisim",
+      "ENGLISH_EXAMPLE": "I fix",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "Díol",
+      "ENGLISH": "sell",
+      "IRISH_EXAMPLE": "diolaim",
+      "ENGLISH_EXAMPLE": "I sell",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "Díol",
+      "ENGLISH": "pay",
+      "IRISH_EXAMPLE": "diolaim",
+      "ENGLISH_EXAMPLE": "I pay",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "diúltaigh",
+      "ENGLISH": "deny",
+      "IRISH_EXAMPLE": "diúltaím",
+      "ENGLISH_EXAMPLE": "I deny",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "diúltaigh",
+      "ENGLISH": "refuse",
+      "IRISH_EXAMPLE": "diúltaím",
+      "ENGLISH_EXAMPLE": "I refuse",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "doirt",
+      "ENGLISH": "pour out",
+      "IRISH_EXAMPLE": "doirtim",
+      "ENGLISH_EXAMPLE": "I pour out",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "dreoigh",
+      "ENGLISH": "rot",
+      "IRISH_EXAMPLE": "dreoim",
+      "ENGLISH_EXAMPLE": "I rot",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "dreoigh",
+      "ENGLISH": "wither",
+      "IRISH_EXAMPLE": "dreoim",
+      "ENGLISH_EXAMPLE": "I wither",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "druid",
+      "ENGLISH": "approach",
+      "IRISH_EXAMPLE": "druidim",
+      "ENGLISH_EXAMPLE": "I approach",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "Dún",
+      "ENGLISH": "close",
+      "IRISH_EXAMPLE": "dunaim",
+      "ENGLISH_EXAMPLE": "I close",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "déan",
+      "ENGLISH": "do",
+      "IRISH_EXAMPLE": "déanaim",
+      "ENGLISH_EXAMPLE": "I do",
+      "TABLE_REF": 31
+    },
+    {
+      "IRISH": "déan",
+      "ENGLISH": "make",
+      "IRISH_EXAMPLE": "déanaim",
+      "ENGLISH_EXAMPLE": "I make",
+      "TABLE_REF": 31
+    },
+    {
+      "IRISH": "díbrigh",
+      "ENGLISH": "banish",
+      "IRISH_EXAMPLE": "díbrím",
+      "ENGLISH_EXAMPLE": "I banish",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "díbrigh",
+      "ENGLISH": "exile",
+      "IRISH_EXAMPLE": "díbrím",
+      "ENGLISH_EXAMPLE": "I exile",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "dírigh",
+      "ENGLISH": "aim",
+      "IRISH_EXAMPLE": "dírím",
+      "ENGLISH_EXAMPLE": "I aim",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "dírigh",
+      "ENGLISH": "straighten",
+      "IRISH_EXAMPLE": "dírím",
+      "ENGLISH_EXAMPLE": "I straighten",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "dóigh",
+      "ENGLISH": "burn",
+      "IRISH_EXAMPLE": "dóim",
+      "ENGLISH_EXAMPLE": "I burn",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "dúisigh",
+      "ENGLISH": "awake",
+      "IRISH_EXAMPLE": "dúisím",
+      "ENGLISH_EXAMPLE": "I awake",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "éag",
+      "ENGLISH": "die",
+      "IRISH_EXAMPLE": "éagaim",
+      "ENGLISH_EXAMPLE": "I die",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "eagraigh",
+      "ENGLISH": "edit",
+      "IRISH_EXAMPLE": "eagraím",
+      "ENGLISH_EXAMPLE": "I edit",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "eagraigh",
+      "ENGLISH": "organise",
+      "IRISH_EXAMPLE": "eagraím",
+      "ENGLISH_EXAMPLE": "I organise",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "éalaigh",
+      "ENGLISH": "escape",
+      "IRISH_EXAMPLE": "ealaím",
+      "ENGLISH_EXAMPLE": "I escape",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "faigh",
+      "ENGLISH": "get",
+      "IRISH_EXAMPLE": "faighim",
+      "ENGLISH_EXAMPLE": "I get",
+      "TABLE_REF": 32
+    },
+    {
+      "IRISH": "fan",
+      "ENGLISH": "wait",
+      "IRISH_EXAMPLE": "fanaim",
+      "ENGLISH_EXAMPLE": "I wait",
+      "TABLE_REF": 2
+    },
+    {
+      "IRISH": "fan",
+      "ENGLISH": "stay",
+      "IRISH_EXAMPLE": "fanaim",
+      "ENGLISH_EXAMPLE": "I stay",
+      "TABLE_REF": 2
+    },
+    {
+      "IRISH": "feic",
+      "ENGLISH": "see",
+      "IRISH_EXAMPLE": "feicim",
+      "ENGLISH_EXAMPLE": "I see",
+      "TABLE_REF": 26
+    },
+    {
+      "IRISH": "feistigh",
+      "ENGLISH": "decorate",
+      "IRISH_EXAMPLE": "feistím",
+      "ENGLISH_EXAMPLE": "I decorate",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "feistigh",
+      "ENGLISH": "arrange",
+      "IRISH_EXAMPLE": "feistím",
+      "ENGLISH_EXAMPLE": "I arrange",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "fill",
+      "ENGLISH": "return",
+      "IRISH_EXAMPLE": "fillim",
+      "ENGLISH_EXAMPLE": "I return",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "fill",
+      "ENGLISH": "fold",
+      "IRISH_EXAMPLE": "fillim",
+      "ENGLISH_EXAMPLE": "I fold",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "figh",
+      "ENGLISH": "weave",
+      "IRISH_EXAMPLE": "fím",
+      "ENGLISH_EXAMPLE": "I weave",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "figh",
+      "ENGLISH": "plait",
+      "IRISH_EXAMPLE": "fím",
+      "ENGLISH_EXAMPLE": "I plait",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "fiosraigh",
+      "ENGLISH": "inquire",
+      "IRISH_EXAMPLE": "fiosraim",
+      "ENGLISH_EXAMPLE": "I inquire",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "foghlaim",
+      "ENGLISH": "learn",
+      "IRISH_EXAMPLE": "foghlaimím",
+      "ENGLISH_EXAMPLE": "I learn",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "foilsigh",
+      "ENGLISH": "publish",
+      "IRISH_EXAMPLE": "foilsím",
+      "ENGLISH_EXAMPLE": "I publish",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "foilsigh",
+      "ENGLISH": "reveal",
+      "IRISH_EXAMPLE": "foilsím",
+      "ENGLISH_EXAMPLE": "I reveal",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "freagraigh",
+      "ENGLISH": "answer",
+      "IRISH_EXAMPLE": "freagraím",
+      "ENGLISH_EXAMPLE": "I answer",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "freastal",
+      "ENGLISH": "attend",
+      "IRISH_EXAMPLE": "freastalaím",
+      "ENGLISH_EXAMPLE": "I attend",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "freastal",
+      "ENGLISH": "wait on",
+      "IRISH_EXAMPLE": "freastalaím",
+      "ENGLISH_EXAMPLE": "I wait on",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "fuaigh",
+      "ENGLISH": "sew",
+      "IRISH_EXAMPLE": "fuaim",
+      "ENGLISH_EXAMPLE": "I sew",
+      "TABLE_REF": 9
+    },
+    {
+      "IRISH": "fuascal",
+      "ENGLISH": "deliver",
+      "IRISH_EXAMPLE": "fuasclaím",
+      "ENGLISH_EXAMPLE": "I deliver",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "fulaing",
+      "ENGLISH": "suffer",
+      "IRISH_EXAMPLE": "fulaingim",
+      "ENGLISH_EXAMPLE": "I suffer",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "fág",
+      "ENGLISH": "leave",
+      "IRISH_EXAMPLE": "fágaim",
+      "ENGLISH_EXAMPLE": "I leave",
+      "TABLE_REF": 2
+    },
+    {
+      "IRISH": "fás",
+      "ENGLISH": "grow",
+      "IRISH_EXAMPLE": "fásaim",
+      "ENGLISH_EXAMPLE": "I grow",
+      "TABLE_REF": 2
+    },
+    {
+      "IRISH": "féach",
+      "ENGLISH": "look",
+      "IRISH_EXAMPLE": "féachaim",
+      "ENGLISH_EXAMPLE": "I look",
+      "TABLE_REF": 2
+    },
+    {
+      "IRISH": "fíafraigh",
+      "ENGLISH": "inquire",
+      "IRISH_EXAMPLE": "fíafraím",
+      "ENGLISH_EXAMPLE": "I inquire",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "fíafraigh",
+      "ENGLISH": "ask",
+      "IRISH_EXAMPLE": "fíafraím",
+      "ENGLISH_EXAMPLE": "I ask",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "fógraigh",
+      "ENGLISH": "announce",
+      "IRISH_EXAMPLE": "fógraím",
+      "ENGLISH_EXAMPLE": "I announce",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "geallaigh",
+      "ENGLISH": "laugh",
+      "IRISH_EXAMPLE": "geallaim",
+      "ENGLISH_EXAMPLE": "I laugh",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "gearr",
+      "ENGLISH": "cut",
+      "IRISH_EXAMPLE": "gearraim",
+      "ENGLISH_EXAMPLE": "I cut",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "geitigh",
+      "ENGLISH": "start",
+      "IRISH_EXAMPLE": "geitim",
+      "ENGLISH_EXAMPLE": "I start",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "glac",
+      "ENGLISH": "accept",
+      "IRISH_EXAMPLE": "glacaim",
+      "ENGLISH_EXAMPLE": "I accept",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "glac",
+      "ENGLISH": "take",
+      "IRISH_EXAMPLE": "glacaim",
+      "ENGLISH_EXAMPLE": "I take",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "glan",
+      "ENGLISH": "clean",
+      "IRISH_EXAMPLE": "glanaim",
+      "ENGLISH_EXAMPLE": "I clean",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "glaoigh",
+      "ENGLISH": "shout",
+      "IRISH_EXAMPLE": "glaoim",
+      "ENGLISH_EXAMPLE": "I shout",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "glaoigh",
+      "ENGLISH": "call",
+      "IRISH_EXAMPLE": "glaoim",
+      "ENGLISH_EXAMPLE": "I call",
+      "TABLE_REF": 6
+    },
+    {
+      "IRISH": "gléas",
+      "ENGLISH": "harness",
+      "IRISH_EXAMPLE": "gléasaim",
+      "ENGLISH_EXAMPLE": "I harness",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "gnóthaigh",
+      "ENGLISH": "obtain",
+      "IRISH_EXAMPLE": "gnóthaím",
+      "ENGLISH_EXAMPLE": "I obtain",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "goidigh",
+      "ENGLISH": "steal",
+      "IRISH_EXAMPLE": "goidim",
+      "ENGLISH_EXAMPLE": "I steal",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "goinigh",
+      "ENGLISH": "wound",
+      "IRISH_EXAMPLE": "goinim",
+      "ENGLISH_EXAMPLE": "I wound",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "gortaigh",
+      "ENGLISH": "hurt",
+      "IRISH_EXAMPLE": "gortaím",
+      "ENGLISH_EXAMPLE": "I hurt",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "greamaigh",
+      "ENGLISH": "grip",
+      "IRISH_EXAMPLE": "greamaím",
+      "ENGLISH_EXAMPLE": "I grip",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "guigh",
+      "ENGLISH": "pray",
+      "IRISH_EXAMPLE": "guím",
+      "ENGLISH_EXAMPLE": "I pray",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "guigh",
+      "ENGLISH": "beseech",
+      "IRISH_EXAMPLE": "guím",
+      "ENGLISH_EXAMPLE": "I beseech",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "géilligh",
+      "ENGLISH": "submit",
+      "IRISH_EXAMPLE": "géillim",
+      "ENGLISH_EXAMPLE": "I submit",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "géilligh",
+      "ENGLISH": "obey",
+      "IRISH_EXAMPLE": "géillim",
+      "ENGLISH_EXAMPLE": "I obey",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "iarr",
+      "ENGLISH": "seek",
+      "IRISH_EXAMPLE": "iarraim",
+      "ENGLISH_EXAMPLE": "I seek",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "iarr",
+      "ENGLISH": "ask",
+      "IRISH_EXAMPLE": "iarraim",
+      "ENGLISH_EXAMPLE": "I ask",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "imigh",
+      "ENGLISH": "go",
+      "IRISH_EXAMPLE": "imím",
+      "ENGLISH_EXAMPLE": "I go",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "impigh",
+      "ENGLISH": "beg",
+      "IRISH_EXAMPLE": "impím",
+      "ENGLISH_EXAMPLE": "I beg",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "impigh",
+      "ENGLISH": "implore",
+      "IRISH_EXAMPLE": "impím",
+      "ENGLISH_EXAMPLE": "I implore",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "imir",
+      "ENGLISH": "play",
+      "IRISH_EXAMPLE": "imrím",
+      "ENGLISH_EXAMPLE": "I play",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "inis",
+      "ENGLISH": "tell",
+      "IRISH_EXAMPLE": "insím",
+      "ENGLISH_EXAMPLE": "I tell",
+      "TABLE_REF": 20
+    },
+    {
+      "IRISH": "iompaigh",
+      "ENGLISH": "turn",
+      "IRISH_EXAMPLE": "iompaím",
+      "ENGLISH_EXAMPLE": "I turn",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "ionsaigh",
+      "ENGLISH": "attack",
+      "IRISH_EXAMPLE": "ionsaím",
+      "ENGLISH_EXAMPLE": "I attack",
+      "TABLE_REF": 15
+    },
+    {
+      "IRISH": "ith",
+      "ENGLISH": "eat",
+      "IRISH_EXAMPLE": "ithim",
+      "ENGLISH_EXAMPLE": "I eat",
+      "TABLE_REF": 30
+    },
+    {
+      "IRISH": "labhair",
+      "ENGLISH": "speak",
+      "IRISH_EXAMPLE": "labhraim",
+      "ENGLISH_EXAMPLE": "I speak",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "laghdaigh",
+      "ENGLISH": "diminish",
+      "IRISH_EXAMPLE": "laghdaim",
+      "ENGLISH_EXAMPLE": "I diminish",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "las",
+      "ENGLISH": "light",
+      "IRISH_EXAMPLE": "lasaim",
+      "ENGLISH_EXAMPLE": "I light",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "las",
+      "ENGLISH": "burn",
+      "IRISH_EXAMPLE": "lasaim",
+      "ENGLISH_EXAMPLE": "I burn",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "leag",
+      "ENGLISH": "knock",
+      "IRISH_EXAMPLE": "leagaim",
+      "ENGLISH_EXAMPLE": "I knock",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "leag",
+      "ENGLISH": "put own",
+      "IRISH_EXAMPLE": "leagaim",
+      "ENGLISH_EXAMPLE": "I put own",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "lean",
+      "ENGLISH": "follow",
+      "IRISH_EXAMPLE": "leanaim",
+      "ENGLISH_EXAMPLE": "I follow",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "leathnaigh",
+      "ENGLISH": "spread",
+      "IRISH_EXAMPLE": "leathnaím",
+      "ENGLISH_EXAMPLE": "I spread",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "Línigh",
+      "ENGLISH": "draw",
+      "IRISH_EXAMPLE": "liním",
+      "ENGLISH_EXAMPLE": "I draw",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "lig",
+      "ENGLISH": "allow",
+      "IRISH_EXAMPLE": "ligim",
+      "ENGLISH_EXAMPLE": "I allow",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "lig",
+      "ENGLISH": "let",
+      "IRISH_EXAMPLE": "ligim",
+      "ENGLISH_EXAMPLE": "I let",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "lionaigh",
+      "ENGLISH": "fill",
+      "IRISH_EXAMPLE": "lionaim",
+      "ENGLISH_EXAMPLE": "I fill",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "litrigh",
+      "ENGLISH": "spell",
+      "IRISH_EXAMPLE": "litrím",
+      "ENGLISH_EXAMPLE": "I spell",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "liúigh",
+      "ENGLISH": "shout",
+      "IRISH_EXAMPLE": "liúim",
+      "ENGLISH_EXAMPLE": "I shout",
+      "TABLE_REF": 8
+    },
+    {
+      "IRISH": "liúigh",
+      "ENGLISH": "yell",
+      "IRISH_EXAMPLE": "liúim",
+      "ENGLISH_EXAMPLE": "I yell",
+      "TABLE_REF": 8
+    },
+    {
+      "IRISH": "loitigh",
+      "ENGLISH": "spoil",
+      "IRISH_EXAMPLE": "loitim",
+      "ENGLISH_EXAMPLE": "I spoil",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "Iompar",
+      "ENGLISH": "carry",
+      "IRISH_EXAMPLE": "Iompraím",
+      "ENGLISH_EXAMPLE": "I carry",
+      "TABLE_REF": 19
+    },
+    {
+      "IRISH": "luaigh",
+      "ENGLISH": "mention",
+      "IRISH_EXAMPLE": "luaim",
+      "ENGLISH_EXAMPLE": "I mention",
+      "TABLE_REF": 9
+    },
+    {
+      "IRISH": "luasc",
+      "ENGLISH": "rock",
+      "IRISH_EXAMPLE": "luascaim",
+      "ENGLISH_EXAMPLE": "I rock",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "luasc",
+      "ENGLISH": "swing",
+      "IRISH_EXAMPLE": "luascaim",
+      "ENGLISH_EXAMPLE": "I swing",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "luigh",
+      "ENGLISH": "lie down",
+      "IRISH_EXAMPLE": "luim",
+      "ENGLISH_EXAMPLE": "I lie down",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "léigh",
+      "ENGLISH": "read",
+      "IRISH_EXAMPLE": "léim",
+      "ENGLISH_EXAMPLE": "I read",
+      "TABLE_REF": 10
+    },
+    {
+      "IRISH": "léigh",
+      "ENGLISH": "jump",
+      "IRISH_EXAMPLE": "léimim",
+      "ENGLISH_EXAMPLE": "I jump",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "léirigh",
+      "ENGLISH": "produce",
+      "IRISH_EXAMPLE": "léirím",
+      "ENGLISH_EXAMPLE": "I produce",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "léirigh",
+      "ENGLISH": "explain",
+      "IRISH_EXAMPLE": "léirím",
+      "ENGLISH_EXAMPLE": "I explain",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "lúb",
+      "ENGLISH": "bend",
+      "IRISH_EXAMPLE": "lúbaim",
+      "ENGLISH_EXAMPLE": "I bend",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "lúb",
+      "ENGLISH": "twist",
+      "IRISH_EXAMPLE": "lúbaim",
+      "ENGLISH_EXAMPLE": "I twist",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "machnaigh",
+      "ENGLISH": "reflect",
+      "IRISH_EXAMPLE": "machnaím",
+      "ENGLISH_EXAMPLE": "I reflect",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "machnaigh",
+      "ENGLISH": "think",
+      "IRISH_EXAMPLE": "machnaím",
+      "ENGLISH_EXAMPLE": "I think",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "maisigh",
+      "ENGLISH": "decorate",
+      "IRISH_EXAMPLE": "maisim",
+      "ENGLISH_EXAMPLE": "I decorate",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "maraigh",
+      "ENGLISH": "kill",
+      "IRISH_EXAMPLE": "maraím",
+      "ENGLISH_EXAMPLE": "I kill",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "marcál",
+      "ENGLISH": "mark",
+      "IRISH_EXAMPLE": "marcálaim",
+      "ENGLISH_EXAMPLE": "I mark",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "meall",
+      "ENGLISH": "entice",
+      "IRISH_EXAMPLE": "meallaim",
+      "ENGLISH_EXAMPLE": "I entice",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "meall",
+      "ENGLISH": "coax",
+      "IRISH_EXAMPLE": "meallaim",
+      "ENGLISH_EXAMPLE": "I coax",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "meas",
+      "ENGLISH": "estimate",
+      "IRISH_EXAMPLE": "measaim",
+      "ENGLISH_EXAMPLE": "I estimate",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "meas",
+      "ENGLISH": "think",
+      "IRISH_EXAMPLE": "measaim",
+      "ENGLISH_EXAMPLE": "I think",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "measc",
+      "ENGLISH": "mix",
+      "IRISH_EXAMPLE": "meascaim",
+      "ENGLISH_EXAMPLE": "I mix",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "mill",
+      "ENGLISH": "spoil",
+      "IRISH_EXAMPLE": "millim",
+      "ENGLISH_EXAMPLE": "I spoil",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "minigh",
+      "ENGLISH": "explain",
+      "IRISH_EXAMPLE": "miním",
+      "ENGLISH_EXAMPLE": "I explain",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "mol",
+      "ENGLISH": "praise",
+      "IRISH_EXAMPLE": "molaim",
+      "ENGLISH_EXAMPLE": "I praise",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "musclaigh",
+      "ENGLISH": "awake",
+      "IRISH_EXAMPLE": "muscaím",
+      "ENGLISH_EXAMPLE": "I awake",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "musclaigh",
+      "ENGLISH": "wake",
+      "IRISH_EXAMPLE": "musclaím",
+      "ENGLISH_EXAMPLE": "I wake",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "máirseál",
+      "ENGLISH": "march",
+      "IRISH_EXAMPLE": "máirseálaim",
+      "ENGLISH_EXAMPLE": "I march",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "méadaigh",
+      "ENGLISH": "increase",
+      "IRISH_EXAMPLE": "méadaím",
+      "ENGLISH_EXAMPLE": "I increase",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "múch",
+      "ENGLISH": "quench",
+      "IRISH_EXAMPLE": "múchaim",
+      "ENGLISH_EXAMPLE": "I quench",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "mún",
+      "ENGLISH": "teach",
+      "IRISH_EXAMPLE": "múinim",
+      "ENGLISH_EXAMPLE": "I teach",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "pioc",
+      "ENGLISH": "pick",
+      "IRISH_EXAMPLE": "piocaim",
+      "ENGLISH_EXAMPLE": "I pick",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "pléigh",
+      "ENGLISH": "dispute",
+      "IRISH_EXAMPLE": "pléim",
+      "ENGLISH_EXAMPLE": "I dispute",
+      "TABLE_REF": 10
+    },
+    {
+      "IRISH": "pléigh",
+      "ENGLISH": "plead",
+      "IRISH_EXAMPLE": "pléim",
+      "ENGLISH_EXAMPLE": "I plead",
+      "TABLE_REF": 10
+    },
+    {
+      "IRISH": "preab",
+      "ENGLISH": "jump up",
+      "IRISH_EXAMPLE": "preabaim",
+      "ENGLISH_EXAMPLE": "I jump up",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "prioc",
+      "ENGLISH": "prod",
+      "IRISH_EXAMPLE": "priocaim",
+      "ENGLISH_EXAMPLE": "I prod",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "póg",
+      "ENGLISH": "kiss",
+      "IRISH_EXAMPLE": "pógaim",
+      "ENGLISH_EXAMPLE": "I kiss",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "pós",
+      "ENGLISH": "marry",
+      "IRISH_EXAMPLE": "pósaim",
+      "ENGLISH_EXAMPLE": "I marry",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "rialaigh",
+      "ENGLISH": "rule",
+      "IRISH_EXAMPLE": "rialaím",
+      "ENGLISH_EXAMPLE": "I rule",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "rithigh",
+      "ENGLISH": "ran",
+      "IRISH_EXAMPLE": "rithim",
+      "ENGLISH_EXAMPLE": "I ran",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "roinn",
+      "ENGLISH": "divide",
+      "IRISH_EXAMPLE": "roinnim",
+      "ENGLISH_EXAMPLE": "I divide",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "réabaigh",
+      "ENGLISH": "tear apart",
+      "IRISH_EXAMPLE": "réabaim",
+      "ENGLISH_EXAMPLE": "I tear apart",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "réitigh",
+      "ENGLISH": "solve",
+      "IRISH_EXAMPLE": "réitím",
+      "ENGLISH_EXAMPLE": "I solve",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "róbál",
+      "ENGLISH": "rob",
+      "IRISH_EXAMPLE": "róbálaim",
+      "ENGLISH_EXAMPLE": "I rob",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "santaigh",
+      "ENGLISH": "covet",
+      "IRISH_EXAMPLE": "santaím",
+      "ENGLISH_EXAMPLE": "I covet",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "samhlaigh",
+      "ENGLISH": "imagine",
+      "IRISH_EXAMPLE": "samhlaím",
+      "ENGLISH_EXAMPLE": "I imagine",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "satlaigh",
+      "ENGLISH": "tread on",
+      "IRISH_EXAMPLE": "satlaím",
+      "ENGLISH_EXAMPLE": "I tread on",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "scaipigh",
+      "ENGLISH": "scatter",
+      "IRISH_EXAMPLE": "scaipim",
+      "ENGLISH_EXAMPLE": "I scatter",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "scaoiligh",
+      "ENGLISH": "let go",
+      "IRISH_EXAMPLE": "scaoilim",
+      "ENGLISH_EXAMPLE": "I let go",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "scoiltigh",
+      "ENGLISH": "split",
+      "IRISH_EXAMPLE": "scoiltim",
+      "ENGLISH_EXAMPLE": "I split",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "scread",
+      "ENGLISH": "scream",
+      "IRISH_EXAMPLE": "screadaim",
+      "ENGLISH_EXAMPLE": "I scream",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "scríobh",
+      "ENGLISH": "write",
+      "IRISH_EXAMPLE": "scríobhaim",
+      "ENGLISH_EXAMPLE": "I write",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "scrios",
+      "ENGLISH": "destroy",
+      "IRISH_EXAMPLE": "scriosaim",
+      "ENGLISH_EXAMPLE": "I destroy",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "scréach",
+      "ENGLISH": "screech",
+      "IRISH_EXAMPLE": "scréachaim",
+      "ENGLISH_EXAMPLE": "I screech",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "scrúdaigh",
+      "ENGLISH": "examine",
+      "IRISH_EXAMPLE": "scrúdaím",
+      "ENGLISH_EXAMPLE": "I examine",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "scuab",
+      "ENGLISH": "sweep",
+      "IRISH_EXAMPLE": "scuabaim",
+      "ENGLISH_EXAMPLE": "I sweep",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "seas",
+      "ENGLISH": "stend",
+      "IRISH_EXAMPLE": "seasaim",
+      "ENGLISH_EXAMPLE": "I stend",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "siúl",
+      "ENGLISH": "walk",
+      "IRISH_EXAMPLE": "siúlaim",
+      "ENGLISH_EXAMPLE": "I walk",
+      "TABLE_REF": 4
+    },
+    {
+      "IRISH": "sleamhnaigh",
+      "ENGLISH": "slip",
+      "IRISH_EXAMPLE": "sleamhnaím",
+      "ENGLISH_EXAMPLE": "I slip",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "smaoinigh",
+      "ENGLISH": "think",
+      "IRISH_EXAMPLE": "smaoiním",
+      "ENGLISH_EXAMPLE": "I think",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "socraigh",
+      "ENGLISH": "settle",
+      "IRISH_EXAMPLE": "socraím",
+      "ENGLISH_EXAMPLE": "I settle",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "spreag",
+      "ENGLISH": "urge",
+      "IRISH_EXAMPLE": "spreagaim",
+      "ENGLISH_EXAMPLE": "I urge",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "srac",
+      "ENGLISH": "tear",
+      "IRISH_EXAMPLE": "sracaim",
+      "ENGLISH_EXAMPLE": "I tear",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "sroichigh",
+      "ENGLISH": "reach",
+      "IRISH_EXAMPLE": "sroichim",
+      "ENGLISH_EXAMPLE": "I reach",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "stad",
+      "ENGLISH": "stop",
+      "IRISH_EXAMPLE": "stadaim",
+      "ENGLISH_EXAMPLE": "I stop",
+      "TABLE_REF": 3
+    },
+    {
+      "IRISH": "stoithigh",
+      "ENGLISH": "pull",
+      "IRISH_EXAMPLE": "stoithim",
+      "ENGLISH_EXAMPLE": "I pull",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "stoithigh",
+      "ENGLISH": "pluck",
+      "IRISH_EXAMPLE": "stoithim",
+      "ENGLISH_EXAMPLE": "I pluck",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "suigh",
+      "ENGLISH": "sit",
+      "IRISH_EXAMPLE": "suím",
+      "ENGLISH_EXAMPLE": "I sit",
+      "TABLE_REF": 11
+    },
+    {
+      "IRISH": "sábháil",
+      "ENGLISH": "save",
+      "IRISH_EXAMPLE": "sábhálaim",
+      "ENGLISH_EXAMPLE": "I save",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "sáraigh",
+      "ENGLISH": "surpass",
+      "IRISH_EXAMPLE": "sáraim",
+      "ENGLISH_EXAMPLE": "I surpass",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "síl",
+      "ENGLISH": "think",
+      "IRISH_EXAMPLE": "sílim",
+      "ENGLISH_EXAMPLE": "I think",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "sínigh",
+      "ENGLISH": "sign",
+      "IRISH_EXAMPLE": "síním",
+      "ENGLISH_EXAMPLE": "I sign",
+      "TABLE_REF": 16
+    },
+    {
+      "IRISH": "tairneáil",
+      "ENGLISH": "nail",
+      "IRISH_EXAMPLE": "tairneálaim",
+      "ENGLISH_EXAMPLE": "I nail",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "taispeáin",
+      "ENGLISH": "show",
+      "IRISH_EXAMPLE": "taispeánaim",
+      "ENGLISH_EXAMPLE": "I show",
+      "TABLE_REF": 13
+    },
+    {
+      "IRISH": "taisteál",
+      "ENGLISH": "travel",
+      "IRISH_EXAMPLE": "taistealaim",
+      "ENGLISH_EXAMPLE": "I travel",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "tarlaigh",
+      "ENGLISH": "happen",
+      "IRISH_EXAMPLE": "tarlaím",
+      "ENGLISH_EXAMPLE": "I happen",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "tarraing",
+      "ENGLISH": "draw",
+      "IRISH_EXAMPLE": "tarraingím",
+      "ENGLISH_EXAMPLE": "I draw",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "tarraing",
+      "ENGLISH": "pull",
+      "IRISH_EXAMPLE": "tarraingím",
+      "ENGLISH_EXAMPLE": "I pull",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "teip",
+      "ENGLISH": "fail",
+      "IRISH_EXAMPLE": "teipim",
+      "ENGLISH_EXAMPLE": "I fail",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "teithigh",
+      "ENGLISH": "flee",
+      "IRISH_EXAMPLE": "teithim",
+      "ENGLISH_EXAMPLE": "I flee",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "tiomáin",
+      "ENGLISH": "drive",
+      "IRISH_EXAMPLE": "tiomáinim",
+      "ENGLISH_EXAMPLE": "I drive",
+      "TABLE_REF": 13
+    },
+    {
+      "IRISH": "tionól",
+      "ENGLISH": "assemble",
+      "IRISH_EXAMPLE": "tionólaim",
+      "ENGLISH_EXAMPLE": "I assemble",
+      "TABLE_REF": 13
+    },
+    {
+      "IRISH": "tochlaigh",
+      "ENGLISH": "dig",
+      "IRISH_EXAMPLE": "tochlaím",
+      "ENGLISH_EXAMPLE": "I dig",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "tochlaigh",
+      "ENGLISH": "up",
+      "IRISH_EXAMPLE": "tochlaím",
+      "ENGLISH_EXAMPLE": "I up",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "togh",
+      "ENGLISH": "choose",
+      "IRISH_EXAMPLE": "toghaim",
+      "ENGLISH_EXAMPLE": "I choose",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "tosaigh",
+      "ENGLISH": "begin",
+      "IRISH_EXAMPLE": "tosaím",
+      "ENGLISH_EXAMPLE": "I begin",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "treabh",
+      "ENGLISH": "plough",
+      "IRISH_EXAMPLE": "treabhaim",
+      "ENGLISH_EXAMPLE": "I plough",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "triomaigh",
+      "ENGLISH": "dry",
+      "IRISH_EXAMPLE": "triomaím",
+      "ENGLISH_EXAMPLE": "I dry",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "troidigh",
+      "ENGLISH": "fight",
+      "IRISH_EXAMPLE": "troidim",
+      "ENGLISH_EXAMPLE": "I fight",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "Tabhair",
+      "ENGLISH": "give",
+      "IRISH_EXAMPLE": "tugaim",
+      "ENGLISH_EXAMPLE": "I give",
+      "TABLE_REF": 29
+    },
+    {
+      "IRISH": "tuirling",
+      "ENGLISH": "come down",
+      "IRISH_EXAMPLE": "tuirlingím",
+      "ENGLISH_EXAMPLE": "I come down",
+      "TABLE_REF": 22
+    },
+    {
+      "IRISH": "tum",
+      "ENGLISH": "dip",
+      "IRISH_EXAMPLE": "tumaim",
+      "ENGLISH_EXAMPLE": "I dip",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "Bí",
+      "ENGLISH": "Be",
+      "IRISH_EXAMPLE": "táim",
+      "ENGLISH_EXAMPLE": "I am",
+      "TABLE_REF": 34
+    },
+    {
+      "IRISH": "téigh",
+      "ENGLISH": "go",
+      "IRISH_EXAMPLE": "téim",
+      "ENGLISH_EXAMPLE": "I go",
+      "TABLE_REF": 27
+    },
+    {
+      "IRISH": "tóg",
+      "ENGLISH": "take",
+      "IRISH_EXAMPLE": "tógaim",
+      "ENGLISH_EXAMPLE": "I take",
+      "TABLE_REF": 0
+    },
+    {
+      "IRISH": "ullmhaigh",
+      "ENGLISH": "prepare",
+      "IRISH_EXAMPLE": "ullmhaím",
+      "ENGLISH_EXAMPLE": "I prepare",
+      "TABLE_REF": 14
+    },
+    {
+      "IRISH": "usáid",
+      "ENGLISH": "use",
+      "IRISH_EXAMPLE": "usáidim",
+      "ENGLISH_EXAMPLE": "I use",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "vótál",
+      "ENGLISH": "vote",
+      "IRISH_EXAMPLE": "vótálaim",
+      "ENGLISH_EXAMPLE": "I vote",
+      "TABLE_REF": 12
+    },
+    {
+      "IRISH": "éiligh",
+      "ENGLISH": "demand",
+      "IRISH_EXAMPLE": "éilím",
+      "ENGLISH_EXAMPLE": "I demand",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "éiligh",
+      "ENGLISH": "claim",
+      "IRISH_EXAMPLE": "éilím",
+      "ENGLISH_EXAMPLE": "I claim",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "éirigh",
+      "ENGLISH": "rise",
+      "IRISH_EXAMPLE": "éirím",
+      "ENGLISH_EXAMPLE": "I rise",
+      "TABLE_REF": 17
+    },
+    {
+      "IRISH": "éistigh",
+      "ENGLISH": "listen",
+      "IRISH_EXAMPLE": "éistim",
+      "ENGLISH_EXAMPLE": "I listen",
+      "TABLE_REF": 5
+    },
+    {
+      "IRISH": "eitilt",
+      "ENGLISH": "fly",
+      "IRISH_EXAMPLE": "éitlím",
+      "ENGLISH_EXAMPLE": "I fly",
+      "TABLE_REF": 18
+    },
+    {
+      "IRISH": "íoc",
+      "ENGLISH": "pay",
+      "IRISH_EXAMPLE": "íocaim",
+      "ENGLISH_EXAMPLE": "I pay",
+      "TABLE_REF": 1
+    },
+    {
+      "IRISH": "ísligh",
+      "ENGLISH": "lower",
+      "IRISH_EXAMPLE": "íslím",
+      "ENGLISH_EXAMPLE": "I lower",
+      "TABLE_REF": 17
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11E53" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ConjugationTables" representedClassName="ConjugationTables" syncable="YES">
+        <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="englishExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="irish" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="irishExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="similarities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Verb" inverseName="conjugationTables" inverseEntity="Verb" syncable="YES"/>
+        <relationship name="tables" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TenseTable" inverseName="conjugationTables" inverseEntity="TenseTable" syncable="YES"/>
+        <relationship name="verbs" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Verb" inverseName="conjugationTables" inverseEntity="Verb" syncable="YES"/>
+    </entity>
+    <entity name="TenseDescription" representedClassName="TenseDescription" syncable="YES">
+        <attribute name="abbreviation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="irish" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tableType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="tenseTables" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TenseTable" inverseName="tenseDescription" inverseEntity="TenseTable" syncable="YES"/>
+    </entity>
+    <entity name="TenseTable" representedClassName="TenseTable" syncable="YES">
+        <attribute name="favorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="genericExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="impersonal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="impersonalExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interrogative" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interrogativeExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="negative" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="negativeExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pastParticiple" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pastParticipleExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plural1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plural2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plural3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentParticiple" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentParticipleExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singular1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singular2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="singular3" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="conjugationTables" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ConjugationTables" inverseName="tables" inverseEntity="ConjugationTables" syncable="YES"/>
+        <relationship name="tenseDescription" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="TenseDescription" inverseName="tenseTables" inverseEntity="TenseDescription" syncable="YES"/>
+    </entity>
+    <entity name="Verb" representedClassName="Verb" syncable="YES">
+        <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="englishExample" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="irish" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="irishExample" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="conjugationTables" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="ConjugationTables" inverseName="similarities" inverseEntity="ConjugationTables" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ConjugationTables" positionX="-81" positionY="144" width="128" height="195"/>
+        <element name="TenseDescription" positionX="369" positionY="72" width="128" height="135"/>
+        <element name="TenseTable" positionX="178" positionY="144" width="128" height="345"/>
+        <element name="Verb" positionX="115" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
