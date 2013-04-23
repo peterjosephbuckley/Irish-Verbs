@@ -5504,7 +5504,7 @@
     },
     {
       "IRISH": "cas",
-      "ENGLISH": "turn",
+      "ENGLISH": "turn, turns, turned, turned, turning",
       "IRISH_EXAMPLE": "casaim",
       "ENGLISH_EXAMPLE": "i turn",
       "TABLE_REF": 1
@@ -5868,7 +5868,7 @@
     },
     {
       "IRISH": "tóg",
-      "ENGLISH": "take",
+      "ENGLISH": "take, takes, took, taken, taking",
       "IRISH_EXAMPLE": "tógaim",
       "ENGLISH_EXAMPLE": "i take",
       "TABLE_REF": 1
